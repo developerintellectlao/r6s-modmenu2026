@@ -1,0 +1,31 @@
+{
+  "name": "mrc_forecasting",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@iconify/react": "^5.0.2",
+    "@mui/lab": "^6.0.0-beta.17",
+    "@mui/material": "^6.1.9",
+    "@mui/styled-engine-sc": "^6.1.9",
+    "axios": "^1.7.8",
+    "chart.js": "^4.4.7",
+    "dotenv": "^16.4.7",
+    "highcharts": "^12.0.2",
+    "highcharts-react-official": "^3.2.1",
+    "mapbox-gl": "^3.8.0",
+    "next": "^15.1.1-canary.6",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.13"
+  }
+}
