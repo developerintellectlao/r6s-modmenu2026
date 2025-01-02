@@ -1,0 +1,27 @@
+.site-header [data-logo="transparent"] {
+    display: none;
+}
+
+.transparent-active {
+    .transparent-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    [data-logo="default"] {
+        display: none;
+    }
+
+    [data-logo="transparent"] {
+        display: block;
+    }
+
+    .transparent-header:not(.is-sticky) {
+        .header-row {
+            background: var(--background-color);
+        }
+    }
+}
+

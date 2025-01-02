@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){var e,t=window.innerHeight,n=document.body.clientHeight,o=document.querySelector("#rishi-progress-bar progress");function i(e,t){o&&(o.setAttribute("value",e),o.setAttribute("max",t))}e=n-t,i(window.scrollY,e),window.addEventListener("scroll",(function(){i(window.scrollY,e)}))}));
