@@ -1,0 +1,552 @@
+/**
+ *
+ * ---------------------------------------------------------
+ * RTL CSS MAP
+ * ---------------------------------------------------------
+ *
+ * 01. Base
+ *     01. 01. Header
+ *     01. 02. Header Buttons
+ *     01. 03. Navigation
+ *     01. 04. Content
+ *     01. 05. Section
+ *     01. 06. Show All Settings
+ *     01. 07. Search Input
+ *     01. 08. Copyright
+ *     01. 09. Metabox
+ * 02. Fields
+ *     02. 01. Field: typography
+ *     02. 02. Field: checkbox, radio
+ *     02. 03. Field: switcher
+ *     02. 04. Field: upload
+ *     02. 05. Field: group
+ *     02. 07. Field: help
+ *     02. 09. Field: gallery
+ *     02. 10. Field: sorter
+ *     02. 12. Field: media
+ *     02. 13. Field: notice
+ *     02. 14. Field: border, spacing, dimensions
+ *     02. 15. Field: background
+ *     02. 16. Field: spinner
+ *     02. 17. Field: slider
+ *     02. 18. Field: button_set
+ *     02. 19. Field: link_color
+ *     02. 20. Field: color_group
+ *     02. 21. Field: palette
+ *     02. 22. Field: accordion
+ *     02. 24. Field: map
+ *     02. 26. Field: number
+ * 03. Taxonomy
+ * 04. Profile
+ * 05. Nav Menu
+ * 06. Modal
+ * 07. Customizer
+ * 08. Responsive
+ * 09. Others
+ *
+ * ---------------------------------------------------------
+ *
+ */
+/**
+ * 01. Base
+ */
+.sp_wpcp-options {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/**
+ * 01. 01. Header
+ */
+.sp_wpcp-header h1 {
+  float: right;
+}
+.sp_wpcp-header fieldset {
+  float: left;
+}
+
+/**
+ * 01. 02. Header Buttons
+ */
+.sp_wpcp-buttons {
+  float: left;
+  direction: ltr;
+}
+
+.sp_wpcp-header-left {
+  float: right;
+}
+
+.sp_wpcp-header-right {
+  float: left;
+}
+
+/**
+ * 01. 03. Navigation
+ */
+.sp_wpcp-nav {
+  float: right;
+}
+.sp_wpcp-nav ul {
+  clear: right;
+}
+.sp_wpcp-nav ul li .sp_wpcp-active:after {
+  right: auto;
+  left: 0;
+  border-left-color: #fff;
+  border-right-color: transparent;
+}
+.sp_wpcp-nav ul li .sp_wpcp-arrow:after {
+  content: "\f053";
+  right: auto;
+  left: 10px;
+}
+.sp_wpcp-nav ul li.sp_wpcp-tab-expanded .sp_wpcp-arrow:after {
+  transform: rotate(-90deg);
+}
+.sp_wpcp-nav ul ul li a {
+  padding-right: 25px;
+  padding-left: 15px;
+}
+.sp_wpcp-nav ul ul:before {
+  left: auto;
+  right: 15px;
+}
+.sp_wpcp-nav .sp_wpcp-tab-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.sp_wpcp-nav-background {
+  left: auto;
+  right: 0;
+}
+
+/**
+ * 01. 04. Content
+ */
+.sp_wpcp-content {
+  margin-left: 0;
+}
+
+/**
+ * 01. 05. Section
+ */
+.sp_wpcp-sections {
+  float: right;
+}
+
+/**
+ * 01. 06. Show all options
+ */
+.sp_wpcp-show-all .sp_wpcp-content {
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.sp_wpcp-expand-all {
+  float: right;
+  right: auto;
+  left: 40px;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+/**
+ * 01. 07. Search Input
+ */
+.sp_wpcp-search {
+  float: right;
+}
+.sp_wpcp-search input {
+  margin: 0 0 0 5px;
+}
+
+/**
+ * 01. 08. Copyright
+ */
+.sp_wpcp-copyright {
+  float: right;
+}
+
+/**
+ * 01. 09. Metabox
+ */
+.sp_wpcp-metabox {
+  margin: -6px -12px -12px -12px;
+}
+.sp_wpcp-metabox .sp_wpcp-section-title {
+  padding: 20px;
+}
+
+.sp_wpcp-section-title .sp_wpcp-section-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+/**
+ * 02. Fields
+ */
+.sp_wpcp-field .sp_wpcp-title {
+  float: right;
+}
+.sp_wpcp-field .sp_wpcp-fieldset {
+  float: right;
+  width: auto;
+}
+
+.sp_wpcp-field.sp_wpcp-field-typography .sp_wpcp-fieldset {
+  float: right;
+  width: calc(80% - 20px);
+}
+.sp_wpcp-field-typography .sp_wpcp--block{
+  float: right;
+}
+.post-type-sp_wp_carousel #sp__wpcp-show-preview {
+  left: 0;
+}
+
+.sp_wpcp-pseudo-field {
+  padding: 0 0 0 5px !important;
+}
+
+/**
+ * 02. 01. Field: typography
+ */
+.sp_wpcp-field-typography select {
+  margin: 0;
+  width: 100%;
+}
+.sp_wpcp-field-typography .sp_wpcp--blocks-inputs .sp_wpcp--blocks {
+  flex-direction: row-reverse;
+}
+.sp_wpcp-field-typography .sp_wpcp--unit {
+  left: 4px;
+  right: auto;
+}
+
+/**
+ * 02. 02. Field: checkbox, radio
+ */
+.sp_wpcp-field-checkbox ul ul li,
+.sp_wpcp-field-radio ul ul li {
+  margin-left: 0;
+  margin-right: 8px;
+}
+.sp_wpcp-field-checkbox ul ul li:first-child,
+.sp_wpcp-field-radio ul ul li:first-child {
+  margin-right: 0;
+}
+.sp_wpcp-field-checkbox .sp_wpcp--inline-list li,
+.sp_wpcp-field-radio .sp_wpcp--inline-list li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.sp_wpcp-field-checkbox .sp_wpcp--text,
+.sp_wpcp-field-radio .sp_wpcp--text {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 03. Field: switcher
+ */
+.sp_wpcp-field-switcher .sp_wpcp--switcher {
+  float: right;
+}
+.sp_wpcp-field-switcher .sp_wpcp--label {
+  float: right;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 04. Field: upload
+ */
+.sp_wpcp-field-upload .sp_wpcp--remove,
+.sp_wpcp-field-upload .sp_wpcp--button {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 05. Field: group
+ */
+.sp_wpcp-field-group .sp_wpcp-cloneable-title {
+  padding: 15px 10px 15px 65px;
+}
+.sp_wpcp-field-group .sp_wpcp-cloneable-helper {
+  right: auto;
+  left: 10px;
+}
+
+
+/**
+ * 02. 07. Field: help
+ */
+.sp_wpcp-help {
+  right: auto;
+  left: 5px;
+}
+/**
+ * 02. 09. Field: gallery
+ */
+.sp_wpcp-field-gallery ul li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.sp_wpcp-field-gallery .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 12. Field: media
+ */
+.sp_wpcp-field-media .button {
+  margin-left: 0;
+  margin-right: 7px;
+}
+.sp_wpcp-field-media .hidden + .button {
+  margin-right: 0;
+}
+
+/**
+ * 02. 13. Field: notice
+ */
+.sp_wpcp-notice {
+  border-left: none;
+  border-right-style: solid;
+  border-right-width: 4px;
+}
+
+/**
+ * 02. 14. Field: border, spacing, dimensions
+ */
+.sp_wpcp-field-dimensions .sp_wpcp--input,
+.sp_wpcp-field-dimensions .sp_wpcp-fieldset,
+.sp_wpcp-field-spacing .sp_wpcp--input,
+.sp_wpcp-field-spacing .sp_wpcp-fieldset,
+.sp_wpcp-field-border .sp_wpcp--input,
+.sp_wpcp-field-border .sp_wpcp-fieldset {
+  direction: ltr;
+}
+.sp_wpcp-field-dimensions .sp_wpcp--inputs,
+.sp_wpcp-field-dimensions .sp_wpcp--color,
+.sp_wpcp-field-spacing .sp_wpcp--inputs,
+.sp_wpcp-field-spacing .sp_wpcp--color,
+.sp_wpcp-field-border .sp_wpcp--inputs,
+.sp_wpcp-field-border .sp_wpcp--color {
+  float: right;
+}
+.sp_wpcp-field-dimensions .sp_wpcp--color,
+.sp_wpcp-field-spacing .sp_wpcp--color,
+.sp_wpcp-field-border .sp_wpcp--color {
+  margin-right: 4px;
+  direction: rtl;
+}
+
+.sp_wpcp-field-dimensions_advanced .sp_wpcp--input {
+  flex-direction: row-reverse;
+}
+
+/**
+ * 02. 15. Field: background
+ */
+.sp_wpcp-field-background .sp_wpcp--block {
+  float: right;
+}
+.sp_wpcp-field-background .sp_wpcp--select,
+.sp_wpcp-field-background .sp_wpcp--media {
+  padding-right: 0;
+}
+.sp_wpcp-field-background .sp_wpcp--title {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 16. Field: spinner
+ */
+.sp_wpcp-field-spinner .sp_wpcp--spin {
+  float: right;
+  direction: ltr;
+}
+
+/**
+ * 02. 17. Field: slider
+ */
+.sp_wpcp-field-slider .sp_wpcp-slider-ui {
+  direction: ltr;
+  margin-right: 0;
+  margin-left: 15px;
+}
+.sp_wpcp-field-slider .sp_wpcp--input {
+  direction: ltr;
+}
+
+/**
+ * 02. 18. Field: button_set
+ */
+.sp_wpcp-field-button_set .sp_wpcp--button-group {
+  float: right;
+}
+
+/**
+ * 02. 19. Field: link_color
+ */
+.sp_wpcp-field-link_color .sp_wpcp--left {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 20. Field: color_group
+ */
+.sp_wpcp-field-color_group .sp_wpcp--left {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 21. Field: palette
+ */
+.sp_wpcp-field-palette .sp_wpcp--palette {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 22. Field: accordion
+ */
+.sp_wpcp-field-accordion .sp_wpcp--icon {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+/**
+ * 02. 24. Field: map
+ */
+.sp_wpcp-field-map .sp_wpcp--map-input:last-child {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+/**
+ * 02. 26. Field: number
+ */
+.sp_wpcp-field-number .sp_wpcp--wrap {
+  float: right;
+}
+.sp_wpcp-field-number .sp_wpcp--unit {
+  left: 4px;
+  right: auto;
+}
+
+/**
+ * 03. Taxonomy
+ */
+.sp_wpcp-taxonomy-add-fields {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.sp_wpcp-taxonomy-add-fields .sp_wpcp-field > .sp_wpcp-fieldset > .sp_wpcp-help {
+  left: -5px;
+  right: auto;
+}
+
+.sp_wpcp-taxonomy-edit-fields {
+  margin-right: 0;
+  margin-left: 35px;
+}
+.sp_wpcp-taxonomy-edit-fields .sp_wpcp-field > .sp_wpcp-fieldset > .sp_wpcp-help {
+  right: auto;
+  left: -5px;
+}
+
+/**
+ * 04. Profile
+ */
+.sp_wpcp-profile-options > h2 > .fa {
+  padding-right: 0;
+  padding-left: 7px;
+}
+.sp_wpcp-profile-options > .sp_wpcp-field > .sp_wpcp-fieldset > .sp_wpcp-help {
+  left: -5px;
+  right: auto;
+}
+
+/**
+ * 05. Nav Menu
+ */
+.sp_wpcp-nav-menu-options > .sp_wpcp-fields {
+  margin-left: 0;
+  margin-right: -10px;
+}
+
+.sp_wpcp-nav-menu-title {
+  padding-left: 14px;
+  padding-right: 12px;
+}
+
+.sp_wpcp-nav-menu-icon {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 06. Modal
+ */
+.sp_wpcp-modal-content .sp_wpcp-field {
+  padding: 15px 15px 15px 30px;
+}
+
+.sp_wpcp-modal-title {
+  padding: 0 16px 0 36px;
+}
+
+.sp_wpcp-modal-close {
+  right: auto;
+  left: 0;
+}
+
+/**
+ * 07. Customizer
+ */
+.control-section .sp_wpcp-field .sp_wpcp-fieldset {
+  margin-right: 0;
+}
+
+/**
+ * 08. Responsive
+ */
+@media only screen and (max-width: 1200px) {
+  .sp_wpcp-metabox .sp_wpcp-field .sp_wpcp-fieldset {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .sp_wpcp .sp_wpcp-fieldset,
+  .sp_wpcp .sp_wpcp-content {
+    margin-right: 0;
+  }
+}
+/**
+ * 09. Others
+ */
+.sp_wpcp-field .sp_wpcp--transparent-slider {
+  margin-left: 0;
+  margin-right: 2px;
+}
+.sp_wpcp-field .sp_wpcp--transparent-slider .ui-slider-handle {
+  margin: 0 -11px;
+}
+.sp_wpcp-field .sp_wpcp--transparent-offset {
+  background-position: center right;
+}
+.sp_wpcp-field .sp_wpcp--transparent-text {
+  right: auto;
+  left: 10px;
+}
