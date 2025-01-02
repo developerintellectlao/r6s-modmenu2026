@@ -1,0 +1,35 @@
+# Copyright (C) 2023 Smash Balloon
+# This file is distributed under the same license as the Custom Facebook Feed Pro Personal plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Facebook Feed Pro Personal 4.3.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/custom-facebook-feed-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-01T15:42:07+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.0\n"
+"X-Domain: custom-facebook-feed-pro\n"
+
+#. Plugin Name of the plugin
+msgid "Custom Facebook Feed Pro Personal"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://smashballoon.com/custom-facebook-feed"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add a completely customizable Facebook feed to your WordPress site"
+msgstr ""
+
+#. Author of the plugin
+msgid "Smash Balloon"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://smashballoon.com/"
+msgstr ""

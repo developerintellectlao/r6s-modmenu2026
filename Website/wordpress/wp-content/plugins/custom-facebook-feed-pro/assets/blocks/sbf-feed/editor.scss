@@ -1,0 +1,59 @@
+.sbi-feed-blocks-cta-wrap {
+    border: 1px solid #E6E6EB; 
+
+    .sbi-feed-blocks-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        padding: 40px 0px;
+    }
+
+    .sbi-feed-blocks-get-started {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        padding: 5px;
+    }
+
+    h4{
+        margin: 0;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    p{
+        margin: 0;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .sbi-feed-blocks-upsell {
+        width: 100%;
+        background: #F9F9FA;
+        padding: 20px 0;
+    }
+
+    .sbi-feed-blocks-info {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+
+        strong{
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        p{
+            color: #434960;
+        }
+    }
+
+    .components-base-control {
+        width: 50%;
+    }
+}
