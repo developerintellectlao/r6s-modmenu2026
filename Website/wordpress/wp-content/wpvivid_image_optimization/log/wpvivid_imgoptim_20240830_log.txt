@@ -1,0 +1,23 @@
+====================================================
+open log file: 2024-08-30 08:12:54
+[2024-08-30 08:12:54][notice]Start optimizing site id:1 image id:10833
+[2024-08-30 08:12:54][notice]Start backing up image(s).
+[2024-08-30 08:12:54][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities-300x169.jpeg, file size: 16018
+[2024-08-30 08:12:57][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities-300x169.jpeg succeeded.
+[2024-08-30 08:12:57][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities-1024x576.jpeg, file size: 115163
+[2024-08-30 08:12:59][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities-1024x576.jpeg succeeded.
+[2024-08-30 08:12:59][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities-150x150.jpeg, file size: 7948
+[2024-08-30 08:13:00][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities-150x150.jpeg succeeded.
+[2024-08-30 08:13:00][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities-768x432.jpeg, file size: 71221
+[2024-08-30 08:13:01][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities-768x432.jpeg succeeded.
+[2024-08-30 08:13:01][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities-1536x864.jpeg, file size: 220477
+[2024-08-30 08:13:04][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities-1536x864.jpeg succeeded.
+[2024-08-30 08:13:04][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities-1170x650.jpeg, file size: 143538
+[2024-08-30 08:13:07][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities-1170x650.jpeg succeeded.
+[2024-08-30 08:13:07][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities-750x520.jpeg, file size: 78470
+[2024-08-30 08:13:08][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities-750x520.jpeg succeeded.
+[2024-08-30 08:13:08][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities-360x240.jpeg, file size: 23295
+[2024-08-30 08:13:09][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities-360x240.jpeg succeeded.
+[2024-08-30 08:13:09][notice]Start compressing image Water-levels-reach-alarm-stage-at-selected-cities.jpeg, file size: 319647
+[2024-08-30 08:13:13][notice]Compressing image Water-levels-reach-alarm-stage-at-selected-cities.jpeg succeeded.
+[2024-08-30 08:13:13][notice]Optimizing site id:1 image id:10833 succeeded.

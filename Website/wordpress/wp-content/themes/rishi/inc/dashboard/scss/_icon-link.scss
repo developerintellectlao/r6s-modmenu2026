@@ -1,0 +1,80 @@
+.rishi-ad {
+    &_icon {
+        &-wrap {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 1px solid #E0E9EC;
+            background-color: transparent;
+            transition: $animation;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: $fontColor;
+            font-size: 20px;
+        }
+
+        &-link {
+            display: inline-block;
+            margin: 6px;
+            position: relative;
+
+            &:hover {
+
+                .rishi-ad_icon-wrap {
+                    color: $primaryColor;
+                    border-color: $primaryColor;
+                    background-color: rgba($primaryColor-rgb, 0.05);
+                    cursor: pointer;
+
+                }
+
+                .rishi-ad_tooltip {
+                    visibility: visible;
+                    opacity: 1;
+                    top: 125%;
+                }
+            }
+
+            &-group {
+                display: inline-flex;
+                flex-wrap: wrap;
+                align-items: center;
+                margin: -6px;
+            }
+        }
+    }
+
+    &_tooltip {
+        position: absolute;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.33;
+        display: inline-block;
+        padding: 8px 12px;
+        border-radius: 8px;
+        background-color: #101828;
+        color: #fff;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: $animation;
+        visibility: hidden;
+        opacity: 0;
+        text-align: center;
+        white-space: nowrap;
+
+        &[data-placement="bottom"] {
+            &::before {
+                content: "";
+                border: 6px solid transparent;
+                border-bottom-color: #011F27;
+                position: absolute;
+                left: 50%;
+                bottom: 100%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}

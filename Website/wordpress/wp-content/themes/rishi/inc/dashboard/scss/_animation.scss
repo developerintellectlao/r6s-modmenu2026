@@ -1,0 +1,15 @@
+@keyframes rishi_FadeIn {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.rishi_FadeIn {
+    animation: rishi_FadeIn .5s ease;
+}

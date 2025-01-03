@@ -1,0 +1,1 @@
+export default ({ children, gap, flex, masonry, ...rest }) => <div className={masonry && ' rishi-ad_row-masonry' || 'rishi-ad_row'} style={{'--c-gap': gap?.gap, '--c-row-gap': gap?.rowGap, 'flexGrow': flex?.flexGrow}} {...rest}>{children}</div>

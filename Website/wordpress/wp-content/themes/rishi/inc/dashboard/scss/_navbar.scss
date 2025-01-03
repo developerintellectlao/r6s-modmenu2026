@@ -1,0 +1,46 @@
+.rishi-ad{
+    &_navbar{
+        padding-inline-end: 8px;
+        padding-block-start: 24px;
+        border-inline-end: $border;
+        height: 100%;
+        &-nav{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        &-link{
+            padding: 8px 12px;
+            line-height: 1.77;
+            color: $fontColor;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            position: relative;
+            border-radius: 6px;
+            font: {
+                weight: 600;
+            }
+
+            .rishi-ad_icon {
+                font-size: 24px;
+            }
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        li + li {
+            margin-top: 16px;
+        }
+        li{
+            margin-bottom: 0;
+            &.current, &:hover{
+                .rishi-ad_navbar-link{
+                    color: $primaryColor;
+                    background-color: $primaryAccent2;
+                }
+            }
+        }
+    }
+}

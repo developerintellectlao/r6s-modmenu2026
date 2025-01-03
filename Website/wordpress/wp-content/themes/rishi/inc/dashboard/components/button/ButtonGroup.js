@@ -1,0 +1,1 @@
+export default ({children, gap, className}) => <div className={`rishi-ad_btn-group${className && ' '+className || ''}`} style={{"--gap": gap}}>{children}</div>

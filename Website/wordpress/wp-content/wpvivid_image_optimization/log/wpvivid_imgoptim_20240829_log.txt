@@ -1,0 +1,243 @@
+====================================================
+open log file: 2024-08-29 10:35:21
+[2024-08-29 10:35:21][notice]Start optimizing site id:1 image id:10805
+[2024-08-29 10:35:21][notice]Start backing up image(s).
+[2024-08-29 10:35:21][notice]Start compressing image The-Mekong-River-Commissions-MRC--212x300.jpeg, file size: 15429
+[2024-08-29 10:35:24][notice]Compressing image The-Mekong-River-Commissions-MRC--212x300.jpeg succeeded.
+[2024-08-29 10:35:24][notice]Start compressing image The-Mekong-River-Commissions-MRC--724x1024.jpeg, file size: 120255
+[2024-08-29 10:35:26][notice]Compressing image The-Mekong-River-Commissions-MRC--724x1024.jpeg succeeded.
+[2024-08-29 10:35:26][notice]Start compressing image The-Mekong-River-Commissions-MRC--150x150.jpeg, file size: 6632
+[2024-08-29 10:35:27][notice]Compressing image The-Mekong-River-Commissions-MRC--150x150.jpeg succeeded.
+[2024-08-29 10:35:27][notice]Start compressing image The-Mekong-River-Commissions-MRC--768x1086.jpeg, file size: 132281
+[2024-08-29 10:35:29][notice]Compressing image The-Mekong-River-Commissions-MRC--768x1086.jpeg succeeded.
+[2024-08-29 10:35:29][notice]Start compressing image The-Mekong-River-Commissions-MRC--905x650.jpeg, file size: 108917
+[2024-08-29 10:35:31][notice]Compressing image The-Mekong-River-Commissions-MRC--905x650.jpeg succeeded.
+[2024-08-29 10:35:31][notice]Start compressing image The-Mekong-River-Commissions-MRC--750x520.jpeg, file size: 65732
+[2024-08-29 10:35:33][notice]Compressing image The-Mekong-River-Commissions-MRC--750x520.jpeg succeeded.
+[2024-08-29 10:35:33][notice]Start compressing image The-Mekong-River-Commissions-MRC--360x240.jpeg, file size: 18291
+[2024-08-29 10:35:34][notice]Compressing image The-Mekong-River-Commissions-MRC--360x240.jpeg succeeded.
+[2024-08-29 10:35:34][notice]Start compressing image The-Mekong-River-Commissions-MRC-.jpeg, file size: 289757
+[2024-08-29 10:35:36][notice]Compressing image The-Mekong-River-Commissions-MRC-.jpeg succeeded.
+[2024-08-29 10:35:36][notice]Optimizing site id:1 image id:10805 succeeded.
+====================================================
+open log file: 2024-08-29 10:35:39
+[2024-08-29 10:35:39][notice]Start optimizing site id:1 image id:10806
+[2024-08-29 10:35:39][notice]Start backing up image(s).
+[2024-08-29 10:35:39][notice]Start compressing image 02-300x225.jpeg, file size: 14567
+[2024-08-29 10:35:40][notice]Compressing image 02-300x225.jpeg succeeded.
+[2024-08-29 10:35:40][notice]Start compressing image 02-1024x768.jpeg, file size: 120757
+[2024-08-29 10:35:42][notice]Compressing image 02-1024x768.jpeg succeeded.
+[2024-08-29 10:35:42][notice]Start compressing image 02-150x150.jpeg, file size: 5382
+[2024-08-29 10:35:43][notice]Compressing image 02-150x150.jpeg succeeded.
+[2024-08-29 10:35:43][notice]Start compressing image 02-768x576.jpeg, file size: 72084
+[2024-08-29 10:35:45][notice]Compressing image 02-768x576.jpeg succeeded.
+[2024-08-29 10:35:45][notice]Start compressing image 02-1536x1152.jpeg, file size: 247917
+[2024-08-29 10:35:48][notice]Compressing image 02-1536x1152.jpeg succeeded.
+[2024-08-29 10:35:48][notice]Start compressing image 02-1170x650.jpeg, file size: 123048
+[2024-08-29 10:35:50][notice]Compressing image 02-1170x650.jpeg succeeded.
+[2024-08-29 10:35:50][notice]Start compressing image 02-750x520.jpeg, file size: 65375
+[2024-08-29 10:35:52][notice]Compressing image 02-750x520.jpeg succeeded.
+[2024-08-29 10:35:52][notice]Start compressing image 02-360x240.jpeg, file size: 17599
+[2024-08-29 10:35:53][notice]Compressing image 02-360x240.jpeg succeeded.
+[2024-08-29 10:35:53][notice]Start compressing image 02.jpeg, file size: 268711
+[2024-08-29 10:35:57][notice]Compressing image 02.jpeg succeeded.
+[2024-08-29 10:35:57][notice]Optimizing site id:1 image id:10806 succeeded.
+====================================================
+open log file: 2024-08-29 10:35:58
+[2024-08-29 10:35:58][notice]Start optimizing site id:1 image id:10807
+[2024-08-29 10:35:58][notice]Start backing up image(s).
+[2024-08-29 10:35:58][notice]Start compressing image 03-300x169.jpeg, file size: 14456
+[2024-08-29 10:35:59][notice]Compressing image 03-300x169.jpeg succeeded.
+[2024-08-29 10:35:59][notice]Start compressing image 03-1024x576.jpeg, file size: 112502
+[2024-08-29 10:36:02][notice]Compressing image 03-1024x576.jpeg succeeded.
+[2024-08-29 10:36:02][notice]Start compressing image 03-150x150.jpeg, file size: 6371
+[2024-08-29 10:36:03][notice]Compressing image 03-150x150.jpeg succeeded.
+[2024-08-29 10:36:03][notice]Start compressing image 03-768x432.jpeg, file size: 69579
+[2024-08-29 10:36:04][notice]Compressing image 03-768x432.jpeg succeeded.
+[2024-08-29 10:36:04][notice]Start compressing image 03-1536x864.jpeg, file size: 215815
+[2024-08-29 10:36:07][notice]Compressing image 03-1536x864.jpeg succeeded.
+[2024-08-29 10:36:07][notice]Start compressing image 03-1170x650.jpeg, file size: 140417
+[2024-08-29 10:36:09][notice]Compressing image 03-1170x650.jpeg succeeded.
+[2024-08-29 10:36:09][notice]Start compressing image 03-750x520.jpeg, file size: 76312
+[2024-08-29 10:36:11][notice]Compressing image 03-750x520.jpeg succeeded.
+[2024-08-29 10:36:11][notice]Start compressing image 03-360x240.jpeg, file size: 21856
+[2024-08-29 10:36:13][notice]Compressing image 03-360x240.jpeg succeeded.
+[2024-08-29 10:36:13][notice]Start compressing image 03.jpeg, file size: 228541
+[2024-08-29 10:36:16][notice]Compressing image 03.jpeg succeeded.
+[2024-08-29 10:36:16][notice]Optimizing site id:1 image id:10807 succeeded.
+====================================================
+open log file: 2024-08-29 10:37:00
+[2024-08-29 10:37:00][notice]Start optimizing site id:1 image id:10808
+[2024-08-29 10:37:00][notice]Start backing up image(s).
+[2024-08-29 10:37:00][notice]Start compressing image 20240828_Vientiane_Mekong-300x225.jpg, file size: 14567
+[2024-08-29 10:37:02][notice]Compressing image 20240828_Vientiane_Mekong-300x225.jpg succeeded.
+[2024-08-29 10:37:02][notice]Start compressing image 20240828_Vientiane_Mekong-1024x768.jpg, file size: 120757
+[2024-08-29 10:37:04][notice]Compressing image 20240828_Vientiane_Mekong-1024x768.jpg succeeded.
+[2024-08-29 10:37:04][notice]Start compressing image 20240828_Vientiane_Mekong-150x150.jpg, file size: 5382
+[2024-08-29 10:37:05][notice]Compressing image 20240828_Vientiane_Mekong-150x150.jpg succeeded.
+[2024-08-29 10:37:05][notice]Start compressing image 20240828_Vientiane_Mekong-768x576.jpg, file size: 72084
+[2024-08-29 10:37:07][notice]Compressing image 20240828_Vientiane_Mekong-768x576.jpg succeeded.
+[2024-08-29 10:37:07][notice]Start compressing image 20240828_Vientiane_Mekong-1536x1152.jpg, file size: 247917
+[2024-08-29 10:37:09][notice]Compressing image 20240828_Vientiane_Mekong-1536x1152.jpg succeeded.
+[2024-08-29 10:37:09][notice]Start compressing image 20240828_Vientiane_Mekong-1170x650.jpg, file size: 123048
+[2024-08-29 10:37:12][notice]Compressing image 20240828_Vientiane_Mekong-1170x650.jpg succeeded.
+[2024-08-29 10:37:12][notice]Start compressing image 20240828_Vientiane_Mekong-750x520.jpg, file size: 65375
+[2024-08-29 10:37:13][notice]Compressing image 20240828_Vientiane_Mekong-750x520.jpg succeeded.
+[2024-08-29 10:37:13][notice]Start compressing image 20240828_Vientiane_Mekong-360x240.jpg, file size: 17599
+[2024-08-29 10:37:15][notice]Compressing image 20240828_Vientiane_Mekong-360x240.jpg succeeded.
+[2024-08-29 10:37:15][notice]Start compressing image 20240828_Vientiane_Mekong.jpg, file size: 268711
+[2024-08-29 10:37:18][notice]Compressing image 20240828_Vientiane_Mekong.jpg succeeded.
+[2024-08-29 10:37:18][notice]Optimizing site id:1 image id:10808 succeeded.
+====================================================
+open log file: 2024-08-29 10:37:21
+[2024-08-29 10:37:21][notice]Start optimizing site id:1 image id:10810
+[2024-08-29 10:37:21][notice]Start backing up image(s).
+[2024-08-29 10:37:21][notice]Start compressing image 2024-August-Rainfall-212x300.jpeg, file size: 15429
+[2024-08-29 10:37:22][notice]Compressing image 2024-August-Rainfall-212x300.jpeg succeeded.
+[2024-08-29 10:37:22][notice]Start compressing image 2024-August-Rainfall-724x1024.jpeg, file size: 120255
+[2024-08-29 10:37:24][notice]Compressing image 2024-August-Rainfall-724x1024.jpeg succeeded.
+[2024-08-29 10:37:24][notice]Start compressing image 2024-August-Rainfall-150x150.jpeg, file size: 6632
+[2024-08-29 10:37:25][notice]Compressing image 2024-August-Rainfall-150x150.jpeg succeeded.
+[2024-08-29 10:37:25][notice]Start compressing image 2024-August-Rainfall-768x1086.jpeg, file size: 132281
+[2024-08-29 10:37:27][notice]Compressing image 2024-August-Rainfall-768x1086.jpeg succeeded.
+[2024-08-29 10:37:27][notice]Start compressing image 2024-August-Rainfall-905x650.jpeg, file size: 108917
+[2024-08-29 10:37:29][notice]Compressing image 2024-August-Rainfall-905x650.jpeg succeeded.
+[2024-08-29 10:37:29][notice]Start compressing image 2024-August-Rainfall-750x520.jpeg, file size: 65732
+[2024-08-29 10:37:31][notice]Compressing image 2024-August-Rainfall-750x520.jpeg succeeded.
+[2024-08-29 10:37:31][notice]Start compressing image 2024-August-Rainfall-360x240.jpeg, file size: 18291
+[2024-08-29 10:37:32][notice]Compressing image 2024-August-Rainfall-360x240.jpeg succeeded.
+[2024-08-29 10:37:32][notice]Start compressing image 2024-August-Rainfall.jpeg, file size: 289757
+[2024-08-29 10:37:35][notice]Compressing image 2024-August-Rainfall.jpeg succeeded.
+[2024-08-29 10:37:35][notice]Optimizing site id:1 image id:10810 succeeded.
+====================================================
+open log file: 2024-08-29 10:57:26
+[2024-08-29 10:57:26][notice]Start optimizing site id:1 image id:10816
+[2024-08-29 10:57:26][notice]Start backing up image(s).
+[2024-08-29 10:57:26][notice]Start compressing image Water-levels-reach-alarm-300x169.jpeg, file size: 16018
+[2024-08-29 10:57:28][notice]Compressing image Water-levels-reach-alarm-300x169.jpeg succeeded.
+[2024-08-29 10:57:28][notice]Start compressing image Water-levels-reach-alarm-1024x576.jpeg, file size: 115163
+[2024-08-29 10:57:30][notice]Compressing image Water-levels-reach-alarm-1024x576.jpeg succeeded.
+[2024-08-29 10:57:30][notice]Start compressing image Water-levels-reach-alarm-150x150.jpeg, file size: 7948
+[2024-08-29 10:57:32][notice]Compressing image Water-levels-reach-alarm-150x150.jpeg succeeded.
+[2024-08-29 10:57:32][notice]Start compressing image Water-levels-reach-alarm-768x432.jpeg, file size: 71221
+[2024-08-29 10:57:33][notice]Compressing image Water-levels-reach-alarm-768x432.jpeg succeeded.
+[2024-08-29 10:57:33][notice]Start compressing image Water-levels-reach-alarm-1536x864.jpeg, file size: 220477
+[2024-08-29 10:57:36][notice]Compressing image Water-levels-reach-alarm-1536x864.jpeg succeeded.
+[2024-08-29 10:57:36][notice]Start compressing image Water-levels-reach-alarm-1170x650.jpeg, file size: 143538
+[2024-08-29 10:57:39][notice]Compressing image Water-levels-reach-alarm-1170x650.jpeg succeeded.
+[2024-08-29 10:57:39][notice]Start compressing image Water-levels-reach-alarm-750x520.jpeg, file size: 78470
+[2024-08-29 10:57:40][notice]Compressing image Water-levels-reach-alarm-750x520.jpeg succeeded.
+[2024-08-29 10:57:40][notice]Start compressing image Water-levels-reach-alarm-360x240.jpeg, file size: 23295
+[2024-08-29 10:57:42][notice]Compressing image Water-levels-reach-alarm-360x240.jpeg succeeded.
+[2024-08-29 10:57:42][notice]Start compressing image Water-levels-reach-alarm.jpeg, file size: 319647
+[2024-08-29 10:57:45][notice]Compressing image Water-levels-reach-alarm.jpeg succeeded.
+[2024-08-29 10:57:45][notice]Optimizing site id:1 image id:10816 succeeded.
+====================================================
+open log file: 2024-08-29 11:03:15
+[2024-08-29 11:03:15][notice]Start optimizing site id:1 image id:10820
+[2024-08-29 11:03:15][notice]Start backing up image(s).
+[2024-08-29 11:03:15][notice]Start compressing image 2024-August-Rainfall-1-212x300.jpeg, file size: 15429
+[2024-08-29 11:03:18][notice]Compressing image 2024-August-Rainfall-1-212x300.jpeg succeeded.
+[2024-08-29 11:03:18][notice]Start compressing image 2024-August-Rainfall-1-724x1024.jpeg, file size: 120255
+[2024-08-29 11:03:20][notice]Compressing image 2024-August-Rainfall-1-724x1024.jpeg succeeded.
+[2024-08-29 11:03:20][notice]Start compressing image 2024-August-Rainfall-1-150x150.jpeg, file size: 6632
+[2024-08-29 11:03:20][notice]Compressing image 2024-August-Rainfall-1-150x150.jpeg succeeded.
+[2024-08-29 11:03:20][notice]Start compressing image 2024-August-Rainfall-1-768x1086.jpeg, file size: 132281
+[2024-08-29 11:03:23][notice]Compressing image 2024-August-Rainfall-1-768x1086.jpeg succeeded.
+[2024-08-29 11:03:23][notice]Start compressing image 2024-August-Rainfall-1-905x650.jpeg, file size: 108917
+[2024-08-29 11:03:25][notice]Compressing image 2024-August-Rainfall-1-905x650.jpeg succeeded.
+[2024-08-29 11:03:25][notice]Start compressing image 2024-August-Rainfall-1-750x520.jpeg, file size: 65732
+[2024-08-29 11:03:26][notice]Compressing image 2024-August-Rainfall-1-750x520.jpeg succeeded.
+[2024-08-29 11:03:26][notice]Start compressing image 2024-August-Rainfall-1-360x240.jpeg, file size: 18291
+[2024-08-29 11:03:27][notice]Compressing image 2024-August-Rainfall-1-360x240.jpeg succeeded.
+[2024-08-29 11:03:27][notice]Start compressing image 2024-August-Rainfall-1.jpeg, file size: 289757
+[2024-08-29 11:03:30][notice]Compressing image 2024-August-Rainfall-1.jpeg succeeded.
+[2024-08-29 11:03:30][notice]Optimizing site id:1 image id:10820 succeeded.
+====================================================
+open log file: 2024-08-29 11:15:09
+[2024-08-29 11:15:09][notice]Start optimizing site id:1 image id:10824
+[2024-08-29 11:15:09][notice]Start backing up image(s).
+[2024-08-29 11:15:09][notice]Start compressing image Water-levels-reach-alarm-1-300x169.jpeg, file size: 16018
+[2024-08-29 11:15:12][notice]Compressing image Water-levels-reach-alarm-1-300x169.jpeg succeeded.
+[2024-08-29 11:15:12][notice]Start compressing image Water-levels-reach-alarm-1-1024x576.jpeg, file size: 115163
+[2024-08-29 11:15:14][notice]Compressing image Water-levels-reach-alarm-1-1024x576.jpeg succeeded.
+[2024-08-29 11:15:14][notice]Start compressing image Water-levels-reach-alarm-1-150x150.jpeg, file size: 7948
+[2024-08-29 11:15:15][notice]Compressing image Water-levels-reach-alarm-1-150x150.jpeg succeeded.
+[2024-08-29 11:15:15][notice]Start compressing image Water-levels-reach-alarm-1-768x432.jpeg, file size: 71221
+[2024-08-29 11:15:16][notice]Compressing image Water-levels-reach-alarm-1-768x432.jpeg succeeded.
+[2024-08-29 11:15:16][notice]Start compressing image Water-levels-reach-alarm-1-1536x864.jpeg, file size: 220477
+[2024-08-29 11:15:19][notice]Compressing image Water-levels-reach-alarm-1-1536x864.jpeg succeeded.
+[2024-08-29 11:15:19][notice]Start compressing image Water-levels-reach-alarm-1-1170x650.jpeg, file size: 143538
+[2024-08-29 11:15:21][notice]Compressing image Water-levels-reach-alarm-1-1170x650.jpeg succeeded.
+[2024-08-29 11:15:21][notice]Start compressing image Water-levels-reach-alarm-1-750x520.jpeg, file size: 78470
+[2024-08-29 11:15:23][notice]Compressing image Water-levels-reach-alarm-1-750x520.jpeg succeeded.
+[2024-08-29 11:15:23][notice]Start compressing image Water-levels-reach-alarm-1-360x240.jpeg, file size: 23295
+[2024-08-29 11:15:24][notice]Compressing image Water-levels-reach-alarm-1-360x240.jpeg succeeded.
+[2024-08-29 11:15:24][notice]Start compressing image Water-levels-reach-alarm-1.jpeg, file size: 319647
+[2024-08-29 11:15:28][notice]Compressing image Water-levels-reach-alarm-1.jpeg succeeded.
+[2024-08-29 11:15:28][notice]Optimizing site id:1 image id:10824 succeeded.
+====================================================
+open log file: 2024-08-29 11:17:56
+[2024-08-29 11:17:56][notice]Start optimizing site id:1 image id:10825
+[2024-08-29 11:17:56][notice]Start backing up image(s).
+[2024-08-29 11:17:56][notice]Start compressing image 20240828_Vientiane_Mekong-1-300x225.jpg, file size: 14567
+[2024-08-29 11:17:58][notice]Compressing image 20240828_Vientiane_Mekong-1-300x225.jpg succeeded.
+[2024-08-29 11:17:58][notice]Start compressing image 20240828_Vientiane_Mekong-1-1024x768.jpg, file size: 120757
+[2024-08-29 11:18:00][notice]Compressing image 20240828_Vientiane_Mekong-1-1024x768.jpg succeeded.
+[2024-08-29 11:18:00][notice]Start compressing image 20240828_Vientiane_Mekong-1-150x150.jpg, file size: 5382
+[2024-08-29 11:18:01][notice]Compressing image 20240828_Vientiane_Mekong-1-150x150.jpg succeeded.
+[2024-08-29 11:18:01][notice]Start compressing image 20240828_Vientiane_Mekong-1-768x576.jpg, file size: 72084
+[2024-08-29 11:18:02][notice]Compressing image 20240828_Vientiane_Mekong-1-768x576.jpg succeeded.
+[2024-08-29 11:18:02][notice]Start compressing image 20240828_Vientiane_Mekong-1-1536x1152.jpg, file size: 247917
+[2024-08-29 11:18:05][notice]Compressing image 20240828_Vientiane_Mekong-1-1536x1152.jpg succeeded.
+[2024-08-29 11:18:05][notice]Start compressing image 20240828_Vientiane_Mekong-1-1170x650.jpg, file size: 123048
+[2024-08-29 11:18:08][notice]Compressing image 20240828_Vientiane_Mekong-1-1170x650.jpg succeeded.
+[2024-08-29 11:18:08][notice]Start compressing image 20240828_Vientiane_Mekong-1-750x520.jpg, file size: 65375
+[2024-08-29 11:18:09][notice]Compressing image 20240828_Vientiane_Mekong-1-750x520.jpg succeeded.
+[2024-08-29 11:18:09][notice]Start compressing image 20240828_Vientiane_Mekong-1-360x240.jpg, file size: 17599
+[2024-08-29 11:18:10][notice]Compressing image 20240828_Vientiane_Mekong-1-360x240.jpg succeeded.
+[2024-08-29 11:18:10][notice]Start compressing image 20240828_Vientiane_Mekong-1.jpg, file size: 268711
+[2024-08-29 11:18:14][notice]Compressing image 20240828_Vientiane_Mekong-1.jpg succeeded.
+[2024-08-29 11:18:14][notice]Optimizing site id:1 image id:10825 succeeded.
+====================================================
+open log file: 2024-08-29 11:18:36
+[2024-08-29 11:18:36][notice]Start optimizing site id:1 image id:10826
+[2024-08-29 11:18:36][notice]Start backing up image(s).
+[2024-08-29 11:18:36][notice]Start compressing image Water-levels-reach-alarm-300x235.jpeg, file size: 19828
+[2024-08-29 11:18:37][notice]Compressing image Water-levels-reach-alarm-300x235.jpeg succeeded.
+[2024-08-29 11:18:37][notice]Start compressing image Water-levels-reach-alarm-1024x803.jpeg, file size: 133257
+[2024-08-29 11:18:39][notice]Compressing image Water-levels-reach-alarm-1024x803.jpeg succeeded.
+[2024-08-29 11:18:39][notice]Start compressing image Water-levels-reach-alarm-150x150.jpeg, file size: 8815
+[2024-08-29 11:18:40][notice]Compressing image Water-levels-reach-alarm-150x150.jpeg succeeded.
+[2024-08-29 11:18:40][notice]Start compressing image Water-levels-reach-alarm-768x602.jpeg, file size: 84183
+[2024-08-29 11:18:42][notice]Compressing image Water-levels-reach-alarm-768x602.jpeg succeeded.
+[2024-08-29 11:18:42][notice]Start compressing image Water-levels-reach-alarm-1170x650.jpeg, file size: 132843
+[2024-08-29 11:18:44][notice]Compressing image Water-levels-reach-alarm-1170x650.jpeg succeeded.
+[2024-08-29 11:18:44][notice]Start compressing image Water-levels-reach-alarm-750x520.jpeg, file size: 75799
+[2024-08-29 11:18:46][notice]Compressing image Water-levels-reach-alarm-750x520.jpeg succeeded.
+[2024-08-29 11:18:46][notice]Start compressing image Water-levels-reach-alarm-360x240.jpeg, file size: 23341
+[2024-08-29 11:18:47][notice]Compressing image Water-levels-reach-alarm-360x240.jpeg succeeded.
+[2024-08-29 11:18:47][notice]Start compressing image Water-levels-reach-alarm.jpeg, file size: 311053
+[2024-08-29 11:18:51][notice]Compressing image Water-levels-reach-alarm.jpeg succeeded.
+[2024-08-29 11:18:51][notice]Optimizing site id:1 image id:10826 succeeded.
+====================================================
+open log file: 2024-08-29 12:01:38
+[2024-08-29 12:01:38][notice]Start optimizing site id:1 image id:10827
+[2024-08-29 12:01:38][notice]Start backing up image(s).
+[2024-08-29 12:01:38][notice]Start compressing image Water-Level-300x245.jpeg, file size: 18069
+[2024-08-29 12:01:41][notice]Compressing image Water-Level-300x245.jpeg succeeded.
+[2024-08-29 12:01:41][notice]Start compressing image Water-Level-1024x836.jpeg, file size: 129624
+[2024-08-29 12:01:43][notice]Compressing image Water-Level-1024x836.jpeg succeeded.
+[2024-08-29 12:01:43][notice]Start compressing image Water-Level-150x150.jpeg, file size: 6817
+[2024-08-29 12:01:44][notice]Compressing image Water-Level-150x150.jpeg succeeded.
+[2024-08-29 12:01:44][notice]Start compressing image Water-Level-768x627.jpeg, file size: 83183
+[2024-08-29 12:01:46][notice]Compressing image Water-Level-768x627.jpeg succeeded.
+[2024-08-29 12:01:46][notice]Start compressing image Water-Level-1103x650.jpeg, file size: 129016
+[2024-08-29 12:01:48][notice]Compressing image Water-Level-1103x650.jpeg succeeded.
+[2024-08-29 12:01:48][notice]Start compressing image Water-Level-750x520.jpeg, file size: 71527
+[2024-08-29 12:01:49][notice]Compressing image Water-Level-750x520.jpeg succeeded.
+[2024-08-29 12:01:49][notice]Start compressing image Water-Level-360x240.jpeg, file size: 21155
+[2024-08-29 12:01:50][notice]Compressing image Water-Level-360x240.jpeg succeeded.
+[2024-08-29 12:01:50][notice]Start compressing image Water-Level.jpeg, file size: 203397
+[2024-08-29 12:01:53][notice]Compressing image Water-Level.jpeg succeeded.
+[2024-08-29 12:01:53][notice]Optimizing site id:1 image id:10827 succeeded.

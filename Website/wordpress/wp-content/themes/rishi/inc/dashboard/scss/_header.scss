@@ -1,0 +1,57 @@
+.rishi-ad {
+    &_header {
+        background-color: $white-color;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    &_head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 26px;
+    }
+
+    &_header-right {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &_header-right div+div:is(.rishi-ad_icon-link-group) {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            height: 30px;
+            width: 2px;
+            border-radius: 100px;
+            background-color: rgba(77, 77, 77, 0.1);
+            left: -6px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    &_banner {
+        padding-block: 50px;
+        background: linear-gradient(90deg, #E6FAFE 0%, #EDDEFB 100%);
+
+
+        &-wrapper {
+            max-width: min(90vw, calc(100% - 192px));
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-text {
+            font-size: 32px;
+            line-height: 1.4em;
+            font-weight: 600;
+            max-width: 620px;
+            color: $headingColor;
+        }
+    }
+}
