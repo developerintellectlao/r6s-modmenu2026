@@ -3,7 +3,7 @@
 import { Grid2, Typography, Stack, Tooltip, Menu, MenuItem, Button } from '@mui/material';
 import { useState, useEffect } from 'react';
 import MapCanvas from '@/features/rainfallObservation/MapCanvas';
-import ShowModel from "@/features/rainfallObservation/showModel";
+import ShowModel from "@/features/rainfallObservation/ShowModel";
 import RainInfoCard from './RainInfoCard';
 import { GET_RAINFALL_MAP_DATA, GET_RAINFALL_SUMMERY } from '@/service/apiManagement';
 import axios from 'axios';

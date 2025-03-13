@@ -1,4 +1,4 @@
-import Model from "@/components/model";
+import Model from "@/components/Model";
 import { Stack, Table, TableBody, TableCell, TableRow, Typography } from "@mui/material";
 
 export default function ShowModel({ open, toggleModel, size, keyChk }) {

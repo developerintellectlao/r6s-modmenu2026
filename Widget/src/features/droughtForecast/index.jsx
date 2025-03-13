@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { Icon } from '@iconify/react';
 import MapCanvas from '@/features/droughtForecast/MapCanvas';
 import Link from 'next/link';
-import ShowModel from "@/features/droughtForecast/showModel";
+import ShowModel from "@/features/droughtForecast/ShowModel";
 import { GET_DROUGHT_FORECAST_DATA, GET_DROUGHT_FORECAST_DATA_TEXT } from '@/service/apiManagement';
 import axios from 'axios';
 

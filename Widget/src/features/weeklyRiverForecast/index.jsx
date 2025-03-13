@@ -6,7 +6,7 @@ import Table from "@/features/weeklyRiverForecast/Weeklytable";
 import { Icon } from '@iconify/react';
 import MapCanvas from './MapCanvas';
 import Link from 'next/link';
-import ShowModel from './showModel';
+import ShowModel from './ShowModel';
 import { STATUS } from '@/common/constants';
 
 export default function WeeklyRiverForecast({ allData, data, country, handleFilter, updateData }) {

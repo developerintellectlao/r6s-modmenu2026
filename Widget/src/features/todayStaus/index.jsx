@@ -6,10 +6,8 @@ import Table from "@/features/todayStaus/Todaytable";
 import { Icon } from '@iconify/react';
 import MapCanvas from '@/features/todayStaus/MapCanvas';
 import Link from 'next/link';
-import ShowModel from "@/features/todayStaus/showModel";
+import ShowModel from "@/features/todayStaus/ShowModel";
 import { STATUS } from '@/common/constants';
-import { TODAY_STATUS_GEOJSON } from '@/service/apiManagement';
-import axios from 'axios';
 
 export default function TodayStatus({ allData, data, country, handleFilter, updateData }) {
   const [anchorEl, setAnchorEl] = useState(null);

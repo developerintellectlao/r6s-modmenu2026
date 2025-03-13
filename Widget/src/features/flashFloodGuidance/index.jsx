@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { Icon } from '@iconify/react';
 import MapCanvas from '@/features/flashFloodGuidance/MapCanvas';
 import Link from 'next/link';
-import ShowModel from "@/features/flashFloodGuidance/showModel";
+import ShowModel from "@/features/flashFloodGuidance/ShowModel";
 import axios from 'axios';
 import { FLASH_FLOOD_JSON, FLASH_FLOOD_TEXT } from '@/service/apiManagement';
 

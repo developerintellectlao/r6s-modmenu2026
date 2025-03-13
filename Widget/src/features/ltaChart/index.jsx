@@ -5,12 +5,12 @@ import { useState, useEffect } from 'react';
 import { Icon } from '@iconify/react';
 import MapCanvas from '@/features/ltaChart/MapCanvas';
 import Link from 'next/link';
-import ShowModel from "@/features/ltaChart/showModel";
+import ShowModel from "@/features/ltaChart/ShowModel";
 import { LTA_CHART } from '@/service/apiManagement';
 import axios from 'axios';
 // import WaterLevelChart from '@/components/chart';
 // import HighChartComponent from '@/components/LineChart';
-const WaterLevelChart = dynamic(() => import('@/components/chart'), { ssr: false });
+const WaterLevelChart = dynamic(() => import('@/components/Chart'), { ssr: false });
 
 export default function LtaChart({ data, country, handleFilter }) {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -49,10 +49,6 @@ export default function LtaChart({ data, country, handleFilter }) {
 
   const open = Boolean(anchorEl);
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -61,22 +57,6 @@ export default function LtaChart({ data, country, handleFilter }) {
     setFilter(country)
     handleFilter(country)
     handleClose()
-  };
-
-  function formatDate(date) {
-    const suffixes = { 1: "st", 2: "nd", 3: "rd", default: "th" };
-
-    const day = date.getDate();
-    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    const month = monthNames[date.getMonth()];
-    const year = date.getFullYear();
-
-    const suffix =
-      (day % 10 === 1 && day !== 11) ? suffixes[1] :
-        (day % 10 === 2 && day !== 12) ? suffixes[2] :
-          (day % 10 === 3 && day !== 13) ? suffixes[3] : suffixes.default;
-
-    return `${day}${suffix} ${month} ${year}`;
   };
 
   const handelClick = (row) => {
