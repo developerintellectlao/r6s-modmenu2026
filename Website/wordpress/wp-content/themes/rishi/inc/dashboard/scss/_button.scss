@@ -1,0 +1,81 @@
+.rishi-ad {
+    &_btn {
+        padding: 16px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.25;
+        letter-spacing: -0.015em;
+        text-decoration: none;
+        background-color: #efefef;
+        cursor: pointer;
+        border: 1px solid transparent;
+        display: inline-flex;
+        text-align: center;
+        transition: all .3s ease;
+        align-items: center;
+
+        &-group {
+            --gap: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: calc(-1 * (var(--gap) / 2));
+
+            .rishi-ad_btn {
+                margin: calc(var(--gap) / 2);
+            }
+        }
+
+        &-primary {
+            background: $primaryColor;
+            border-color: $primaryColor;
+            color: #fff;
+
+            &:hover {
+                color: $primaryColor;
+                background-color: #fff;
+            }
+        }
+
+        &-starter {
+            background: $primaryColor;
+            border-color: $primaryColor;
+            color: #fff;
+            border-radius: 50px;
+            gap: 8px;
+            padding: 16px 24px 16px 32px;
+
+
+            &:hover {
+                color: $primaryColor;
+                background-color: #fff;
+            }
+        }
+
+        &-outline {
+            background: none;
+            border-color: $primaryColor;
+            color: $primaryColor;
+        }
+
+        &.color-scheme {
+            &-gray {
+                border-color: #AEAEAE;
+                color: #011F27;
+            }
+        }
+
+        &.btn-sm {
+            padding: 14px 30px;
+        }
+
+        &.actbtn.deactivate {
+            &:hover {
+                background-color: #fff !important;
+                color: rgb(220, 20, 60);
+                border-color: rgb(220, 20, 60);
+                ;
+            }
+        }
+    }
+}

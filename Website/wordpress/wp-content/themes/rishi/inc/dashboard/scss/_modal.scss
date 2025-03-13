@@ -1,0 +1,196 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.rishi-ad {
+    &_modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        overflow: hidden;
+        overflow-y: auto;
+        width: 100%;
+        max-width: 560px;
+        max-height: 100vh;
+        z-index: 99999;
+        font-family: $fontFamily;
+        font-size: 16px;
+        line-height: 1.625;
+        box-shadow: $boxShadow;
+        animation: fadeIn $animationDuration $animationTimingFunction;
+        display: flex;
+        flex-direction: column;
+
+        .rishi-whats-new-content{
+            padding: 32px;
+        }
+
+        p {
+            font-size: inherit;
+            line-height: inherit;
+            margin: 0 0 1.5em;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        &-header {
+            padding: 24px 32px;
+            border-bottom: 1px solid #E0E9EC;
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            z-index: 111;
+        }
+
+        &-title {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        &-close {
+            position: absolute;
+            right: 32px;
+            top: 26px;
+            background: none;
+            border: none;
+            padding: 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 111;
+
+            &:hover {
+                color: #FE7167;
+            }
+        }
+
+        &-body {
+            padding: 16px 32px 24px;
+            flex: 1;
+            overflow: auto;
+            scrollbar-width: thin;
+            scrollbar-color: #D6D6D6 #F5F5F5;
+
+            &::-webkit-scrollbar {
+                width: 8px;
+                height: 8px;
+                opacity: 0;
+            }
+
+            &::-webkit-scrollbar-track {
+                background-color: transparent;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: transparent;
+            }
+
+            &:hover {
+                &::-webkit-scrollbar-track {
+                    background-color: #F5F5F5;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: #D6D6D6;
+                }
+            }
+        }
+
+        &-right,
+        &-left {
+            transform: unset;
+            top: 46px;
+            height: 100vh;
+
+            @media only screen and (min-width: 782px) {
+                top: 32px;
+            }
+        }
+
+        &-right {
+            left: auto;
+            right: 0;
+            animation: fadeInRight $animationDuration $animationTimingFunction;
+        }
+
+        &-left {
+            right: auto;
+            left: 0;
+            animation: fadeInLeft $animationDuration $animationTimingFunction;
+        }
+    }
+}
+
+.admin-bar {
+    .rishi-ad_modal {
+        max-height: calc(100vh - 32px);
+    }
+}
+
+.rishi-modal-list {
+    list-style: initial;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.rishi-modal-list li {
+    line-height: 1.5;
+    margin-bottom: 2em;
+}
+
+.rishi-modal-list li:last-child {
+    margin-bottom: 0;
+}
+
+.rishi-modal-list li i {
+    display: block;
+    line-height: 1.7;
+}

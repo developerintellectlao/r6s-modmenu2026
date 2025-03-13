@@ -1,0 +1,270 @@
+Log created: 2024-08-30 16:59:42
+Type: staging
+[2024-08-30 16:59:42][notice]Retrieve the files required to copy.
+[2024-08-30 16:59:42][notice]Create a cache file.
+[2024-08-30 16:59:42][notice]Copying files starts from: 0
+[2024-08-30 16:59:42][notice]Copying files from /opt/bitnami/wordpress to /opt/bitnami/wordpress/staging
+[2024-08-30 16:59:42][notice]The count of copied files: 500
+[2024-08-30 16:59:42][notice]The next copying files starts from:500
+[2024-08-30 16:59:42][notice]The count of copied files: 500
+[2024-08-30 16:59:42][notice]The next copying files starts from:1000
+[2024-08-30 16:59:42][notice]The count of copied files: 500
+[2024-08-30 16:59:42][notice]The next copying files starts from:1500
+[2024-08-30 16:59:42][notice]The count of copied files: 500
+[2024-08-30 16:59:42][notice]The next copying files starts from:2000
+[2024-08-30 16:59:42][notice]The count of copied files: 500
+[2024-08-30 16:59:42][notice]The next copying files starts from:2500
+[2024-08-30 16:59:42][notice]Copying core files is completed.
+[2024-08-30 16:59:42][notice]Copy config.php to config.php.vividtemp
+[2024-08-30 16:59:42][notice]Change wp-config subdomain staging: false
+[2024-08-30 16:59:42][notice]PATH_CURRENT_SITE found in wp-config.php.vividtemp
+[2024-08-30 16:59:42][notice]WP_ALLOW_MULTISITE found in wp-config.php.vividtemp
+[2024-08-30 16:59:42][notice]MULTISITE found in wp-config.php.vividtemp
+[2024-08-30 16:59:42][notice]WP_ENVIRONMENT_TYPE insert to wp-config.php.vividtemp
+[2024-08-30 16:59:42][notice]Replacing table_prefix in wp-config.php.vividtemp is completed.
+[2024-08-30 16:59:42][notice]Copy config.php.vividtemp to config.php
+[2024-08-30 16:59:42][notice]RewriteBase found in .htaccess
+[2024-08-30 16:59:44][notice]Retrieve the files required to copy.
+[2024-08-30 16:59:44][notice]Create a cache file.
+[2024-08-30 16:59:44][notice]Copying files starts from: 0
+[2024-08-30 16:59:44][notice]Copying files from /opt/bitnami/wordpress/wp-content to /opt/bitnami/wordpress/staging/wp-content
+[2024-08-30 16:59:44][notice]Copying wp-content files is completed.
+[2024-08-30 16:59:45][notice]Retrieve the files required to copy.
+[2024-08-30 16:59:45][notice]Create a cache file.
+[2024-08-30 16:59:46][notice]Copying files starts from: 0
+[2024-08-30 16:59:46][notice]Copying files from /opt/bitnami/wordpress/wp-content/plugins to /opt/bitnami/wordpress/staging/wp-content/plugins
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:1000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:1500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:2000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:2500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:3000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:3500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:4000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:4500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:5000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:5500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:6000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:6500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:7000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:7500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:8000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:8500
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:9000
+[2024-08-30 16:59:46][notice]The count of copied files: 500
+[2024-08-30 16:59:46][notice]The next copying files starts from:9500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:10000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:10500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:11000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:11500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:12000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:12500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:13000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:13500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:14000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:14500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:15000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:15500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:16000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:16500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:17000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:17500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:18000
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:18500
+[2024-08-30 16:59:47][notice]The count of copied files: 500
+[2024-08-30 16:59:47][notice]The next copying files starts from:19000
+[2024-08-30 16:59:47][notice]Copying plugins files is completed.
+[2024-08-30 16:59:48][notice]Retrieve the files required to copy.
+[2024-08-30 16:59:48][notice]Create a cache file.
+[2024-08-30 16:59:48][notice]Copying files starts from: 0
+[2024-08-30 16:59:48][notice]Copying files from /opt/bitnami/wordpress/wp-content/themes to /opt/bitnami/wordpress/staging/wp-content/themes
+[2024-08-30 16:59:48][notice]The count of copied files: 500
+[2024-08-30 16:59:48][notice]The next copying files starts from:500
+[2024-08-30 16:59:48][notice]The count of copied files: 500
+[2024-08-30 16:59:48][notice]The next copying files starts from:1000
+[2024-08-30 16:59:48][notice]The count of copied files: 500
+[2024-08-30 16:59:48][notice]The next copying files starts from:1500
+[2024-08-30 16:59:48][notice]The count of copied files: 500
+[2024-08-30 16:59:48][notice]The next copying files starts from:2000
+[2024-08-30 16:59:48][notice]The count of copied files: 500
+[2024-08-30 16:59:48][notice]The next copying files starts from:2500
+[2024-08-30 16:59:49][notice]The count of copied files: 500
+[2024-08-30 16:59:49][notice]The next copying files starts from:3000
+[2024-08-30 16:59:49][notice]Copying themes files is completed.
+[2024-08-30 16:59:50][notice]Retrieve the files required to copy.
+[2024-08-30 16:59:50][notice]Create a cache file.
+[2024-08-30 16:59:50][notice]Copying files starts from: 0
+[2024-08-30 16:59:50][notice]Copying files from /opt/bitnami/wordpress/wp-content/uploads to /opt/bitnami/wordpress/staging/wp-content/uploads
+[2024-08-30 16:59:50][notice]The count of copied files: 500
+[2024-08-30 16:59:50][notice]The next copying files starts from:500
+[2024-08-30 16:59:50][notice]The count of copied files: 500
+[2024-08-30 16:59:50][notice]The next copying files starts from:1000
+[2024-08-30 16:59:51][notice]The count of copied files: 500
+[2024-08-30 16:59:51][notice]The next copying files starts from:1500
+[2024-08-30 16:59:51][notice]The count of copied files: 500
+[2024-08-30 16:59:51][notice]The next copying files starts from:2000
+[2024-08-30 16:59:52][notice]The count of copied files: 500
+[2024-08-30 16:59:52][notice]The next copying files starts from:2500
+[2024-08-30 16:59:52][notice]The count of copied files: 500
+[2024-08-30 16:59:52][notice]The next copying files starts from:3000
+[2024-08-30 16:59:53][notice]The count of copied files: 500
+[2024-08-30 16:59:53][notice]The next copying files starts from:3500
+[2024-08-30 16:59:54][notice]The count of copied files: 500
+[2024-08-30 16:59:54][notice]The next copying files starts from:4000
+[2024-08-30 16:59:54][notice]The count of copied files: 500
+[2024-08-30 16:59:54][notice]The next copying files starts from:4500
+[2024-08-30 16:59:55][notice]Copying upload files is completed.
+[2024-08-30 16:59:55][notice]Retrieve the tables required to copy.
+[2024-08-30 16:59:56][notice]Copying wp_actionscheduler_actions is completed.
+[2024-08-30 16:59:56][notice]Copying wp_actionscheduler_claims is completed.
+[2024-08-30 16:59:56][notice]Copying wp_actionscheduler_groups is completed.
+[2024-08-30 16:59:56][notice]Copying wp_actionscheduler_logs is completed.
+[2024-08-30 16:59:56][notice]Copying wp_aioseo_blc_cache is completed.
+[2024-08-30 16:59:56][notice]Copying wp_aioseo_blc_link_status is completed.
+[2024-08-30 16:59:57][notice]Copying wp_aioseo_blc_links is completed.
+[2024-08-30 16:59:57][notice]Copying wp_aioseo_blc_notifications is completed.
+[2024-08-30 16:59:57][notice]Copying wp_aioseo_blc_posts is completed.
+[2024-08-30 16:59:57][notice]Copying wp_aioseo_cache is completed.
+[2024-08-30 16:59:57][notice]Copying wp_aioseo_crawl_cleanup_blocked_args is completed.
+[2024-08-30 16:59:57][notice]Copying wp_aioseo_crawl_cleanup_logs is completed.
+[2024-08-30 16:59:57][notice]Copying wp_aioseo_notifications is completed.
+[2024-08-30 16:59:57][notice]Copying wp_aioseo_posts is completed.
+[2024-08-30 16:59:57][notice]Copying wp_cff_facebook_feed_locator is completed.
+[2024-08-30 16:59:57][notice]Copying wp_cff_feed_caches is completed.
+[2024-08-30 16:59:57][notice]Copying wp_cff_feeds is completed.
+[2024-08-30 16:59:57][notice]Copying wp_cff_sources is completed.
+[2024-08-30 16:59:57][notice]Copying wp_commentmeta is completed.
+[2024-08-30 16:59:57][notice]Copying wp_comments is completed.
+[2024-08-30 16:59:57][notice]Copying wp_e_events is completed.
+[2024-08-30 16:59:57][notice]Copying wp_links is completed.
+[2024-08-30 16:59:57][notice]Copying wp_options is completed.
+[2024-08-30 17:00:02][notice]Copying wp_postmeta is completed.
+[2024-08-30 17:00:09][notice]Copying wp_posts is completed.
+[2024-08-30 17:00:09][notice]Copying wp_rank_math_internal_links is completed.
+[2024-08-30 17:00:09][notice]Copying wp_rank_math_internal_meta is completed.
+[2024-08-30 17:00:09][notice]Copying wp_registration_log is completed.
+[2024-08-30 17:00:09][notice]Copying wp_signups is completed.
+[2024-08-30 17:00:09][notice]Copying wp_term_relationships is completed.
+[2024-08-30 17:00:09][notice]Copying wp_term_taxonomy is completed.
+[2024-08-30 17:00:09][notice]Copying wp_termmeta is completed.
+[2024-08-30 17:00:09][notice]Copying wp_terms is completed.
+[2024-08-30 17:00:09][notice]Copying wp_usermeta is completed.
+[2024-08-30 17:00:09][notice]Copying wp_users is completed.
+[2024-08-30 17:00:09][notice]Copying wp_wpfm_backup is completed.
+[2024-08-30 17:00:09][notice]Copying wp_wpmailsmtp_debug_events is completed.
+[2024-08-30 17:00:09][notice]Copying wp_wpmailsmtp_tasks_meta is completed.
+[2024-08-30 17:00:09][notice]Copying wp_wpvivid_files_opt_meta is completed.
+[2024-08-30 17:00:09][notice]Copying wp_wpvivid_scan_result is completed.
+[2024-08-30 17:00:09][notice]Copying wp_wpvivid_unused_uploads_files is completed.
+[2024-08-30 17:00:09][notice]Copying wp_yoast_indexable is completed.
+[2024-08-30 17:00:09][notice]Copying wp_yoast_indexable_hierarchy is completed.
+[2024-08-30 17:00:09][notice]Copying wp_yoast_migrations is completed.
+[2024-08-30 17:00:09][notice]Copying wp_yoast_primary_term is completed.
+[2024-08-30 17:00:09][notice]Copying wp_yoast_seo_links is completed.
+[2024-08-30 17:00:09][notice]Copying db is completed.
+[2024-08-30 17:00:10][notice]Retrieve the tables required to replace.
+[2024-08-30 17:00:10][notice]Start replacing staging_actionscheduler_actions prefix from 0 row.
+[2024-08-30 17:00:10][notice]Replacing database tables is completed.
+[2024-08-30 17:00:10][notice]Replacing staging_actionscheduler_actions is completed.
+[2024-08-30 17:00:10][notice]Replacing staging_actionscheduler_claims is completed.
+[2024-08-30 17:00:10][notice]Start replacing staging_actionscheduler_groups prefix from 0 row.
+[2024-08-30 17:00:10][notice]Replacing database tables is completed.
+[2024-08-30 17:00:10][notice]Replacing staging_actionscheduler_groups is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_actionscheduler_logs prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_actionscheduler_logs is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_aioseo_blc_cache prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_blc_cache is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_aioseo_blc_link_status prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_blc_link_status is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_aioseo_blc_links prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_blc_links is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_blc_notifications is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_aioseo_blc_posts prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_blc_posts is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_aioseo_cache prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_cache is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_crawl_cleanup_blocked_args is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_crawl_cleanup_logs is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_aioseo_notifications prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_notifications is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_aioseo_posts prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_aioseo_posts is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_cff_facebook_feed_locator prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_cff_facebook_feed_locator is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_cff_feed_caches prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_cff_feed_caches is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_cff_feeds prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_cff_feeds is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_cff_sources prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_cff_sources is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_commentmeta is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_comments is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_e_events is completed.
+[2024-08-30 17:00:11][notice]Replacing staging_links is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_options prefix from 0 row.
+[2024-08-30 17:00:11][notice]Replacing database tables is completed.
+[2024-08-30 17:00:11][notice]UPDATE staging_options SET option_name='staging_user_roles' WHERE option_name='wp_user_roles';
+[2024-08-30 17:00:11][notice]The length of UPDATE statement: 94
+[2024-08-30 17:00:11][notice]Replacing staging_options is completed.
+[2024-08-30 17:00:11][notice]Start replacing staging_postmeta prefix from 0 row.
+[2024-08-30 17:00:12][notice]Start replacing staging_postmeta prefix from 5000 row.
+[2024-08-30 17:00:14][notice]Start replacing staging_postmeta prefix from 10000 row.
+[2024-08-30 17:00:15][notice]Start replacing staging_postmeta prefix from 15000 row.
+[2024-08-30 17:00:17][notice]Start replacing staging_postmeta prefix from 20000 row.
+[2024-08-30 17:00:18][notice]Start replacing staging_postmeta prefix from 25000 row.
+[2024-08-30 17:00:21][notice]Start replacing staging_postmeta prefix from 30000 row.
+[2024-08-30 17:00:25][notice]Start replacing staging_postmeta prefix from 35000 row.
+[2024-08-30 17:00:28][notice]Start replacing staging_postmeta prefix from 40000 row.
+[2024-08-30 17:00:31][notice]Start replacing staging_postmeta prefix from 45000 row.
+[2024-08-30 17:00:33][notice]Start replacing staging_postmeta prefix from 50000 row.
+[2024-08-30 17:00:33][notice]Replacing database tables is completed.
+[2024-08-30 17:00:33][notice]Replacing staging_postmeta is completed.
+[2024-08-30 17:00:33][notice]Start replacing staging_posts prefix from 0 row.

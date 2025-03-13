@@ -1,0 +1,17 @@
+$primaryColor           : #307ac9;
+$primaryColor-rgb       : rgb(48, 122, 201);
+$primaryAccent1         : #c9dcf1;
+$primaryAccent2         : #eff5fb;
+$headingColor           : #2d3039;
+$headingColor-rgb       : rgb(45, 48, 57);
+$fontColor              : #637279;
+$baseFontSize           : 16px;
+$white-color            : #ffffff;
+$animationTimingFunction: cubic-bezier(0.075, 0.82, 0.165, 1);
+$animationDuration      : .3s;
+$background             : linear-gradient(132.01deg, #{$primaryColor} -21.67%, #{$primaryColor} -21.67%, #{$primaryAccent1} 126.46%);
+$animation              : all #{$animationDuration} #{$animationTimingFunction};
+$boxShadow              : 0px 4px 12px rgba(0, 18, 15, 0.04);
+$border                 : 1px solid rgba(0, 0, 0, 0.10);
+
+$fontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;

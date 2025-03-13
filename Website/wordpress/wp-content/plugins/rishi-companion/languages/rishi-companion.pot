@@ -1,0 +1,1968 @@
+# Copyright (C) 2024 Rishi Theme
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rishi Companion 2.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rishi-companion\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-30T12:12:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: rishi-companion\n"
+
+#. Plugin Name of the plugin
+#: includes/updater/class-rishi-companion-updater.php:147
+#: includes/updater/class-rishi-companion-updater.php:401
+#: includes/updater/class-rishi-companion-updater.php:472
+msgid "Rishi Companion"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://rishitheme.com/rishi-companion/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Rishi Companion is a plugin that offers powerful features for Rishi theme. It includes features to speed your website and tune fine your website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Rishi Theme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://rishitheme.com/"
+msgstr ""
+
+#: includes/additions/Users_Meta.php:70
+msgid "User Social Link"
+msgstr ""
+
+#. translators: %s: label name
+#: includes/additions/Users_Meta.php:78
+msgid "%s :"
+msgstr ""
+
+#. Translators: %s represents a placeholder for a specific URL field (e.g., Facebook, Twitter).
+#: includes/additions/Users_Meta.php:84
+msgid "Please enter your %s Url."
+msgstr ""
+
+#: includes/blocks/templates/categories.php:10
+#: build/blocks.js:1
+#: src/admin/blocks/categories/attributes.js:12
+msgid "Categories"
+msgstr ""
+
+#. translators: %d is a placeholder for the number of posts within a category
+#: includes/blocks/templates/categories.php:86
+#: includes/blocks/templates/categories.php:103
+msgid "%d Post"
+msgid_plural "%d Posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/blocks/templates/popular-posts.php:13
+#: includes/blocks/templates/posts-tab.php:14
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/attributes.js:12
+#: src/admin/blocks/popular-posts/index.js:28
+#: src/admin/blocks/posts-tab/attributes.js:20
+msgid "Popular Posts"
+msgstr ""
+
+#. translators: %s is a placeholder for the number of views a post has
+#: includes/blocks/templates/popular-posts.php:133
+msgid "%s View"
+msgid_plural "%s Views"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is a placeholder for the number of comments
+#: includes/blocks/templates/popular-posts.php:143
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/blocks/templates/posts-tab.php:13
+#: includes/blocks/templates/recent-posts.php:13
+#: build/blocks.js:1
+#: src/admin/blocks/posts-tab/attributes.js:16
+#: src/admin/blocks/recent-posts/attributes.js:9
+#: src/admin/blocks/recent-posts/index.js:28
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:275
+msgid "View all stories"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:296
+msgid "Location"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:297
+msgid "You can choose where to display web stories"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:299
+msgid "Above Header"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:300
+msgid "Below Header"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:301
+msgid "Above Footer"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:302
+msgid "Below Footer"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:322
+#: includes/compatibility/web-stories/WebStories.php:372
+msgid "Shortcode"
+msgstr ""
+
+#. translators: %s is a placeholder for the shortcode used to add web stories
+#: includes/compatibility/web-stories/WebStories.php:326
+msgid "You can also use this shortcode to add web stories in your posts and pages. %s"
+msgstr ""
+
+#. translators: %1$s and %2$s are placeholders for opening and closing strong tags respectively. These options are for pages where you display all your web stories.
+#: includes/compatibility/web-stories/WebStories.php:351
+msgid "%1$s These options are for pages where you display all your web stories. %2$s"
+msgstr ""
+
+#. translators: %s is a placeholder for the shortcode used to display all web stories
+#: includes/compatibility/web-stories/WebStories.php:376
+msgid "You can use this shortcode to display all your web stories. %s"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:398
+msgid "Display Type"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:401
+msgid "Display All Stories"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:402
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:306
+msgid "Custom"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:421
+msgid "Number of Stories"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:443
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:460
+msgid "Order By"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:463
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:45
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:51
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:52
+#: src/admin/blocks/author-bio/Inspector.js:88
+#: src/admin/blocks/categories/Inspector.js:28
+#: src/admin/blocks/facebook/inspector.js:26
+#: src/admin/blocks/popular-posts/Inspector.js:30
+#: src/admin/blocks/recent-posts/Inspector.js:26
+msgid "Title"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:464
+msgid "Date"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:482
+msgid "Order"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:485
+msgid "Ascending"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:486
+msgid "Descending"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:505
+msgid "Show Title"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:523
+msgid "Show Author"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:541
+msgid "Show Date"
+msgstr ""
+
+#: includes/compatibility/web-stories/WebStories.php:559
+msgid "Show Description"
+msgstr ""
+
+#: includes/Helpers/Builder_Element_Filter.php:81
+#: includes/Helpers/Builder_Element_Filter.php:167
+#: includes/Helpers/Builder_Element_Filter.php:253
+#: includes/Helpers/Builder_Element_Filter.php:347
+#: includes/Helpers/Builder_Element_Filter.php:425
+#: includes/Helpers/Builder_Element_Filter.php:500
+#: includes/Helpers/Builder_Element_Filter.php:561
+#: includes/Helpers/Builder_Element_Filter.php:642
+#: includes/Helpers/Builder_Element_Filter.php:739
+#: includes/Helpers/Builder_Element_Filter.php:840
+#: includes/Helpers/Builder_Element_Filter.php:933
+#: includes/Helpers/Builder_Element_Filter.php:1003
+#: includes/Helpers/Builder_Element_Filter.php:1100
+#: includes/Helpers/Builder_Element_Filter.php:1186
+#: includes/Helpers/Builder_Element_Filter.php:1275
+#: includes/Helpers/Builder_Element_Filter.php:1343
+#: includes/Helpers/Builder_Element_Filter.php:1441
+#: includes/Helpers/Builder_Element_Filter.php:1533
+#: includes/Helpers/Builder_Element_Filter.php:1621
+#: includes/Helpers/Builder_Element_Filter.php:1707
+#: includes/Helpers/Builder_Element_Filter.php:1753
+#: includes/Helpers/Builder_Element_Filter.php:1785
+#: includes/Helpers/Builder_Element_Filter.php:1830
+#: includes/Helpers/Builder_Element_Filter.php:1876
+#: includes/Helpers/Builder_Element_Filter.php:1908
+#: includes/Helpers/Builder_Element_Filter.php:1953
+#: includes/Helpers/Builder_Element_Filter.php:1999
+#: includes/Helpers/Builder_Element_Filter.php:2031
+msgid "Transparent State"
+msgstr ""
+
+#: includes/Helpers/Builder_Element_Filter.php:89
+#: includes/Helpers/Builder_Element_Filter.php:117
+#: includes/Helpers/Builder_Element_Filter.php:175
+#: includes/Helpers/Builder_Element_Filter.php:203
+#: includes/Helpers/Builder_Element_Filter.php:525
+#: includes/Helpers/Builder_Element_Filter.php:588
+#: includes/Helpers/Builder_Element_Filter.php:1351
+#: includes/Helpers/Builder_Element_Filter.php:1377
+msgid "Text Initial"
+msgstr ""
+
+#: includes/Helpers/Builder_Element_Filter.php:94
+#: includes/Helpers/Builder_Element_Filter.php:122
+#: includes/Helpers/Builder_Element_Filter.php:180
+#: includes/Helpers/Builder_Element_Filter.php:208
+#: includes/Helpers/Builder_Element_Filter.php:1355
+#: includes/Helpers/Builder_Element_Filter.php:1382
+msgid "Link Initial"
+msgstr ""
+
+#: includes/Helpers/Builder_Element_Filter.php:109
+#: includes/Helpers/Builder_Element_Filter.php:195
+#: includes/Helpers/Builder_Element_Filter.php:279
+#: includes/Helpers/Builder_Element_Filter.php:374
+#: includes/Helpers/Builder_Element_Filter.php:444
+#: includes/Helpers/Builder_Element_Filter.php:518
+#: includes/Helpers/Builder_Element_Filter.php:580
+#: includes/Helpers/Builder_Element_Filter.php:668
+#: includes/Helpers/Builder_Element_Filter.php:768
+#: includes/Helpers/Builder_Element_Filter.php:869
+#: includes/Helpers/Builder_Element_Filter.php:952
+#: includes/Helpers/Builder_Element_Filter.php:1031
+#: includes/Helpers/Builder_Element_Filter.php:1127
+#: includes/Helpers/Builder_Element_Filter.php:1213
+#: includes/Helpers/Builder_Element_Filter.php:1294
+#: includes/Helpers/Builder_Element_Filter.php:1369
+#: includes/Helpers/Builder_Element_Filter.php:1471
+#: includes/Helpers/Builder_Element_Filter.php:1561
+#: includes/Helpers/Builder_Element_Filter.php:1649
+#: includes/Helpers/Builder_Element_Filter.php:1722
+#: includes/Helpers/Builder_Element_Filter.php:1761
+#: includes/Helpers/Builder_Element_Filter.php:1793
+#: includes/Helpers/Builder_Element_Filter.php:1845
+#: includes/Helpers/Builder_Element_Filter.php:1884
+#: includes/Helpers/Builder_Element_Filter.php:1916
+#: includes/Helpers/Builder_Element_Filter.php:1968
+#: includes/Helpers/Builder_Element_Filter.php:2007
+#: includes/Helpers/Builder_Element_Filter.php:2039
+msgid "Sticky State"
+msgstr ""
+
+#: includes/Helpers/Builder_Element_Filter.php:261
+#: includes/Helpers/Builder_Element_Filter.php:287
+#: includes/Helpers/Builder_Element_Filter.php:363
+#: includes/Helpers/Builder_Element_Filter.php:390
+#: includes/Helpers/Builder_Element_Filter.php:438
+#: includes/Helpers/Builder_Element_Filter.php:457
+#: includes/Helpers/Builder_Element_Filter.php:507
+#: includes/Helpers/Builder_Element_Filter.php:569
+#: includes/Helpers/Builder_Element_Filter.php:650
+#: includes/Helpers/Builder_Element_Filter.php:676
+#: includes/Helpers/Builder_Element_Filter.php:756
+#: includes/Helpers/Builder_Element_Filter.php:785
+#: includes/Helpers/Builder_Element_Filter.php:857
+#: includes/Helpers/Builder_Element_Filter.php:886
+#: includes/Helpers/Builder_Element_Filter.php:941
+#: includes/Helpers/Builder_Element_Filter.php:960
+#: includes/Helpers/Builder_Element_Filter.php:1020
+#: includes/Helpers/Builder_Element_Filter.php:1048
+#: includes/Helpers/Builder_Element_Filter.php:1116
+#: includes/Helpers/Builder_Element_Filter.php:1143
+#: includes/Helpers/Builder_Element_Filter.php:1202
+#: includes/Helpers/Builder_Element_Filter.php:1229
+#: includes/Helpers/Builder_Element_Filter.php:1283
+#: includes/Helpers/Builder_Element_Filter.php:1302
+#: includes/Helpers/Builder_Element_Filter.php:1458
+#: includes/Helpers/Builder_Element_Filter.php:1488
+#: includes/Helpers/Builder_Element_Filter.php:1550
+#: includes/Helpers/Builder_Element_Filter.php:1578
+#: includes/Helpers/Builder_Element_Filter.php:1638
+#: includes/Helpers/Builder_Element_Filter.php:1666
+#: includes/Helpers/Builder_Element_Filter.php:1716
+#: includes/Helpers/Builder_Element_Filter.php:1731
+#: includes/Helpers/Builder_Element_Filter.php:1839
+#: includes/Helpers/Builder_Element_Filter.php:1854
+#: includes/Helpers/Builder_Element_Filter.php:1962
+#: includes/Helpers/Builder_Element_Filter.php:1977
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:327
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:355
+msgid "Initial"
+msgstr ""
+
+#: includes/Helpers/Builder_Element_Filter.php:265
+#: includes/Helpers/Builder_Element_Filter.php:291
+#: includes/Helpers/Builder_Element_Filter.php:368
+#: includes/Helpers/Builder_Element_Filter.php:395
+#: includes/Helpers/Builder_Element_Filter.php:654
+#: includes/Helpers/Builder_Element_Filter.php:681
+#: includes/Helpers/Builder_Element_Filter.php:1025
+#: includes/Helpers/Builder_Element_Filter.php:1053
+#: includes/Helpers/Builder_Element_Filter.php:1121
+#: includes/Helpers/Builder_Element_Filter.php:1148
+#: includes/Helpers/Builder_Element_Filter.php:1207
+#: includes/Helpers/Builder_Element_Filter.php:1234
+#: includes/Helpers/Builder_Element_Filter.php:1464
+#: includes/Helpers/Builder_Element_Filter.php:1494
+#: includes/Helpers/Builder_Element_Filter.php:1555
+#: includes/Helpers/Builder_Element_Filter.php:1583
+#: includes/Helpers/Builder_Element_Filter.php:1643
+#: includes/Helpers/Builder_Element_Filter.php:1671
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:331
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:359
+msgid "Hover"
+msgstr ""
+
+#: includes/Helpers/Builder_Element_Filter.php:761
+#: includes/Helpers/Builder_Element_Filter.php:790
+#: includes/Helpers/Builder_Element_Filter.php:862
+#: includes/Helpers/Builder_Element_Filter.php:891
+msgid "Hover/Active"
+msgstr ""
+
+#: includes/Modules/Customizer_Reset_Ext.php:74
+#: includes/Modules/Sections/Customizer_Reset.php:80
+#: includes/Modules/Sections/Customizer_Reset.php:116
+#: includes/Modules/Sections/Customizer_Reset.php:121
+msgid "Customizer Reset"
+msgstr ""
+
+#: includes/Modules/Customizer_Reset_Ext.php:75
+msgid "Enable this extension in order to reset to default settings."
+msgstr ""
+
+#: includes/Modules/Header_Section_Ext.php:74
+msgid "Advanced Header"
+msgstr ""
+
+#: includes/Modules/Header_Section_Ext.php:75
+msgid "Enable this extension in order to enable transparent and sticky header feature."
+msgstr ""
+
+#. translators: %s is a placeholder for the homepage URL
+#: includes/Modules/Helpers/Performance.php:153
+msgid "No feed available, please visit the <a href='%s'>homepage</a>!"
+msgstr ""
+
+#: includes/Modules/Helpers/Social_Sharing.php:739
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:52
+msgid "SHARE THIS POST"
+msgstr ""
+
+#: includes/Modules/Performance_Ext.php:74
+#: includes/Modules/Sections/Performance.php:78
+msgid "Performance"
+msgstr ""
+
+#: includes/Modules/Performance_Ext.php:75
+msgid "Enable this extension in order to enable performance related settings."
+msgstr ""
+
+#: includes/Modules/Progress_Bar_Ext.php:74
+msgid "Reading Progress Bar"
+msgstr ""
+
+#: includes/Modules/Progress_Bar_Ext.php:75
+msgid "Enable this extension to add a reading progress bar on your website."
+msgstr ""
+
+#: includes/Modules/Sections/Customizer_Reset.php:117
+msgid "Click this button to revert all configurations to their initial settings. Please be aware that this action is irreversible."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:114
+msgid "Images"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:119
+msgid "Lazy Load Images"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:123
+msgid "This option will be auto disabled if you have JetPack's lazy load option enabled."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:126
+msgid "Exclude Lazy Load Images"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:132
+msgid "Exclude Above-the-fold Images"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:133
+msgid "Select the number of Above-the-fold images you want to exlude from lazy loading."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:145
+msgid "Excluded images list"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:148
+msgid "Specify keywords (e.g. image filename, CSS class, domain) from the image to be excluded (one per line)."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:155
+msgid "Images Loading Animation Type"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:161
+msgid "Fade"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:162
+msgid "Circles"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:163
+#: includes/Modules/Sections/Performance.php:360
+msgid "None"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:170
+msgid "Disable Lazy Load on Featured Image"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:171
+msgid "This option will disable lazy loading for the featured image on single post."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:180
+msgid "Disable Responsive Images"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:181
+msgid "Enable this option to disable responsive images on your website."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:187
+msgid "Add Missing Image Dimensions"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:188
+msgid "This features add width and height attributes to the images to improve the CLS."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:193
+msgid "Image Dimensions"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:194
+msgid "This option will enable the crop size for the featured images. You can disable the ones that you are not using to save your hosting space."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:199
+msgid "360x240"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:200
+msgid "This image size is used on blog and archive pages."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:206
+msgid "750x520"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:207
+msgid "This image size is used on single post with a sidebar."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:213
+msgid "1170x650"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:214
+msgid "This image size is used on single post without a sidebar."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:221
+msgid "WordPress"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:226
+msgid "Prevent Automatic Favicon Request"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:227
+msgid "Disable the automatic favicon request to speed up your site."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:233
+msgid "Remove Emojis from frontend"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:234
+msgid "Removes WordPress Emojis JavaScript file (wp-emoji-release.min.js)."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:240
+msgid "Disable Self Pingbacks"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:241
+msgid "Disable Self Pingbacks (generated when linking to an article on your own blog)."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:247
+msgid "Disable RSS Feeds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:248
+msgid "Disable WordPress generated RSS feeds and 301 redirect URL to parent."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:254
+msgid "Remove RSS Feed Links"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:255
+msgid "Disable WordPress generated RSS feed link tags."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:261
+msgid "Disable WordPress Embeds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:262
+msgid "Removes WordPress Embeds Javascript file."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:268
+msgid "Local Gravatars"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:269
+msgid "It will enable to load Gravatars from your servers (instead of making requests to the Gravatar site), to improve loading time."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:277
+msgid "CSS/JS Optimization"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:282
+msgid "Remove \"ver\" parameter from CSS and JS file calls."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:283
+msgid "Removes version query strings from your static resources to improve the caching of those resources."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:289
+msgid "Disable Gutenberg style on Page Builder"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:290
+msgid "Disable the block style css on the page built with Elementor."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:296
+msgid "Preload CSS"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:297
+msgid "Preloading your CSS helps the pages load quicker."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:303
+msgid "JavaScript Optimization"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:304
+msgid "Manage Javascript files loading on your site."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:309
+msgid "Defer JavaScript Files"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:310
+msgid "Defer loading of render-blocking JavaScript files for faster website loading."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:316
+msgid "Deferred Excluded JavaScript Files"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:317
+msgid "Specify JavaScript files to be excluded from defer (one per line)."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:324
+msgid "Delay JavaScript Files"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:325
+msgid "It Improves the loading speed by delaying the loading of JS files until user interaction such as click, scroll, etc."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:331
+msgid "Delay Behaviour"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:334
+msgid "All Scripts"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:335
+msgid "Specific Scripts"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:342
+msgid "Excluded from Delay"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:343
+msgid "Specify JavaScript files to be excluded from delaying execution (one per line)."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:350
+msgid "Delayed Scripts"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:351
+msgid "Specify JavaScript files to be included while delaying execution (one per line)."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:356
+msgid "Delay Timeout"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:357
+msgid "Set the time to load the delayed scripts if no user interaction is detected."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:361
+msgid "One second"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:362
+msgid "Two seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:363
+msgid "Three seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:364
+msgid "Four seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:365
+msgid "Five seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:366
+msgid "Six seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:367
+msgid "Seven seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:368
+msgid "Eight seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:369
+msgid "Nine seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:370
+msgid "Ten seconds"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:378
+msgid "Fonts"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:383
+msgid "Display Swap"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:384
+msgid "It adds font display swap property to your Google fonts to improve its rendering."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:392
+msgid "Elementor"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:397
+msgid "Disable Google Fonts"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:398
+msgid "Enabling this option will prevent Elementor Google fonts from loading."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:404
+msgid "Disable Icons"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:405
+msgid "Enabling this option will prevent Elementor icons from loading."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:411
+msgid "Disable Font Awesome"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:412
+msgid "Enabling this option will prevent Elementor Font Awesome icons from loading."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:418
+msgid "Disable Frontend Script"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:419
+msgid "Enabling this option will prevent Elementor frontend scripts (such as swiper, dialog, share link) from loading."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:425
+msgid "Disable Elementor Pro Scripts"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:426
+msgid "Enabling this option will prevent some of the scripts of Elementor Pro from loading."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:434
+#: includes/Plugin_Manager.php:85
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:439
+msgid "Disable Scripts and Styles"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:440
+msgid "Disables WooCommerce scripts and styles except on product, cart, and checkout pages."
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:446
+msgid "Disable Cart Fragmentation"
+msgstr ""
+
+#: includes/Modules/Sections/Performance.php:447
+msgid "Completely disables WooCommerce cart fragmentation script."
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:43
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:105
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:41
+msgid "General"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:109
+msgid "Thickness"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:139
+msgid "Display Condition"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:145
+msgid "Everywhere"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:146
+msgid "Post"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:147
+msgid "Page"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:151
+msgid "Position"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:157
+msgid "Top"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:158
+msgid "Bottom"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:164
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:295
+msgid "Design"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:168
+msgid "Color"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:184
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:339
+msgid "Background Color"
+msgstr ""
+
+#: includes/Modules/Sections/Progress_Bar.php:189
+msgid "Progress Color"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:22
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:30
+msgid "Transparent Header"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:45
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:53
+msgid "Sticky Logo"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:56
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:143
+msgid "Select Logo"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:57
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:144
+msgid "Change Logo"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:65
+msgid "Choose Sticky Header"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:73
+msgid "Top Row"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:74
+msgid "Main Row"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:75
+msgid "Bottom Row"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:85
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:106
+msgid "Enable On"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:115
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:287
+msgid "Desktop"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:116
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:289
+msgid "Mobile"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:132
+msgid "Enable Transparent Header"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:140
+msgid "Transparent Logo"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:152
+msgid "Transparent Header Locations"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Header_Section_Setting.php:166
+msgid "Disable on Mobile"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:35
+msgid "Social Share"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:59
+msgid "Open Graph Meta Tags"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:60
+msgid "Disable this option if you’re using Jetpack, Yoast or other plugins to maintain Open Graph Meta Tags"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:65
+msgid "Sticky Share"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:70
+msgid "Float"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:76
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:119
+msgid "Left"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:77
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:121
+msgid "Right"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:85
+msgid "Top Offset"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:99
+msgid "Side Offset"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:113
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:376
+msgid "Alignment"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:120
+msgid "Center"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:129
+msgid "Shape"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:135
+msgid "Square"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:136
+msgid "Circle"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:141
+msgid "Social Networks"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:145
+msgid "Facebook"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:150
+msgid "Twitter"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:155
+msgid "Pinterest"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:160
+msgid "Linkedin"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:165
+msgid "Email"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:170
+msgid "Reddit"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:175
+msgid "Telegram"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:180
+msgid "Viber"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:185
+msgid "Whatsapp"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:190
+msgid "VKontakte"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:195
+msgid "Tumblr"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:200
+msgid "Flipboard"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:205
+msgid "Weibo"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:210
+msgid "Odnoklassniki"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:215
+msgid "Xing"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:220
+msgid "Set links to nofollow"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:227
+msgid "Icon Size"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:238
+msgid "Icons Spacing"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:277
+msgid "Visibility"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:288
+msgid "Tablet"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:299
+msgid "Icon Color"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:305
+msgid "Brand"
+msgstr ""
+
+#: includes/Modules/Sections/Settings/Social_Sharing_Setting.php:311
+msgid "Icons Color"
+msgstr ""
+
+#: includes/Modules/Sidebar_Blocks_Ext.php:81
+msgid "Sidebar Blocks"
+msgstr ""
+
+#: includes/Modules/Sidebar_Blocks_Ext.php:82
+msgid "Enable this extension to add blocks like Recent Posts, Popular Posts, Author Bio, and many more to the sidebar."
+msgstr ""
+
+#: includes/Modules/Social_Sharing_Ext.php:74
+msgid "Social Sharing"
+msgstr ""
+
+#: includes/Modules/Social_Sharing_Ext.php:75
+msgid "Enable this extension to add social sharing option in single post."
+msgstr ""
+
+#. Translators: %1$s and %2$s are placeholders for opening and closing bold tags respectively. Rishi Companion plugin requires Rishi Theme to be installed and activated to work properly. Please install and activate the theme to use the plugin.
+#: includes/Plugin.php:142
+msgid "%1$sRishi Companion plugin%2$s requires Rishi Theme to be installed and activated to work properly. Please install and activate the theme to use the plugin."
+msgstr ""
+
+#: includes/Plugin_Admin.php:151
+msgid "Rishi Blocks"
+msgstr ""
+
+#: includes/Plugin_Manager.php:55
+msgid "AffiliateX"
+msgstr ""
+
+#: includes/Plugin_Manager.php:56
+msgid "AffiliateX is a Gutenberg blocks plugin for affiliate marketers. You can create highly effective affiliate marketing blogs with AffiliateX blocks, increasing the conversion rate and boost your affiliate income."
+msgstr ""
+
+#: includes/Plugin_Manager.php:65
+msgid "Mega Elements"
+msgstr ""
+
+#: includes/Plugin_Manager.php:66
+msgid "Mega Elements is a powerful and advanced all-in-one Elementor addons that help you create a beautiful website with ease."
+msgstr ""
+
+#: includes/Plugin_Manager.php:75
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: includes/Plugin_Manager.php:76
+msgid "Elementor is one of the most advanced frontend drag & drop page builders to help you create pixel-perfect websites in less time."
+msgstr ""
+
+#: includes/Plugin_Manager.php:86
+msgid "WooCommerce is the world’s most popular open source eCommerce plugin that helps you create an online store easily."
+msgstr ""
+
+#: includes/Plugin_Manager.php:95
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/Plugin_Manager.php:96
+msgid "Contact Form 7 is one of the most downloaded and popular contact form plugins to quickly add forms to your website."
+msgstr ""
+
+#. translators: %1$s is a placeholder for the plugin name (Rishi Companion)
+#: includes/updater/class-rishi-companion-updater.php:108
+msgid "Activate the license key for %1$s plugin to enjoy the full benefits of the advanced features."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:112
+msgid "Please Activate Plugin License "
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:112
+msgid "here."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:112
+msgid " If you face any issue, please contact our support "
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:112
+msgid " Here’s a guide to "
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:112
+msgid "activate your license key."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:252
+#: includes/updater/class-rishi-companion-updater.php:308
+#: includes/updater/class-rishi-companion-updater.php:362
+msgid "An error occurred, please try again."
+msgstr ""
+
+#. translators: %1$s is a placeholder for the extension name, %2$s is a placeholder for the expiration date
+#: includes/updater/class-rishi-companion-updater.php:329
+msgid "Your license for %1$s extension expired on %2$s. To ensure you get features and security updates, having an active license is strongly recommended, and in some cases required."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:337
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:341
+msgid "Invalid license key supplied. Please check if you have entered correct license key."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:346
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. translators: %s is a placeholder for the product name
+#: includes/updater/class-rishi-companion-updater.php:352
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:358
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:426
+msgid "Getting Started"
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:427
+msgid "Enter your theme license key."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:428
+msgid "License Key"
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:429
+msgid "License Action"
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:430
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/License.js:233
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:431
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/License.js:244
+msgid "Activate License"
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:432
+#: includes/updater/class-rishi-companion-updater.php:445
+msgid "License status is unknown."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:433
+msgid "Renew?"
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:434
+msgid "unlimited"
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:435
+msgid "License key is active."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:436
+msgid "Expires %s."
+msgstr ""
+
+#. Translators: Placeholder %s is for the expiration date.
+#: includes/updater/class-rishi-companion-updater.php:437
+msgid "Lifetime License."
+msgstr ""
+
+#. Translators: Indicates a license that doesn't expire.
+#: includes/updater/class-rishi-companion-updater.php:438
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#. Translators: Placeholder %1$s is for the number of activated sites, %2$s is for the total number of allowed sites.
+#: includes/updater/class-rishi-companion-updater.php:439
+msgid "License key expired on %s."
+msgstr ""
+
+#. Translators: Placeholder %s is for the expiration date.
+#: includes/updater/class-rishi-companion-updater.php:440
+msgid "License key has expired."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:441
+msgid "License keys do not match."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:442
+msgid "License is inactive."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:443
+msgid "License key is disabled."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:444
+msgid "Site is inactive."
+msgstr ""
+
+#: includes/updater/class-rishi-companion-updater.php:446
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+#. Translators: %1$s is a placeholder for the plugin/theme name, %2$s is a placeholder for the version number. %3$s is a placeholder for the URL to check what's new, %4$s is a placeholder for the title attribute of the 'Check out what's new' link. %5$s is a placeholder for the URL to update, %6$s is a placeholder for additional attributes for the 'update now' link.
+#: includes/updater/class-rishi-companion-updater.php:447
+msgid "<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" title=\"%4$s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: includes/updater/EDD_SL_Plugin_Updater.php:251
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/updater/EDD_SL_Plugin_Updater.php:259
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/updater/EDD_SL_Plugin_Updater.php:503
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/updater/EDD_SL_Plugin_Updater.php:503
+msgid "Error"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:81
+#: src/admin/blocks/facebook/inspector.js:20
+#: src/admin/blocks/popular-posts/Inspector.js:24
+#: src/admin/blocks/posts-tab/Inspector.js:18
+#: src/admin/blocks/recent-posts/Inspector.js:20
+msgid "Settings"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:60
+#: src/admin/blocks/author-bio/Inspector.js:95
+#: src/admin/blocks/categories/Inspector.js:36
+#: src/admin/blocks/facebook/inspector.js:34
+#: src/admin/blocks/pinterest/Inspector.js:24
+#: src/admin/blocks/popular-posts/Inspector.js:38
+#: src/admin/blocks/recent-posts/Inspector.js:34
+msgid "Title Selector"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:64
+#: src/admin/blocks/author-bio/Inspector.js:99
+#: src/admin/blocks/categories/Inspector.js:40
+#: src/admin/blocks/facebook/inspector.js:38
+#: src/admin/blocks/pinterest/Inspector.js:28
+#: src/admin/blocks/popular-posts/Inspector.js:42
+#: src/admin/blocks/recent-posts/Inspector.js:38
+msgid "H1"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:65
+#: src/admin/blocks/author-bio/Inspector.js:100
+#: src/admin/blocks/categories/Inspector.js:41
+#: src/admin/blocks/facebook/inspector.js:39
+#: src/admin/blocks/pinterest/Inspector.js:29
+#: src/admin/blocks/popular-posts/Inspector.js:43
+#: src/admin/blocks/recent-posts/Inspector.js:39
+msgid "H2"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:66
+#: src/admin/blocks/author-bio/Inspector.js:101
+#: src/admin/blocks/categories/Inspector.js:42
+#: src/admin/blocks/facebook/inspector.js:40
+#: src/admin/blocks/pinterest/Inspector.js:30
+#: src/admin/blocks/popular-posts/Inspector.js:44
+#: src/admin/blocks/recent-posts/Inspector.js:40
+msgid "H3"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:67
+#: src/admin/blocks/author-bio/Inspector.js:102
+#: src/admin/blocks/categories/Inspector.js:43
+#: src/admin/blocks/facebook/inspector.js:41
+#: src/admin/blocks/pinterest/Inspector.js:31
+#: src/admin/blocks/popular-posts/Inspector.js:45
+#: src/admin/blocks/recent-posts/Inspector.js:41
+msgid "H4"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:68
+#: src/admin/blocks/author-bio/Inspector.js:103
+#: src/admin/blocks/categories/Inspector.js:44
+#: src/admin/blocks/facebook/inspector.js:42
+#: src/admin/blocks/pinterest/Inspector.js:32
+#: src/admin/blocks/popular-posts/Inspector.js:46
+#: src/admin/blocks/recent-posts/Inspector.js:42
+msgid "H5"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:69
+#: src/admin/blocks/author-bio/Inspector.js:104
+#: src/admin/blocks/categories/Inspector.js:45
+#: src/admin/blocks/facebook/inspector.js:43
+#: src/admin/blocks/pinterest/Inspector.js:33
+#: src/admin/blocks/popular-posts/Inspector.js:47
+#: src/admin/blocks/recent-posts/Inspector.js:43
+msgid "H6"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:70
+#: src/admin/blocks/author-bio/Inspector.js:105
+#: src/admin/blocks/categories/Inspector.js:46
+#: src/admin/blocks/facebook/inspector.js:44
+#: src/admin/blocks/pinterest/Inspector.js:34
+#: src/admin/blocks/popular-posts/Inspector.js:48
+#: src/admin/blocks/recent-posts/Inspector.js:44
+msgid "span"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:71
+#: src/admin/blocks/author-bio/Inspector.js:106
+#: src/admin/blocks/categories/Inspector.js:47
+#: src/admin/blocks/facebook/inspector.js:45
+#: src/admin/blocks/pinterest/Inspector.js:35
+#: src/admin/blocks/popular-posts/Inspector.js:49
+#: src/admin/blocks/recent-posts/Inspector.js:45
+msgid "p"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:72
+#: src/admin/blocks/author-bio/Inspector.js:107
+#: src/admin/blocks/categories/Inspector.js:48
+#: src/admin/blocks/facebook/inspector.js:46
+#: src/admin/blocks/pinterest/Inspector.js:36
+#: src/admin/blocks/popular-posts/Inspector.js:50
+#: src/admin/blocks/recent-posts/Inspector.js:46
+msgid "div"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:59
+#: src/admin/blocks/posts-tab/Inspector.js:40
+#: src/admin/blocks/recent-posts/Inspector.js:55
+msgid "Number of Posts"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:86
+#: src/admin/blocks/posts-tab/Inspector.js:55
+#: src/admin/blocks/recent-posts/Inspector.js:70
+msgid "Featured Image"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:97
+#: src/admin/blocks/posts-tab/Inspector.js:67
+#: src/admin/blocks/recent-posts/Inspector.js:82
+msgid "Image Size"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:101
+#: src/admin/blocks/posts-tab/Inspector.js:71
+#: src/admin/blocks/recent-posts/Inspector.js:86
+msgid "Default"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:102
+#: src/admin/blocks/posts-tab/Inspector.js:72
+#: src/admin/blocks/recent-posts/Inspector.js:87
+msgid "Full Size"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:112
+#: src/admin/blocks/posts-tab/Inspector.js:82
+#: src/admin/blocks/recent-posts/Inspector.js:97
+msgid "Post Date"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:173
+#: src/admin/blocks/popular-posts/Inspector.js:146
+#: src/admin/blocks/recent-posts/Inspector.js:108
+msgid "Open in New Tab"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:157
+#: src/admin/blocks/recent-posts/Inspector.js:119
+msgid "Layout"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:162
+#: src/admin/blocks/recent-posts/Inspector.js:124
+msgid "Layout One"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:166
+#: src/admin/blocks/recent-posts/Inspector.js:128
+msgid "Layout Two"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:170
+#: src/admin/blocks/recent-posts/Inspector.js:132
+msgid "Layout Three"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/recent-posts/index.js:20
+msgid "Rishi - Recent Posts"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/recent-posts/index.js:21
+msgid "Add a customizable Recent Posts."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/recent-posts/index.js:29
+msgid "Recent"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/index.js:30
+#: src/admin/blocks/recent-posts/index.js:30
+msgid "Posts"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:72
+msgid "Show Posts Based on"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:76
+msgid "Views"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:77
+msgid "Comments"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:123
+msgid "Views Count"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/Inspector.js:135
+msgid "Comments Count"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/index.js:20
+msgid "Rishi - Popular Posts"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/index.js:21
+msgid "Add a customizable Popular Posts."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/popular-posts/index.js:29
+msgid "Popular"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/categories/Inspector.js:22
+msgid "Categories Settings"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/categories/Inspector.js:60
+msgid "Categories List"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/categories/Inspector.js:71
+msgid "Show Post Count"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/categories/Save.js:35
+msgid " Post"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/categories/Save.js:35
+msgid " Posts"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/categories/index.js:21
+msgid "Rishi - Categories"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/categories/index.js:22
+msgid "Add a customizable Categories."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/attributes.js:5
+#: src/admin/blocks/advertisement/index.js:29
+msgid "Advertisement"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:46
+msgid "Advertisement Settings"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:81
+msgid "Display Advertisement from:"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:85
+#: src/admin/blocks/advertisement/Inspector.js:209
+msgid "Ad Code"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:86
+msgid "Upload Image"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:144
+msgid " Replace Image"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:157
+msgid "Remove Image"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:116
+msgid " Upload Image"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:167
+msgid "Featured Link"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:184
+msgid "Add rel attribute nofollow"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/Inspector.js:195
+msgid "Add rel attribute sponsored"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/index.js:21
+msgid "Rishi - Advertisement"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/index.js:22
+msgid "Add a customizable Advertisement widgets."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/advertisement/index.js:30
+msgid "Advert"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:85
+msgid "Configure all the author details here:"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:115
+msgid "Author Name"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:122
+msgid "Author Bio"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:130
+msgid "Write something about yourself..."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:136
+msgid "Display photo from:"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:140
+msgid "Gravatar"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:141
+msgid "Upload Photo"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:243
+msgid "Author Email"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:263
+msgid "You can show your %sGravatar%s  image instead of manually uploading your photo. Just add your gravatar registered email address here."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:349
+msgid "Button Label"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Inspector.js:364
+msgid "Image Shape"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/AuthorBio.js:64
+#: src/admin/blocks/author-bio/Save.js:63
+msgid "Please use the valid gravatar email address."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Attributes.js:8
+msgid "About me"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Attributes.js:20
+msgid "Sarah Jane"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/Attributes.js:61
+msgid "Read More"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/index.js:21
+msgid "Rishi - Author Bio"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/author-bio/index.js:22
+msgid "Add a author bio widgets."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/posts-tab/Inspector.js:24
+msgid "Tab-1 Title"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/posts-tab/Inspector.js:32
+msgid "Tab-2 Title"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/posts-tab/index.js:22
+msgid "Add a customizable Posts Tab."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/pinterest/Inspector.js:16
+msgid "Pinterest Block Title"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/pinterest/Edit.js:31
+msgid "Enter Title Here"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/attributes.js:8
+msgid "Follow Us"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/inspector.js:54
+msgid "Enter valid Facebook Page URL"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/inspector.js:60
+msgid "Tabs"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/inspector.js:64
+msgid "Timeline"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/inspector.js:65
+msgid "Messages"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/inspector.js:73
+msgid "Width"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/inspector.js:91
+msgid "Height"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/inspector.js:109
+msgid "Cover Photo"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/inspector.js:119
+msgid "Small Header"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/index.js:21
+msgid "Rishi - Facebook"
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/index.js:22
+msgid "Add a customizable facebook blocks."
+msgstr ""
+
+#: build/blocks.js:1
+#: src/admin/blocks/facebook/index.js:28
+msgid "facebook"
+msgstr ""
+
+#: build/customizerReset.js:1
+#: src/admin/extensions/customizerReset/CustomizerReset.js:43
+msgid "Reset Settings"
+msgstr ""
+
+#: build/customizerReset.js:1
+#: src/admin/extensions/customizerReset/CustomizerReset.js:51
+msgid "You are about to restore all settings back to their original state, do you wish to proceed?"
+msgstr ""
+
+#: build/customizerReset.js:1
+#: src/admin/extensions/customizerReset/CustomizerReset.js:53
+msgid "Cancel"
+msgstr ""
+
+#: build/customizerReset.js:1
+#: src/admin/extensions/customizerReset/CustomizerReset.js:55
+msgid "Confirm"
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/Extensions.js:18
+msgid "Add additional customization to WooCommerce pages and products."
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/Extensions.js:143
+#: src/admin/dashboard/components/Extensions.js:144
+msgid "Configure"
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/UsefulPlugins.js:13
+msgid "Deactivate"
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/UsefulPlugins.js:14
+msgid "Activate"
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/UsefulPlugins.js:15
+msgid "Install"
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/ui-components/LicenseUI.js:21
+msgid "You can find your license key from "
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/ui-components/LicenseUI.js:21
+msgid "your account "
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/ui-components/LicenseUI.js:21
+msgid "on our website. The license key is required to receive updates and support."
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/License.js:131
+msgid "Activate Rishi Companion License"
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/License.js:212
+msgid "Your license key for Rishi Companion is activated on the site."
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/components/License.js:219
+msgid "Your license key for Rishi Companion is not activated on the site yet, Please Activate."
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/CompanionTabs.js:5
+msgid "Extensions"
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/CompanionTabs.js:6
+msgid "Useful Plugins"
+msgstr ""
+
+#: build/dashboard.js:1
+#: src/admin/dashboard/CompanionTabs.js:7
+msgid "License"
+msgstr ""
+
+#: build/admin/blocks/pinterest/block.json
+#: src/admin/blocks/pinterest/block.json
+msgctxt "block title"
+msgid "Rishi - Pinterest"
+msgstr ""
+
+#: build/admin/blocks/pinterest/block.json
+#: src/admin/blocks/pinterest/block.json
+msgctxt "block description"
+msgid "Display Pinterest feed."
+msgstr ""
+
+#: build/admin/blocks/pinterest/block.json
+#: src/admin/blocks/pinterest/block.json
+msgctxt "block keyword"
+msgid "pinterest"
+msgstr ""
+
+#: build/admin/blocks/pinterest/block.json
+#: src/admin/blocks/pinterest/block.json
+msgctxt "block keyword"
+msgid "social media"
+msgstr ""
+
+#: build/admin/blocks/pinterest/block.json
+#: src/admin/blocks/pinterest/block.json
+msgctxt "block keyword"
+msgid "rishi"
+msgstr ""

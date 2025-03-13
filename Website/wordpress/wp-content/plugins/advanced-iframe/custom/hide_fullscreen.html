@@ -1,0 +1,31 @@
+<style>
+img.ai-fullscreen-open {
+  width: {width};
+  height: {height};
+  cursor: pointer;
+}
+
+img.ai-fullscreen-open:hover { 
+  transform: scale(1.1); 
+}
+
+img.ai-fullscreen-close { 
+  z-index:100005;
+  position:fixed;
+  width: {width};
+  height: {height};
+  cursor:pointer;
+  display:none; 
+}
+
+img.ai-fullscreen-close-{id} { 
+  {x_style}: {x_distance};
+  {y_style}: {y_distance};
+}
+
+img.ai-fullscreen-close:hover { 
+  transform: scale(1.1); 
+}
+</style>
+<img class="ai-fullscreen-open ai-fullscreen-open"         src="{site}/wp-content/plugins/advanced-iframe/img/fullscreen_open.png" data-id="{id}" />
+<img class="ai-fullscreen-close ai-fullscreen-close-{id}"  src="{site}/wp-content/plugins/advanced-iframe/img/fullscreen_close.png" />

@@ -1,0 +1,329 @@
+#customize-controls .customize-pane-child .customize-section-title h3, #customize-controls .customize-pane-child h3.customize-section-title, #customize-outer-theme-controls .customize-pane-child .customize-section-title h3, #customize-outer-theme-controls .customize-pane-child h3.customize-section-title, #customize-controls .customize-info .panel-title{
+	font-weight: 600;
+}
+
+#customize-controls .wp-full-overlay-sidebar-content{
+	&::-webkit-scrollbar{
+		width: 8px;
+		background-color: #E0E3E7;
+	}
+	&::-webkit-scrollbar-thumb{
+		background-color: #93999F;
+		border-radius: 8px;
+	}
+}
+
+#customize-controls {
+	background-color: #ffffff;
+}
+
+#customize-theme-controls,
+#customize-outer-theme-controls {
+	.control-section.open {
+		border: none;
+	}
+
+	.accordion-section {
+
+		.rishi-view-pro {
+			padding-top: 16px;
+			text-align: center;
+
+			.button {
+				float: none;
+			}
+		}
+
+		.accordion-section-title {
+			border: none !important;
+			border-radius: 4px;
+			color: #667085;
+			padding: 10px 16px;
+			margin-bottom: 0 !important;
+
+			&:hover,
+			&:focus {
+				background-color: #E9EDF3;
+				color: #344054;
+			}
+		}
+
+		&.rishi-group-title {
+			display: block !important;
+			// margin-top: 16px;
+			border-top: 10px solid #DAE2EE;
+			border-bottom: none;
+
+			h3 {
+				padding: 10px 16px;
+				font-weight: 500;
+			}
+		}
+
+		.customize-info{
+			margin-bottom: 0;
+			.customize-panel-back{
+				height: 74px;
+			}
+			.accordion-section-title{
+				padding-top: 10px;
+				padding-bottom: 12px;
+				border-color: transparent !important;
+			}
+		}
+		.accordion-section{
+			border-top: none !important;
+		}
+		.accordion-section-title{
+			font-size: 14px;
+			font-weight: 600;
+			padding: 16px;
+			border-bottom: 1px solid var(--cw__border-color) !important;
+			color: #2b3034;
+			border-radius: 0;
+		}
+	}
+
+	ul.customize-pane-child {
+		padding-top: 0 !important;
+		.customize-section-title{
+			margin-top: 0 !important;
+		}
+		&.accordion-section-content {
+			background-color: #ffffff;
+			// padding: 12px !important;
+		}
+
+		//old "rt" styles
+		.rishi-controls-container {
+			.rt-control {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding: 10px 16px;
+				border-radius: 4px;
+
+				header {
+					label {
+						font-size: 14px;
+					}
+				}
+
+				.rishi-customizer-panel-new-option {
+					display: flex;
+					align-items: center;
+					gap: 8px;
+
+					>button {
+						display: block;
+						width: 18px;
+						height: 18px;
+						background-image: url("data:image/svg+xml,%3Csvg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.97769 0.209991L10.2277 8.45999L10.7422 8.99999L10.2269 9.53999L1.97694 17.79L0.896936 16.71L8.60994 8.99999L0.899938 1.28999L1.97769 0.209991Z' fill='%232B3034'/%3E%3C/svg%3E%0A");
+						background-size: auto 100%;
+						background-repeat: no-repeat;
+						background-position: center;
+					}
+				}
+
+				&:hover,
+				&:focus {
+					background-color: #E9EDF3;
+					color: #344054;
+				}
+			}
+		}
+	}
+
+	.customize-virtual-section {
+		margin-top: -16px;
+
+
+	}
+
+	.customize-panel-actions {
+		border-bottom: 1px solid #dcdcde;
+
+		h3 {
+			font-size: 20px;
+			font-weight: 200;
+			line-height: 26px;
+			display: block;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			padding: 10px 10px 12px 14px;
+			color: #50575e;
+
+			span {
+				font-size: 13px;
+				display: block;
+				font-weight: 400;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+
+		&::after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+	}
+
+	.customizer-panel-content {
+		padding: 0 12px;
+
+		.rishi-option-widget-area {
+			margin: 16px 0;
+			padding: 16px;
+			border: 1px solid var(--cw__border-color);
+			border-radius: var(--cw__border-radius);
+
+			.customize-widgets-header {
+				margin: -16px -16px 16px;
+			}
+
+			.editor-styles-wrapper {
+				padding: 0;
+			}
+
+			.block-list-appender {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.rishi-controls-container {
+		&:first-child {
+			margin-top: -15px;
+		}
+	}
+}
+
+#customize-theme-controls #sub-accordion-section-header,
+#customize-theme-controls #sub-accordion-section- {
+	&.rishi-panel-open {
+		padding-top: 0 !important;
+
+		.section-meta,
+		.rishi-title {
+			display: none;
+		}
+
+		.rishi-controls-container {
+			margin-top: 0.1px;
+		}
+
+		.customize-panel-actions {
+			display: flex;
+			align-items: center;
+			margin: 0 -12px;
+
+			h3 {
+				padding: 10px 14px;
+				font-size: 20px;
+				font-weight: 200;
+				line-height: 26px;
+				display: block;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				color: #50575e;
+
+				span {
+					font-size: 13px;
+					font-weight: 400;
+					display: block;
+				}
+			}
+		}
+
+		.rishi-builder-items {
+			grid-template-columns: 1fr;
+			padding-top: 0;
+
+			.rishi-builder-item {
+				&:not(.rishi-customizer-panel-new) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.rishi-tabs {
+	>ul {
+		display: flex;
+		margin: 0 -12px;
+		border-top: 1px solid var(--cw__border-color);
+		border-bottom: 1px solid var(--cw__border-color);
+
+		li {
+			flex: 1;
+			padding: 16px;
+			font-size: 14px;
+			font-weight: normal;
+			text-align: center;
+			margin: 0;
+
+			&:not(:last-of-type) {
+				border-right: 1px solid var(--cw__border-color);
+			}
+
+			&:not(.active) {
+				cursor: pointer;
+
+				&:hover {
+					color: var(--cw__secondary-color);
+				}
+			}
+
+			&.active {
+				font-weight: 600;
+				color: var(--cw__secondary-color);
+				background-color: var(--cw__background-color);
+			}
+		}
+	}
+	&:first-child{
+		> ul{
+			border-top: none;
+		}
+	}
+}
+
+//old "rt" styles
+.customize-virtual-section {
+	position: relative;
+	background-color: #ffffff;
+}
+.customize-widgets-layout__inspector.open {
+    z-index: 11;
+	min-height: 100% !important;
+}
+.rishi-option-widget-area .block-editor-block-popover{
+	position: absolute !important;
+	left: 12px !important;
+	max-width: 100%;
+	.components-popover__content{
+		max-width: calc(100% - 24px);
+	}
+	.block-editor-block-toolbar{
+		flex-wrap: wrap;
+		> div{
+			border-bottom: 1px solid;
+			flex: auto;
+			justify-content: center;
+			height: 47px !important;
+			&:first-child{
+				border-right: 1px solid;
+			}
+			> * {
+				&:last-child{
+					border-right: 0 !important;
+				}
+			}
+		}
+	}
+}

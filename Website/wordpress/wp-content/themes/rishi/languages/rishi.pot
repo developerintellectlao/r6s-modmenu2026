@@ -1,0 +1,4246 @@
+# Copyright (C) 2023 Rishi Theme
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rishi 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/rishi\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-09T11:23:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: rishi\n"
+
+#. Theme Name of the theme
+#: inc/dashboard/pages/header/DashHeader.js:13
+msgid "Rishi"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://rishitheme.com/"
+msgstr ""
+
+#. Description of the theme
+msgid "Rishi is a core web vitals optimised WordPress theme. It is lightning fast (loads in less than 500ms), lightweight (less than 90KB on front-end) and highly customizable. Built with performance in mind (no JQuery and only 8 requests in default theme), it comes with tons of performance enhancement features for unparalleled speed. Plus, it is schema.org friendly and SEO optimised to get top ranking in Google.  Rishi is perfect for blog, business, portfolio, education, startup, agencies, digital marketing, travel, eCommerce shop (WooCommerce), magazine, coaching, affiliate marketing, non-profit, events and most types of websites. It works flawlessly with popular page builders (Elementor and Gutenberg), Yoast, RankMath and WooCommerce. Some other features include:  RTL ready, Translation Ready, Responsive and starter templates (check here: https://rishitheme.com/starter-sites/). Looking for a core web vitals optimised WordPress theme with unmatched performance? Look no further. Try Rishi theme today!"
+msgstr ""
+
+#. Author of the theme
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:303
+#: inc/classes/class-dashboard.php:56
+#: inc/classes/class-dashboard.php:57
+msgid "Rishi Theme"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://rishitheme.com/about/"
+msgstr ""
+
+#. translators: 1: comment count number.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-bottom-row.php:28
+#: customizer/classes/Builder/Header/Elements/class-bottom-row.php:43
+#: customizer/classes/Settings/Layouts_Section_Setting.php:990
+#: customizer/dist/customizer.js:1187
+#: customizer/dist/customizer.js:1195
+#: customizer/dist/modules.js:1187
+#: customizer/dist/modules.js:1195
+#: customizer/dist/postmeta.js:1187
+#: customizer/dist/postmeta.js:1195
+#: customizer/src/controls/control-components/layout-builder/composer-layout/ComposerLayout.jsx:13
+#: customizer/src/controls/control-components/layout-builder/footer/Row.jsx:15
+msgid "Bottom Row"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:27
+msgid "Contacts"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:46
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:38
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:60
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:39
+#: customizer/classes/Builder/Header/Elements/class-button.php:38
+#: customizer/classes/Builder/Header/Elements/class-cart.php:40
+#: customizer/classes/Builder/Header/Elements/class-cart.php:113
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:38
+#: customizer/classes/Builder/Header/Elements/class-date.php:40
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:44
+#: customizer/classes/Builder/Header/Elements/class-menu.php:48
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:78
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:56
+#: customizer/classes/Builder/Header/Elements/class-search.php:45
+#: customizer/classes/Builder/Header/Elements/class-socials.php:43
+#: customizer/classes/Builder/Header/Elements/class-text.php:46
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:45
+#: customizer/classes/Sections/Blog.php:573
+#: customizer/classes/Sections/Pages.php:219
+#: customizer/classes/Sections/Single.php:215
+#: customizer/classes/Sections/Woo_General.php:371
+#: customizer/classes/Sections/Woo_Shop.php:274
+#: customizer/classes/Sections/Woo_Shop.php:403
+#: customizer/classes/Settings/Layouts_Section_Setting.php:132
+#: customizer/classes/Settings/Layouts_Section_Setting.php:351
+#: customizer/classes/Settings/Layouts_Section_Setting.php:552
+msgid "General"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:57
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:50
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:72
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:50
+#: customizer/classes/Builder/Header/Elements/class-button.php:50
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:50
+#: customizer/classes/Builder/Header/Elements/class-date.php:51
+#: customizer/classes/Builder/Header/Elements/class-image.php:46
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:56
+#: customizer/classes/Builder/Header/Elements/class-menu.php:59
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:56
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:68
+#: customizer/classes/Builder/Header/Elements/class-search.php:57
+#: customizer/classes/Builder/Header/Elements/class-socials.php:54
+#: customizer/classes/Builder/Header/Elements/class-text.php:58
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:56
+msgid "Hide"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:60
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:53
+msgid "Icons"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:68
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:188
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:541
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:61
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:180
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:712
+msgid "Email:"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:76
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:111
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:549
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:68
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:103
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:719
+msgid "Phone:"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:84
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:96
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:76
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:88
+msgid "Address"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:89
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:110
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:137
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:165
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:187
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:215
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:81
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:102
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:129
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:157
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:179
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:207
+#: customizer/classes/Sections/Blog.php:866
+#: customizer/classes/Sections/Search.php:485
+#: customizer/classes/Sections/Single.php:309
+msgid "Title"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:90
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:82
+msgid "Address:"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:105
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:97
+#: customizer/classes/Helpers/Defaults.php:2317
+#: customizer/classes/Helpers/Defaults.php:2328
+msgid "Phone"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:116
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:108
+msgid "Phone No."
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:123
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:151
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:201
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:229
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:115
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:143
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:193
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:221
+msgid "Link (optional)"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:132
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:114
+#: customizer/classes/Builder/Header/Elements/class-button.php:142
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:124
+#: customizer/classes/Helpers/Defaults.php:2339
+#: customizer/classes/Sections/Archive.php:438
+#: customizer/classes/Sections/Author.php:455
+#: customizer/classes/Sections/Blog.php:842
+#: customizer/classes/Sections/Search.php:461
+#: customizer/classes/Sections/Single.php:303
+#: customizer/classes/Settings/Layouts_Section_Setting.php:719
+#: customizer/classes/Settings/Layouts_Section_Setting.php:1030
+msgid "Mobile"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:138
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:130
+msgid "Mobile:"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:144
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:136
+msgid "Mobile No."
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:160
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:152
+msgid "Work Hours"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:166
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:158
+msgid "Opening hours"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:172
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:164
+msgid "Time"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:181
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:194
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:173
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:186
+#: customizer/classes/Helpers/Defaults.php:2372
+msgid "Email"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:210
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:222
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:202
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:214
+#: customizer/classes/Helpers/Defaults.php:2383
+#: inc/dashboard/pages/header/DashHeader.js:20
+msgid "Website"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:216
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:208
+msgid "Website:"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:241
+#: customizer/classes/Builder/Header/Elements/class-cart.php:72
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:234
+#: customizer/classes/Builder/Header/Elements/class-date.php:87
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:97
+#: customizer/classes/Builder/Header/Elements/class-search.php:67
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:90
+#: customizer/classes/Settings/Layouts_Section_Setting.php:618
+msgid "Icon Size"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:252
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:245
+msgid "Icon Shape"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:258
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:688
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:251
+#: customizer/classes/Builder/Header/Elements/class-socials.php:693
+msgid "None"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:259
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:689
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:252
+#: customizer/classes/Builder/Header/Elements/class-socials.php:694
+msgid "Rounded"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:260
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:690
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:253
+#: customizer/classes/Builder/Header/Elements/class-socials.php:695
+#: customizer/classes/Settings/Layouts_Section_Setting.php:609
+msgid "Square"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:265
+msgid "Icon Fill"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:274
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:701
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:264
+#: customizer/classes/Builder/Header/Elements/class-socials.php:707
+msgid "Solid"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:275
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:702
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:265
+#: customizer/classes/Builder/Header/Elements/class-socials.php:708
+#: customizer/classes/Settings/Layouts_Section_Setting.php:740
+msgid "Outline"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:280
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:289
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:651
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:273
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:133
+#: customizer/classes/Builder/Header/Elements/class-menu.php:135
+#: customizer/classes/Builder/Header/Elements/class-middle-row.php:200
+#: customizer/classes/Builder/Header/Elements/class-offcanvas.php:89
+#: customizer/classes/Builder/Header/Elements/class-socials.php:655
+msgid "Item Spacing"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:294
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:122
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:317
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:664
+#: customizer/classes/Builder/Header/Elements/class-button.php:149
+#: customizer/classes/Builder/Header/Elements/class-cart.php:129
+#: customizer/classes/Builder/Header/Elements/class-cart.php:185
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:285
+#: customizer/classes/Builder/Header/Elements/class-date.php:102
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:206
+#: customizer/classes/Builder/Header/Elements/class-menu.php:209
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:98
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:137
+#: customizer/classes/Builder/Header/Elements/class-search.php:80
+#: customizer/classes/Builder/Header/Elements/class-socials.php:669
+#: customizer/classes/Builder/Header/Elements/class-text.php:89
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:131
+#: customizer/classes/Sections/Blog.php:654
+#: customizer/classes/Sections/Pages.php:358
+#: customizer/classes/Sections/Single.php:678
+#: customizer/classes/Sections/Woo_General.php:424
+#: customizer/classes/Sections/Woo_Shop.php:324
+#: customizer/classes/Sections/Woo_Shop.php:469
+#: customizer/classes/Settings/Layouts_Section_Setting.php:252
+#: customizer/classes/Settings/Layouts_Section_Setting.php:405
+#: customizer/classes/Settings/Layouts_Section_Setting.php:728
+msgid "Design"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:300
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:128
+#: customizer/classes/Builder/Header/Elements/class-button.php:154
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:291
+#: customizer/classes/Builder/Header/Elements/class-date.php:107
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:212
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:353
+#: customizer/classes/Builder/Header/Elements/class-menu.php:219
+#: customizer/classes/Builder/Header/Elements/class-menu.php:430
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:104
+#: customizer/classes/Builder/Header/Elements/class-text.php:94
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:166
+msgid "Font"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:311
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:141
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:300
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:222
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:360
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:111
+#: customizer/classes/Sections/Blog.php:676
+#: customizer/classes/Sections/Woo_Shop.php:343
+msgid "Font Color"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:326
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:353
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:382
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:155
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:178
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:341
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:422
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:727
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:763
+#: customizer/classes/Builder/Header/Elements/class-button.php:204
+#: customizer/classes/Builder/Header/Elements/class-button.php:224
+#: customizer/classes/Builder/Header/Elements/class-button.php:244
+#: customizer/classes/Builder/Header/Elements/class-button.php:300
+#: customizer/classes/Builder/Header/Elements/class-button.php:318
+#: customizer/classes/Builder/Header/Elements/class-button.php:336
+#: customizer/classes/Builder/Header/Elements/class-button.php:391
+#: customizer/classes/Builder/Header/Elements/class-button.php:408
+#: customizer/classes/Builder/Header/Elements/class-button.php:425
+#: customizer/classes/Builder/Header/Elements/class-button.php:455
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:519
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:535
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:551
+#: customizer/classes/Builder/Header/Elements/class-date.php:145
+#: customizer/classes/Builder/Header/Elements/class-date.php:157
+#: customizer/classes/Builder/Header/Elements/class-date.php:210
+#: customizer/classes/Builder/Header/Elements/class-date.php:222
+#: customizer/classes/Builder/Header/Elements/class-logo.php:460
+#: customizer/classes/Builder/Header/Elements/class-logo.php:477
+#: customizer/classes/Builder/Header/Elements/class-logo.php:494
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:238
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:303
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:376
+#: customizer/classes/Builder/Header/Elements/class-menu.php:270
+#: customizer/classes/Builder/Header/Elements/class-menu.php:289
+#: customizer/classes/Builder/Header/Elements/class-menu.php:308
+#: customizer/classes/Builder/Header/Elements/class-menu.php:380
+#: customizer/classes/Builder/Header/Elements/class-menu.php:455
+#: customizer/classes/Builder/Header/Elements/class-middle-row.php:107
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:126
+#: customizer/classes/Builder/Header/Elements/class-offcanvas.php:118
+#: customizer/classes/Builder/Header/Elements/class-offcanvas.php:137
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:161
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:182
+#: customizer/classes/Builder/Header/Elements/class-search.php:124
+#: customizer/classes/Builder/Header/Elements/class-search.php:129
+#: customizer/classes/Builder/Header/Elements/class-search.php:143
+#: customizer/classes/Builder/Header/Elements/class-search.php:160
+#: customizer/classes/Builder/Header/Elements/class-search.php:191
+#: customizer/classes/Builder/Header/Elements/class-search.php:217
+#: customizer/classes/Builder/Header/Elements/class-search.php:236
+#: customizer/classes/Builder/Header/Elements/class-socials.php:733
+#: customizer/classes/Builder/Header/Elements/class-socials.php:766
+#: customizer/classes/Builder/Header/Elements/class-text.php:132
+#: customizer/classes/Builder/Header/Elements/class-text.php:144
+#: customizer/classes/Builder/Header/Elements/class-text.php:156
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:152
+#: customizer/classes/Sections/Blog.php:688
+#: customizer/classes/Sections/Single.php:701
+#: customizer/classes/Sections/Single.php:729
+#: customizer/classes/Sections/Woo_General.php:528
+#: customizer/classes/Sections/Woo_General.php:546
+#: customizer/classes/Sections/Woo_General.php:564
+#: customizer/classes/Sections/Woo_Shop.php:337
+#: customizer/classes/Sections/Woo_Shop.php:352
+#: customizer/classes/Sections/Woo_Shop.php:481
+#: customizer/classes/Sections/Woo_Shop.php:500
+#: customizer/classes/Sections/Woo_Shop.php:519
+#: customizer/classes/Sections/Woo_Shop.php:534
+#: customizer/classes/Sections/Woo_Shop.php:575
+#: customizer/classes/Sections/Woo_Shop.php:594
+#: customizer/classes/Sections/Woo_Shop.php:613
+#: customizer/classes/Settings/Colors_Section_Setting.php:34
+#: customizer/classes/Settings/Colors_Section_Setting.php:51
+#: customizer/classes/Settings/Colors_Section_Setting.php:69
+#: customizer/classes/Settings/Colors_Section_Setting.php:91
+#: customizer/classes/Settings/Colors_Section_Setting.php:112
+#: customizer/classes/Settings/Colors_Section_Setting.php:129
+#: customizer/classes/Settings/Colors_Section_Setting.php:146
+#: customizer/classes/Settings/Colors_Section_Setting.php:163
+#: customizer/classes/Settings/Colors_Section_Setting.php:181
+#: customizer/classes/Settings/Colors_Section_Setting.php:199
+#: customizer/classes/Settings/Layouts_Section_Setting.php:268
+#: customizer/classes/Settings/Layouts_Section_Setting.php:315
+#: customizer/classes/Settings/Layouts_Section_Setting.php:437
+#: customizer/classes/Settings/Layouts_Section_Setting.php:457
+#: customizer/classes/Settings/Layouts_Section_Setting.php:477
+#: customizer/classes/Settings/Layouts_Section_Setting.php:497
+#: customizer/classes/Settings/Layouts_Section_Setting.php:517
+#: customizer/classes/Settings/Layouts_Section_Setting.php:537
+#: customizer/classes/Settings/Layouts_Section_Setting.php:763
+#: customizer/classes/Settings/Layouts_Section_Setting.php:793
+#: customizer/classes/Settings/Layouts_Section_Setting.php:825
+msgid "Initial"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:330
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:357
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:387
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:182
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:732
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:768
+#: customizer/classes/Builder/Header/Elements/class-button.php:210
+#: customizer/classes/Builder/Header/Elements/class-button.php:230
+#: customizer/classes/Builder/Header/Elements/class-button.php:250
+#: customizer/classes/Builder/Header/Elements/class-button.php:305
+#: customizer/classes/Builder/Header/Elements/class-button.php:323
+#: customizer/classes/Builder/Header/Elements/class-button.php:341
+#: customizer/classes/Builder/Header/Elements/class-button.php:396
+#: customizer/classes/Builder/Header/Elements/class-button.php:413
+#: customizer/classes/Builder/Header/Elements/class-button.php:430
+#: customizer/classes/Builder/Header/Elements/class-button.php:460
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:523
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:539
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:555
+#: customizer/classes/Builder/Header/Elements/class-logo.php:465
+#: customizer/classes/Builder/Header/Elements/class-logo.php:482
+#: customizer/classes/Builder/Header/Elements/class-logo.php:499
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:131
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:187
+#: customizer/classes/Builder/Header/Elements/class-search.php:147
+#: customizer/classes/Builder/Header/Elements/class-search.php:165
+#: customizer/classes/Builder/Header/Elements/class-socials.php:738
+#: customizer/classes/Builder/Header/Elements/class-socials.php:771
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:157
+#: customizer/classes/Sections/Single.php:706
+#: customizer/classes/Sections/Single.php:734
+#: customizer/classes/Sections/Woo_General.php:532
+#: customizer/classes/Sections/Woo_General.php:550
+#: customizer/classes/Sections/Woo_General.php:568
+#: customizer/classes/Sections/Woo_Shop.php:485
+#: customizer/classes/Sections/Woo_Shop.php:504
+#: customizer/classes/Sections/Woo_Shop.php:579
+#: customizer/classes/Sections/Woo_Shop.php:598
+#: customizer/classes/Sections/Woo_Shop.php:617
+#: customizer/classes/Settings/Colors_Section_Setting.php:73
+#: customizer/classes/Settings/Layouts_Section_Setting.php:319
+#: customizer/classes/Settings/Layouts_Section_Setting.php:768
+#: customizer/classes/Settings/Layouts_Section_Setting.php:798
+#: customizer/classes/Settings/Layouts_Section_Setting.php:830
+msgid "Hover"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:338
+#: customizer/classes/Builder/Header/Elements/class-date.php:179
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:168
+#: customizer/classes/Builder/Header/Elements/class-search.php:85
+#: customizer/classes/Settings/Layouts_Section_Setting.php:747
+msgid "Icon Color"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:365
+#: customizer/classes/Builder/Header/Elements/class-button.php:349
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:480
+#: customizer/classes/Sections/Single.php:713
+#: customizer/classes/Sections/Woo_General.php:538
+#: customizer/classes/Sections/Woo_Shop.php:585
+#: customizer/classes/Settings/Layouts_Section_Setting.php:466
+msgid "Background Color"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-contacts.php:394
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:189
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:774
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:564
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:309
+#: customizer/classes/Builder/Header/Elements/class-menu.php:386
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:165
+#: customizer/classes/Builder/Header/Elements/class-socials.php:778
+#: customizer/classes/Builder/Header/Elements/class-text.php:251
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:178
+#: customizer/classes/Sections/Blog.php:776
+#: customizer/classes/Sections/Search.php:398
+msgid "Margin"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:16
+msgid "Copyright"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:54
+msgid "Copyright text"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:56
+msgid "Copyright &copy; {current_year} {site_title} - Powered by {theme_author}"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:57
+msgid "You can insert some arbitrary HTML code tags: {current_year}, {site_title} and {theme_author}"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:68
+#: customizer/classes/Sections/Blog.php:615
+#: customizer/classes/Sections/Woo_Shop.php:293
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:111
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:76
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:123
+#: customizer/classes/Sections/Archive.php:288
+#: customizer/classes/Sections/Author.php:283
+#: customizer/classes/Sections/Blog.php:626
+#: customizer/classes/Sections/Pages.php:195
+#: customizer/classes/Sections/Search.php:226
+#: customizer/classes/Sections/SEO_Section.php:168
+#: customizer/classes/Sections/Woo_Shop.php:300
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:115
+msgid "Left"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:85
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:301
+msgid "Vertical Alignment"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:101
+#: customizer/classes/Settings/Layouts_Section_Setting.php:705
+msgid "Visibility"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:112
+#: customizer/classes/Builder/Header/Elements/class-button.php:140
+#: customizer/classes/Sections/Archive.php:436
+#: customizer/classes/Sections/Author.php:453
+#: customizer/classes/Sections/Blog.php:840
+#: customizer/classes/Sections/Search.php:459
+#: customizer/classes/Sections/Single.php:301
+#: customizer/classes/Settings/Layouts_Section_Setting.php:717
+#: customizer/classes/Settings/Layouts_Section_Setting.php:1029
+msgid "Desktop"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:113
+#: customizer/classes/Builder/Header/Elements/class-button.php:141
+#: customizer/classes/Sections/Archive.php:437
+#: customizer/classes/Sections/Author.php:454
+#: customizer/classes/Sections/Blog.php:841
+#: customizer/classes/Sections/Search.php:460
+#: customizer/classes/Sections/Single.php:302
+#: customizer/classes/Settings/Layouts_Section_Setting.php:718
+msgid "Tablet"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:161
+#: customizer/classes/Builder/Header/Elements/class-text.php:164
+#: customizer/classes/Settings/Colors_Section_Setting.php:58
+msgid "Link Color"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-copyright.php:301
+#: inc/extras.php:293
+#: inc/extras.php:295
+#: inc/extras.php:297
+#: inc/extras.php:300
+#: inc/extras.php:302
+#: inc/extras.php:305
+msgid "Y"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-footer-menu.php:20
+msgid "Footer Menu"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:20
+#: customizer/classes/Builder/Header/Elements/class-middle-row.php:26
+msgid "Middle Row"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:76
+msgid "Row Container Width"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:81
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:328
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:89
+#: customizer/classes/Sections/Blog.php:1144
+#: customizer/classes/Sections/Single.php:502
+#: customizer/classes/Sections/Single.php:644
+msgid "Default"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:82
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:329
+msgid "Full Width"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:83
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:675
+#: customizer/classes/Builder/Header/Elements/class-date.php:66
+#: customizer/classes/Builder/Header/Elements/class-date.php:71
+#: customizer/classes/Builder/Header/Elements/class-socials.php:680
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:102
+#: customizer/src/postmeta/index.js:172
+#: customizer/src/postmeta/index.js:202
+msgid "Custom"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:87
+#: customizer/classes/Builder/Header/Elements/class-middle-row.php:80
+msgid "Custom Width"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:100
+msgid "Columns per row"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:115
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:152
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:184
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:215
+msgid "Columns Layout"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:247
+msgid "Column Direction"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:252
+msgid "Vertical"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:253
+msgid "Horizontal"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:257
+msgid "Column Spacing"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:267
+msgid "Top Spacing"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:275
+msgid "Set the container's top spacing."
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:278
+#: customizer/classes/Sections/Pages.php:204
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:124
+msgid "Bottom Spacing"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:286
+msgid "Set the container's bottom spacing."
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:297
+msgid "Set the container's item spacing."
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:308
+msgid "Top"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:309
+#: customizer/classes/Sections/Archive.php:289
+#: customizer/classes/Sections/Author.php:284
+#: customizer/classes/Sections/Blog.php:627
+#: customizer/classes/Sections/Pages.php:196
+#: customizer/classes/Sections/Search.php:227
+#: customizer/classes/Sections/SEO_Section.php:169
+#: customizer/classes/Sections/Woo_Shop.php:301
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:116
+msgid "Center"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:310
+msgid "Bottom"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:322
+#: customizer/classes/Settings/Layouts_Section_Setting.php:839
+msgid "Border Width"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:334
+#: customizer/classes/Sections/Single.php:746
+#: customizer/classes/Sections/Woo_Shop.php:430
+msgid "Background"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:348
+msgid "Top Divider"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:362
+msgid "Bottom Divider"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:376
+msgid "Columns Divider"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:380
+msgid "This divider will be placed between columns, elements and widgets."
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:392
+msgid "Widgets Title Font"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:407
+msgid "Widgets Title Color"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:431
+msgid "Widgets Font"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:446
+msgid "Widgets Font Color"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:469
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:339
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:357
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:375
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:429
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:447
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:465
+#: customizer/classes/Builder/Header/Elements/class-date.php:169
+#: customizer/classes/Builder/Header/Elements/class-date.php:234
+#: customizer/classes/Builder/Header/Elements/class-text.php:204
+#: customizer/classes/Builder/Header/Elements/class-text.php:220
+#: customizer/classes/Builder/Header/Elements/class-text.php:236
+msgid "Text Initial"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:475
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:344
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:362
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:380
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:434
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:452
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:470
+#: customizer/classes/Builder/Header/Elements/class-text.php:208
+#: customizer/classes/Builder/Header/Elements/class-text.php:224
+#: customizer/classes/Builder/Header/Elements/class-text.php:241
+msgid "Link Initial"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-middle-row.php:480
+msgid "Link Hover"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:21
+#: customizer/classes/Builder/Header/Elements/class-socials.php:25
+msgid "Socials"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:53
+#: customizer/classes/Builder/Header/Elements/class-socials.php:47
+#: customizer/classes/Builder/Header/Elements/class-socials.php:57
+msgid "Choose Social Media"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:61
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:77
+#: customizer/classes/Builder/Header/Elements/class-socials.php:65
+#: customizer/classes/Builder/Header/Elements/class-socials.php:81
+#: customizer/classes/Helpers/Defaults.php:2394
+msgid "Facebook"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:66
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:90
+#: customizer/classes/Builder/Header/Elements/class-socials.php:70
+#: customizer/classes/Builder/Header/Elements/class-socials.php:94
+#: customizer/classes/Helpers/Defaults.php:2407
+msgid "Twitter"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:71
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:117
+#: customizer/classes/Builder/Header/Elements/class-socials.php:75
+#: customizer/classes/Builder/Header/Elements/class-socials.php:121
+#: customizer/classes/Helpers/Defaults.php:2428
+msgid "Instagram"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:82
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:109
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:122
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:135
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:148
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:161
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:174
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:187
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:200
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:213
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:226
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:239
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:252
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:265
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:278
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:291
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:304
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:317
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:330
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:343
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:356
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:369
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:382
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:395
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:408
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:421
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:434
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:447
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:460
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:473
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:486
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:499
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:512
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:525
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:538
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:551
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:564
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:577
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:590
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:603
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:616
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:629
+#: customizer/classes/Builder/Header/Elements/class-socials.php:86
+#: customizer/classes/Builder/Header/Elements/class-socials.php:113
+#: customizer/classes/Builder/Header/Elements/class-socials.php:126
+#: customizer/classes/Builder/Header/Elements/class-socials.php:139
+#: customizer/classes/Builder/Header/Elements/class-socials.php:152
+#: customizer/classes/Builder/Header/Elements/class-socials.php:165
+#: customizer/classes/Builder/Header/Elements/class-socials.php:178
+#: customizer/classes/Builder/Header/Elements/class-socials.php:191
+#: customizer/classes/Builder/Header/Elements/class-socials.php:204
+#: customizer/classes/Builder/Header/Elements/class-socials.php:217
+#: customizer/classes/Builder/Header/Elements/class-socials.php:230
+#: customizer/classes/Builder/Header/Elements/class-socials.php:243
+#: customizer/classes/Builder/Header/Elements/class-socials.php:256
+#: customizer/classes/Builder/Header/Elements/class-socials.php:269
+#: customizer/classes/Builder/Header/Elements/class-socials.php:282
+#: customizer/classes/Builder/Header/Elements/class-socials.php:295
+#: customizer/classes/Builder/Header/Elements/class-socials.php:308
+#: customizer/classes/Builder/Header/Elements/class-socials.php:321
+#: customizer/classes/Builder/Header/Elements/class-socials.php:334
+#: customizer/classes/Builder/Header/Elements/class-socials.php:347
+#: customizer/classes/Builder/Header/Elements/class-socials.php:360
+#: customizer/classes/Builder/Header/Elements/class-socials.php:373
+#: customizer/classes/Builder/Header/Elements/class-socials.php:386
+#: customizer/classes/Builder/Header/Elements/class-socials.php:399
+#: customizer/classes/Builder/Header/Elements/class-socials.php:412
+#: customizer/classes/Builder/Header/Elements/class-socials.php:425
+#: customizer/classes/Builder/Header/Elements/class-socials.php:438
+#: customizer/classes/Builder/Header/Elements/class-socials.php:451
+#: customizer/classes/Builder/Header/Elements/class-socials.php:464
+#: customizer/classes/Builder/Header/Elements/class-socials.php:477
+#: customizer/classes/Builder/Header/Elements/class-socials.php:490
+#: customizer/classes/Builder/Header/Elements/class-socials.php:503
+#: customizer/classes/Builder/Header/Elements/class-socials.php:516
+#: customizer/classes/Builder/Header/Elements/class-socials.php:529
+#: customizer/classes/Builder/Header/Elements/class-socials.php:542
+#: customizer/classes/Builder/Header/Elements/class-socials.php:555
+#: customizer/classes/Builder/Header/Elements/class-socials.php:568
+#: customizer/classes/Builder/Header/Elements/class-socials.php:581
+#: customizer/classes/Builder/Header/Elements/class-socials.php:594
+#: customizer/classes/Builder/Header/Elements/class-socials.php:607
+#: customizer/classes/Builder/Header/Elements/class-socials.php:620
+#: customizer/classes/Builder/Header/Elements/class-socials.php:633
+msgid "Link"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:130
+#: customizer/classes/Builder/Header/Elements/class-socials.php:134
+#: customizer/classes/Helpers/Defaults.php:2441
+msgid "Pinterest"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:143
+#: customizer/classes/Builder/Header/Elements/class-socials.php:147
+#: customizer/classes/Helpers/Defaults.php:2454
+msgid "Dribbble"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:156
+#: customizer/classes/Builder/Header/Elements/class-socials.php:160
+#: customizer/classes/Helpers/Defaults.php:2467
+msgid "Behance"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:169
+#: customizer/classes/Builder/Header/Elements/class-socials.php:173
+#: customizer/classes/Helpers/Defaults.php:2495
+msgid "Unsplash"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:182
+#: customizer/classes/Builder/Header/Elements/class-socials.php:186
+#: customizer/classes/Helpers/Defaults.php:2508
+msgid "Five Hundred PX"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:195
+#: customizer/classes/Builder/Header/Elements/class-socials.php:199
+msgid "Linkedin"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:208
+#: customizer/classes/Builder/Header/Elements/class-socials.php:212
+#: customizer/classes/Helpers/Defaults.php:2534
+msgid "WordPress"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:221
+#: customizer/classes/Builder/Header/Elements/class-socials.php:225
+#: customizer/classes/Helpers/Defaults.php:2558
+msgid "Parler"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:234
+#: customizer/classes/Builder/Header/Elements/class-button.php:71
+#: customizer/classes/Builder/Header/Elements/class-socials.php:238
+#: customizer/classes/Helpers/Basic.php:524
+#: customizer/classes/Helpers/Defaults.php:2571
+msgid "Medium"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:247
+#: customizer/classes/Builder/Header/Elements/class-socials.php:251
+#: customizer/classes/Helpers/Defaults.php:2584
+msgid "Slack"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:260
+#: customizer/classes/Builder/Header/Elements/class-socials.php:264
+msgid "Codepen"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:273
+#: customizer/classes/Builder/Header/Elements/class-socials.php:277
+#: customizer/classes/Helpers/Defaults.php:2610
+msgid "Reddit"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:286
+#: customizer/classes/Builder/Header/Elements/class-socials.php:290
+#: customizer/classes/Helpers/Defaults.php:2623
+msgid "Twitch"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:299
+#: customizer/classes/Builder/Header/Elements/class-socials.php:303
+msgid "Tiktok"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:312
+#: customizer/classes/Builder/Header/Elements/class-socials.php:316
+#: customizer/classes/Helpers/Defaults.php:2649
+msgid "Snapchat"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:325
+#: customizer/classes/Builder/Header/Elements/class-socials.php:329
+#: customizer/classes/Helpers/Defaults.php:2662
+msgid "Spotify"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:338
+#: customizer/classes/Builder/Header/Elements/class-socials.php:342
+msgid "Soundcloud"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:351
+#: customizer/classes/Builder/Header/Elements/class-socials.php:355
+#: customizer/classes/Helpers/Defaults.php:2688
+msgid "Apple Podcasts"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:364
+#: customizer/classes/Builder/Header/Elements/class-socials.php:368
+#: customizer/classes/Helpers/Defaults.php:2701
+msgid "Patreon"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:377
+#: customizer/classes/Builder/Header/Elements/class-socials.php:381
+#: customizer/classes/Helpers/Defaults.php:2714
+msgid "Alignable"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:390
+#: customizer/classes/Builder/Header/Elements/class-socials.php:394
+#: customizer/classes/Helpers/Defaults.php:2727
+msgid "Skype"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:403
+#: customizer/classes/Builder/Header/Elements/class-socials.php:407
+msgid "Github"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:416
+#: customizer/classes/Builder/Header/Elements/class-socials.php:420
+msgid "Gitlab"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:429
+#: customizer/classes/Builder/Header/Elements/class-socials.php:433
+#: customizer/classes/Helpers/Defaults.php:2766
+msgid "YouTube"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:442
+#: customizer/classes/Builder/Header/Elements/class-socials.php:446
+#: customizer/classes/Helpers/Defaults.php:2779
+msgid "Vimeo"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:455
+#: customizer/classes/Builder/Header/Elements/class-socials.php:459
+#: customizer/classes/Helpers/Defaults.php:2792
+msgid "DTube"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:468
+#: customizer/classes/Builder/Header/Elements/class-socials.php:472
+#: customizer/classes/Helpers/Defaults.php:2805
+msgid "VK"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:481
+#: customizer/classes/Builder/Header/Elements/class-socials.php:485
+#: customizer/classes/Helpers/Defaults.php:2818
+msgid "Odnoklassniki"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:494
+#: customizer/classes/Builder/Header/Elements/class-socials.php:498
+#: customizer/classes/Helpers/Defaults.php:2831
+msgid "RSS"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:507
+#: customizer/classes/Builder/Header/Elements/class-socials.php:511
+#: customizer/classes/Helpers/Defaults.php:2844
+msgid "Discord"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:520
+#: customizer/classes/Builder/Header/Elements/class-socials.php:524
+#: customizer/classes/Helpers/Defaults.php:2857
+msgid "TripAdvisor"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:533
+#: customizer/classes/Builder/Header/Elements/class-socials.php:537
+#: customizer/classes/Helpers/Defaults.php:2870
+msgid "Foursquare"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:546
+#: customizer/classes/Builder/Header/Elements/class-socials.php:550
+#: customizer/classes/Helpers/Defaults.php:2883
+msgid "Yelp"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:559
+msgid "Hacker NewsYelp"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:572
+msgid "xing"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:585
+#: customizer/classes/Builder/Header/Elements/class-socials.php:589
+msgid "Whatsapp"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:598
+#: customizer/classes/Builder/Header/Elements/class-socials.php:602
+#: customizer/classes/Helpers/Defaults.php:2936
+msgid "Flipboard"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:611
+#: customizer/classes/Builder/Header/Elements/class-socials.php:615
+#: customizer/classes/Helpers/Defaults.php:2949
+msgid "Viber"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:624
+#: customizer/classes/Builder/Header/Elements/class-socials.php:628
+#: customizer/classes/Helpers/Defaults.php:2962
+msgid "Telegram"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:640
+#: customizer/classes/Builder/Header/Elements/class-socials.php:644
+msgid "Icons Size"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:668
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:710
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:390
+#: customizer/classes/Builder/Header/Elements/class-socials.php:673
+#: customizer/classes/Builder/Header/Elements/class-socials.php:714
+msgid "Icons Color"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:676
+#: customizer/classes/Builder/Header/Elements/class-socials.php:681
+msgid "Official"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:681
+#: customizer/classes/Builder/Header/Elements/class-socials.php:686
+msgid "Icons Shape Type"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:695
+#: customizer/classes/Builder/Header/Elements/class-socials.php:700
+msgid "Shape Fill Type"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-socials.php:743
+#: customizer/classes/Builder/Header/Elements/class-socials.php:746
+msgid "Icons Background Color"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-top-row.php:19
+#: customizer/classes/Builder/Header/Elements/class-top-row.php:26
+#: customizer/classes/Settings/Layouts_Section_Setting.php:988
+#: customizer/dist/customizer.js:1187
+#: customizer/dist/customizer.js:1195
+#: customizer/dist/modules.js:1187
+#: customizer/dist/modules.js:1195
+#: customizer/dist/postmeta.js:1187
+#: customizer/dist/postmeta.js:1195
+#: customizer/src/controls/control-components/layout-builder/composer-layout/ComposerLayout.jsx:11
+#: customizer/src/controls/control-components/layout-builder/footer/Row.jsx:13
+msgid "Top Row"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-widget-five.php:26
+msgid "Widget 5"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-widget-four.php:26
+msgid "Widget 4"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-widget-one.php:18
+msgid "Widget 1"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-widget-six.php:15
+msgid "Widget 6"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-widget-three.php:14
+msgid "Widget 3"
+msgstr ""
+
+#: customizer/classes/Builder/Footer/Elements/class-widget-two.php:18
+msgid "Widget 2"
+msgstr ""
+
+#: customizer/classes/Builder/Header.php:148
+msgid "Offcanvas menu"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:20
+#: customizer/classes/Sections/Blog.php:753
+#: customizer/classes/Sections/Search.php:375
+#: customizer/classes/Sections/Woo_Shop.php:561
+#: customizer/classes/Settings/Layouts_Section_Setting.php:345
+msgid "Button"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:53
+#: customizer/classes/Settings/Layouts_Section_Setting.php:734
+msgid "Button Type"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:59
+#: customizer/classes/Settings/Layouts_Section_Setting.php:739
+msgid "Filled"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:60
+msgid "Outlined"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:64
+msgid "Button Size"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:70
+msgid "Small"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:72
+#: customizer/classes/Helpers/Basic.php:526
+msgid "Large"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:77
+msgid "Button Label"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:81
+#: customizer/classes/Builder/Header/Elements/class-button.php:746
+msgid "Download"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:85
+msgid "Button Link"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:92
+msgid "Min. Width "
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:106
+#: customizer/classes/Builder/Header/Elements/class-image.php:82
+msgid "Open New Tab"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:113
+#: customizer/classes/Builder/Header/Elements/class-image.php:89
+msgid "Rel Attributes"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:121
+#: customizer/classes/Builder/Header/Elements/class-image.php:97
+msgid "Nofollow"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:122
+#: customizer/classes/Builder/Header/Elements/class-image.php:98
+msgid "Sponsored"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:123
+#: customizer/classes/Builder/Header/Elements/class-image.php:99
+msgid "Noopener"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:124
+#: customizer/classes/Builder/Header/Elements/class-image.php:100
+msgid "Noreferrer"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:128
+msgid "Button Visibility"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:163
+#: customizer/classes/Builder/Header/Elements/class-button.php:259
+#: customizer/classes/Builder/Header/Elements/class-date.php:117
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:150
+#: customizer/classes/Builder/Header/Elements/class-text.php:104
+#: customizer/classes/Sections/Single.php:686
+#: customizer/classes/Sections/Woo_General.php:520
+#: customizer/classes/Sections/Woo_Shop.php:566
+#: customizer/classes/Settings/Layouts_Section_Setting.php:426
+msgid "Text Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:198
+#: customizer/classes/Builder/Header/Elements/class-button.php:294
+#: customizer/classes/Builder/Header/Elements/class-button.php:385
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:333
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:423
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:513
+#: customizer/classes/Builder/Header/Elements/class-date.php:139
+#: customizer/classes/Builder/Header/Elements/class-date.php:204
+#: customizer/classes/Builder/Header/Elements/class-logo.php:454
+#: customizer/classes/Builder/Header/Elements/class-logo.php:546
+#: customizer/classes/Builder/Header/Elements/class-menu.php:263
+#: customizer/classes/Builder/Header/Elements/class-search.php:117
+#: customizer/classes/Builder/Header/Elements/class-text.php:126
+#: customizer/classes/Builder/Header/Elements/class-text.php:198
+msgid "Default State"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:217
+#: customizer/classes/Builder/Header/Elements/class-button.php:311
+#: customizer/classes/Builder/Header/Elements/class-button.php:402
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:351
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:441
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:529
+#: customizer/classes/Builder/Header/Elements/class-date.php:151
+#: customizer/classes/Builder/Header/Elements/class-date.php:216
+#: customizer/classes/Builder/Header/Elements/class-logo.php:471
+#: customizer/classes/Builder/Header/Elements/class-logo.php:559
+#: customizer/classes/Builder/Header/Elements/class-menu.php:282
+#: customizer/classes/Builder/Header/Elements/class-search.php:136
+#: customizer/classes/Builder/Header/Elements/class-text.php:138
+#: customizer/classes/Builder/Header/Elements/class-text.php:214
+msgid "Transparent State"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:237
+#: customizer/classes/Builder/Header/Elements/class-button.php:329
+#: customizer/classes/Builder/Header/Elements/class-button.php:419
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:369
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:459
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:545
+#: customizer/classes/Builder/Header/Elements/class-date.php:163
+#: customizer/classes/Builder/Header/Elements/class-date.php:228
+#: customizer/classes/Builder/Header/Elements/class-logo.php:488
+#: customizer/classes/Builder/Header/Elements/class-logo.php:572
+#: customizer/classes/Builder/Header/Elements/class-menu.php:301
+#: customizer/classes/Builder/Header/Elements/class-search.php:153
+#: customizer/classes/Builder/Header/Elements/class-text.php:150
+#: customizer/classes/Builder/Header/Elements/class-text.php:230
+msgid "Sticky State"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:438
+#: customizer/classes/Sections/Woo_General.php:556
+#: customizer/classes/Sections/Woo_Shop.php:604
+#: customizer/classes/Settings/Colors_Section_Setting.php:102
+#: customizer/classes/Settings/Layouts_Section_Setting.php:506
+#: customizer/classes/Settings/Layouts_Section_Setting.php:810
+msgid "Border Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:475
+#: customizer/classes/Sections/Single.php:822
+#: customizer/classes/Sections/Woo_General.php:581
+msgid "Border Radius"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:513
+#: customizer/classes/Sections/Woo_Shop.php:460
+#: customizer/classes/Settings/Layouts_Section_Setting.php:385
+#: customizer/classes/Settings/Layouts_Section_Setting.php:871
+msgid "Button Padding"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-button.php:551
+msgid "Button Margin"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-cart.php:21
+#: customizer/classes/Builder/Header/Elements/class-cart.php:521
+msgid "Cart"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-cart.php:44
+msgid "Mini Cart Type"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-cart.php:117
+msgid "Dropdown Top Offset"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:19
+msgid "Contact"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-contacts.php:258
+msgid "Icon Fill "
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-date.php:21
+msgid "Date"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-date.php:54
+msgid "Date Format"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-date.php:74
+msgid "Y-m-d"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-date.php:80
+msgid "Show Icon"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-image.php:19
+msgid "Image"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-image.php:49
+#: customizer/classes/Settings/Layouts_Section_Setting.php:898
+msgid "Upload Image"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-image.php:51
+msgid "Select Image"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-image.php:52
+#: customizer/classes/Settings/Layouts_Section_Setting.php:899
+msgid "Change Image"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-image.php:60
+msgid "Image Max-Width"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-image.php:74
+msgid "Image Link"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-image.php:102
+msgid "Choose the Rel Attributes"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-logo.php:20
+msgid "Logo"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-logo.php:56
+#: customizer/classes/Builder/Header/Elements/class-logo.php:373
+#: customizer/classes/Builder/Header/Elements/class-logo.php:382
+msgid "Select Logo"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-logo.php:57
+#: customizer/classes/Builder/Header/Elements/class-logo.php:374
+#: customizer/classes/Builder/Header/Elements/class-logo.php:383
+msgid "Change Logo"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:20
+msgid "Menu 2"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:59
+#: customizer/classes/Builder/Header/Elements/class-menu.php:62
+msgid "Choose Menu"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:66
+#: customizer/classes/Builder/Header/Elements/class-menu.php:68
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:64
+msgid "Select menu..."
+msgstr ""
+
+#. translators: placeholder here means the actual URL.
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:69
+#: customizer/classes/Builder/Header/Elements/class-menu.php:71
+msgid "Manage your menu items in the %1$sMenus screen%2$s."
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:79
+#: customizer/classes/Builder/Header/Elements/class-menu.php:81
+msgid "Menu Layout"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:92
+#: customizer/classes/Builder/Header/Elements/class-menu.php:94
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:70
+#: customizer/classes/Settings/Layouts_Section_Setting.php:580
+msgid "Type 1"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:97
+#: customizer/classes/Builder/Header/Elements/class-menu.php:99
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:75
+#: customizer/classes/Settings/Layouts_Section_Setting.php:585
+msgid "Type 2"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:102
+#: customizer/classes/Builder/Header/Elements/class-menu.php:104
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:80
+#: customizer/classes/Settings/Layouts_Section_Setting.php:590
+msgid "Type 3"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:107
+#: customizer/classes/Builder/Header/Elements/class-menu.php:109
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:84
+#: customizer/classes/Settings/Layouts_Section_Setting.php:594
+msgid "Type 4"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:112
+#: customizer/classes/Builder/Header/Elements/class-menu.php:114
+msgid "Type 5"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:117
+#: customizer/classes/Builder/Header/Elements/class-menu.php:119
+msgid "Type 6"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:122
+#: customizer/classes/Builder/Header/Elements/class-menu.php:124
+msgid "Type 7"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:127
+#: customizer/classes/Builder/Header/Elements/class-menu.php:129
+msgid "Type 8"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:144
+#: customizer/classes/Builder/Header/Elements/class-menu.php:146
+msgid "Items Height"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:156
+#: customizer/classes/Builder/Header/Elements/class-menu.php:159
+msgid "Stretch Menu"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:169
+#: customizer/classes/Builder/Header/Elements/class-menu.php:172
+msgid "Submenu Width"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:180
+#: customizer/classes/Builder/Header/Elements/class-menu.php:183
+msgid "Submenu Top Offset"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:191
+#: customizer/classes/Builder/Header/Elements/class-menu.php:194
+msgid "Submenu Transition"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:197
+#: customizer/classes/Builder/Header/Elements/class-menu.php:200
+msgid "Fade In"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:198
+#: customizer/classes/Builder/Header/Elements/class-menu.php:201
+msgid "Slide Up"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:199
+#: customizer/classes/Builder/Header/Elements/class-menu.php:202
+msgid "Slide Down"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:243
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:381
+#: customizer/classes/Builder/Header/Elements/class-menu.php:275
+#: customizer/classes/Builder/Header/Elements/class-menu.php:294
+#: customizer/classes/Builder/Header/Elements/class-menu.php:313
+#: customizer/classes/Builder/Header/Elements/class-menu.php:460
+#: customizer/classes/Builder/Header/Elements/class-search.php:197
+msgid "Hover/Active"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:251
+#: customizer/classes/Builder/Header/Elements/class-menu.php:323
+msgid "Active Indicator Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:269
+#: customizer/classes/Builder/Header/Elements/class-menu.php:342
+msgid "Active Indicator Background Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:291
+#: customizer/classes/Builder/Header/Elements/class-menu.php:366
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:388
+msgid "Inner Spacing"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:398
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:149
+#: customizer/classes/Sections/Blog.php:772
+#: customizer/classes/Sections/Search.php:394
+msgid "Divider"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:411
+#: customizer/classes/Builder/Header/Elements/class-menu.php:505
+msgid "Dropdown Border Radius"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu-secondary.php:449
+msgid "Dropdown Shadow"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu.php:25
+msgid "Menu 1"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu.php:229
+#: customizer/classes/Builder/Header/Elements/class-menu.php:437
+msgid "Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu.php:467
+msgid "Item Vertical Spacing"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu.php:477
+msgid "Divider Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-menu.php:490
+msgid "Submenu Shadow"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-middle-row.php:162
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:178
+#: customizer/classes/Sections/Single.php:783
+#: customizer/classes/Sections/Woo_General.php:575
+msgid "Padding"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-middle-row.php:212
+#: customizer/classes/Builder/Header/Elements/class-offcanvas.php:96
+msgid "Set the item spacing."
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:26
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:45
+msgid "Mobile Menu"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:59
+msgid "Select Menu"
+msgstr ""
+
+#. translators: placeholder here means the actual URL.
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:68
+msgid "Manage your menus in the %1$sMenus screen%2$s."
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:83
+msgid "Menu Type"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:90
+msgid "Bordered"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-mobile-menu.php:139
+msgid "Dropdown Font Size"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-offcanvas.php:27
+#: customizer/dist/customizer.js:1195
+#: customizer/dist/modules.js:1195
+#: customizer/dist/postmeta.js:1195
+#: customizer/src/controls/control-components/layout-builder/composer-layout/ComposerLayout.jsx:14
+msgid "Offcanvas"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-offcanvas.php:65
+msgid "Close Button Size"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:25
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:124
+msgid "Randomize"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:42
+msgid "Posts"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:43
+#: customizer/classes/Sections/Pages.php:17
+msgid "Pages"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:46
+msgid "Products"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:72
+msgid "Icon"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:82
+msgid "Icon 1"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:86
+msgid "Icon 2"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:91
+msgid "Icon 3"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:107
+msgid "Show Label"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:115
+#: customizer/classes/Sections/Blog.php:1011
+#: customizer/classes/Sections/Search.php:629
+msgid "Label"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:118
+msgid "Surprise me"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-randomize.php:142
+msgid "Text Font"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-search.php:26
+#: customizer/classes/Builder/Header/Elements/class-search.php:64
+#: customizer/classes/Builder/Header/Elements/class-search.php:411
+#: searchform.php:35
+msgid "Search"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-search.php:60
+msgid "Placeholder Text"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-search.php:174
+msgid "Close Icon Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-search.php:205
+msgid "Modal Text Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-search.php:224
+msgid "Modal Background Color"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-search.php:243
+msgid "Icon Margin"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-search.php:407
+#: searchform.php:31
+msgid "Search for:"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-search.php:409
+#: searchform.php:33
+msgid "Search Input"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-socials.php:563
+#: customizer/classes/Helpers/Defaults.php:2896
+msgid "Hacker News"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-socials.php:576
+#: customizer/classes/Helpers/Defaults.php:2909
+msgid "Xing"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-text.php:27
+#: customizer/classes/Builder/Header/Elements/class-text.php:61
+msgid "HTML"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-text.php:63
+#: customizer/classes/Builder/Header/Elements/class-text.php:372
+msgid "Edit something here.."
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-text.php:64
+msgid "You can add here HTML code."
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-text.php:71
+#: customizer/classes/Settings/Layouts_Section_Setting.php:690
+msgid "Alignment"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:26
+msgid "Trigger"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:59
+msgid "Type"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:101
+msgid "Trigger Label"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:111
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:280
+msgid "Menu"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:117
+msgid "Label Alignment"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:124
+#: customizer/classes/Sections/Archive.php:290
+#: customizer/classes/Sections/Author.php:285
+#: customizer/classes/Sections/Blog.php:628
+#: customizer/classes/Sections/Pages.php:197
+#: customizer/classes/Sections/Search.php:228
+#: customizer/classes/Sections/SEO_Section.php:170
+#: customizer/classes/Sections/Woo_Shop.php:302
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:117
+msgid "Right"
+msgstr ""
+
+#: customizer/classes/Builder/Header/Elements/class-trigger.php:136
+#: customizer/classes/Controls/Colors_Section.php:39
+#: customizer/classes/Sections/Colors_Section.php:20
+msgid "Colors"
+msgstr ""
+
+#: customizer/classes/Customize_Manager.php:120
+msgid "Successfully Flushed!"
+msgstr ""
+
+#: customizer/classes/Helpers/Basic.php:523
+msgid "Thumbnail"
+msgstr ""
+
+#: customizer/classes/Helpers/Basic.php:525
+msgid "Medium Large"
+msgstr ""
+
+#: customizer/classes/Helpers/Basic.php:527
+#: customizer/classes/Helpers/Basic.php:533
+msgid "Full Size"
+msgstr ""
+
+#: customizer/classes/Helpers/Basic.php:565
+msgid "Click here to add a menu"
+msgstr ""
+
+#: customizer/classes/Helpers/Basic.php:713
+msgid "All Pages"
+msgstr ""
+
+#: customizer/classes/Helpers/Basic.php:714
+msgid "Home Page"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:533
+#: customizer/classes/Helpers/Defaults.php:639
+#: customizer/classes/Sections/Archive.php:559
+#: customizer/classes/Sections/Author.php:575
+#: customizer/classes/Sections/Blog.php:952
+#: customizer/classes/Sections/Search.php:571
+#: customizer/classes/Sections/Single.php:417
+#: inc/template-functions.php:583
+msgid "By"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:538
+#: customizer/classes/Helpers/Defaults.php:644
+#: customizer/classes/Sections/Archive.php:582
+#: customizer/classes/Sections/Author.php:599
+#: customizer/classes/Sections/Blog.php:1015
+#: customizer/classes/Sections/Search.php:633
+#: customizer/classes/Sections/Single.php:444
+msgid "Updated On"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:816
+#: customizer/classes/Helpers/Defaults.php:2265
+msgid "Related Posts"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:825
+#: customizer/classes/Sections/Woo_Single.php:228
+#: customizer/classes/Sections/Woo_Single.php:355
+msgid "Related Products"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2350
+msgid "Hours"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2361
+msgid "Fax"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2521
+msgid "LinkedIn"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2597
+msgid "CodePen"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2636
+msgid "TikTok"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2675
+msgid "SoundCloud"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2740
+msgid "GitHub"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2753
+msgid "GitLab"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2923
+msgid "WhatsApp"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2975
+msgid "Weibo"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:2988
+msgid "Tumblr"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:3001
+msgid "Getpocket"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:3015
+msgid "Line"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:3026
+msgid "Evernote"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:3039
+msgid "Threema"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:3053
+msgid "QQ"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:3066
+msgid "WeChat"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:3079
+msgid "Strava"
+msgstr ""
+
+#: customizer/classes/Helpers/Defaults.php:3092
+msgid "Flickr"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:18
+msgid "Archive Page"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:176
+#: customizer/classes/Sections/Author.php:41
+#: customizer/classes/Sections/Blog.php:255
+#: customizer/classes/Sections/Pages.php:141
+#: customizer/classes/Sections/Search.php:161
+msgid "Classic Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:180
+#: customizer/classes/Sections/Author.php:45
+#: customizer/classes/Sections/Blog.php:302
+#: customizer/classes/Sections/Pages.php:145
+#: customizer/classes/Sections/Search.php:165
+msgid "Listing Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:184
+#: customizer/classes/Sections/Author.php:49
+#: customizer/classes/Sections/Blog.php:432
+#: customizer/classes/Sections/Pages.php:149
+#: customizer/classes/Sections/Search.php:169
+msgid "Grid Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:188
+#: customizer/classes/Sections/Author.php:53
+#: customizer/classes/Sections/Blog.php:559
+#: customizer/classes/Sections/Pages.php:153
+#: customizer/classes/Sections/Search.php:173
+msgid "Masonry Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:207
+#: customizer/classes/Sections/Author.php:204
+#: customizer/classes/Sections/Blog.php:577
+#: customizer/classes/Sections/Search.php:191
+msgid "Enable Page Header"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:385
+#: customizer/classes/Sections/Author.php:402
+#: customizer/classes/Sections/Blog.php:789
+#: customizer/classes/Sections/Search.php:408
+#: customizer/classes/Sections/Single.php:250
+msgid "Image Ratio"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:404
+#: customizer/classes/Sections/Author.php:421
+#: customizer/classes/Sections/Blog.php:808
+#: customizer/classes/Sections/Search.php:427
+#: customizer/classes/Sections/Single.php:269
+msgid "Image Scale"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:411
+#: customizer/classes/Sections/Author.php:428
+#: customizer/classes/Sections/Blog.php:815
+#: customizer/classes/Sections/Search.php:434
+#: customizer/classes/Sections/Single.php:276
+msgid "Contain"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:412
+#: customizer/classes/Sections/Author.php:429
+#: customizer/classes/Sections/Blog.php:816
+#: customizer/classes/Sections/Search.php:435
+#: customizer/classes/Sections/Single.php:277
+msgid "Cover"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:413
+#: customizer/classes/Sections/Author.php:430
+#: customizer/classes/Sections/Blog.php:817
+#: customizer/classes/Sections/Search.php:436
+#: customizer/classes/Sections/Single.php:278
+msgid "Fill"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:418
+#: customizer/classes/Sections/Author.php:435
+#: customizer/classes/Sections/Blog.php:822
+#: customizer/classes/Sections/Search.php:441
+#: customizer/classes/Sections/Single.php:283
+msgid "Image Size"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:426
+#: customizer/classes/Sections/Author.php:443
+#: customizer/classes/Sections/Blog.php:830
+#: customizer/classes/Sections/Search.php:449
+#: customizer/classes/Sections/Single.php:291
+msgid "Image Visibility"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:444
+#: customizer/classes/Sections/Author.php:461
+#: customizer/classes/Sections/Blog.php:849
+#: customizer/classes/Sections/Search.php:468
+#: customizer/classes/Sections/Single.php:230
+msgid "Categories"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:447
+#: customizer/classes/Sections/Author.php:464
+#: customizer/classes/Sections/Blog.php:852
+#: customizer/classes/Sections/Blog.php:932
+#: customizer/classes/Sections/Search.php:471
+#: customizer/classes/Sections/Search.php:551
+#: customizer/classes/Sections/Single.php:233
+msgid "Separator"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:452
+#: customizer/classes/Sections/Author.php:469
+#: customizer/classes/Sections/Blog.php:857
+#: customizer/classes/Sections/Blog.php:937
+#: customizer/classes/Sections/Search.php:476
+#: customizer/classes/Sections/Search.php:556
+#: customizer/classes/Sections/Single.php:238
+msgid "Dot"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:453
+#: customizer/classes/Sections/Author.php:470
+#: customizer/classes/Sections/Blog.php:938
+#: customizer/classes/Sections/Search.php:557
+#: customizer/classes/Sections/Single.php:239
+msgid "Normal Slash"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:454
+#: customizer/classes/Sections/Author.php:471
+#: customizer/classes/Sections/Blog.php:859
+#: customizer/classes/Sections/Blog.php:939
+#: customizer/classes/Sections/Search.php:478
+#: customizer/classes/Sections/Search.php:558
+#: customizer/classes/Sections/Single.php:240
+msgid "Pipe"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:455
+#: customizer/classes/Sections/Author.php:472
+#: customizer/classes/Sections/Blog.php:860
+#: customizer/classes/Sections/Blog.php:940
+#: customizer/classes/Sections/Search.php:479
+#: customizer/classes/Sections/Search.php:559
+#: customizer/classes/Sections/Single.php:241
+msgid "Back Slash"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:506
+#: customizer/classes/Sections/Author.php:523
+#: customizer/classes/Sections/Blog.php:911
+#: customizer/classes/Sections/Blog.php:918
+#: customizer/classes/Sections/Search.php:530
+#: customizer/classes/Sections/Search.php:537
+#: customizer/classes/Sections/Single.php:354
+#: customizer/classes/Sections/Single.php:361
+msgid "Post Meta"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:512
+#: customizer/classes/Sections/Author.php:529
+#: customizer/classes/Sections/Blog.php:924
+#: customizer/classes/Sections/Search.php:543
+#: customizer/classes/Sections/Single.php:367
+msgid "Author"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:513
+#: customizer/classes/Sections/Author.php:530
+#: customizer/classes/Sections/Blog.php:925
+#: customizer/classes/Sections/Search.php:544
+#: customizer/classes/Sections/Single.php:368
+msgid "Comments"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:514
+#: customizer/classes/Sections/Author.php:531
+#: customizer/classes/Sections/Blog.php:926
+#: customizer/classes/Sections/Search.php:545
+#: customizer/classes/Sections/Single.php:369
+msgid "Reading Time"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:515
+#: customizer/classes/Sections/Author.php:532
+#: customizer/classes/Sections/Blog.php:927
+#: customizer/classes/Sections/Search.php:546
+#: customizer/classes/Sections/Single.php:370
+msgid "Published Date"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:516
+#: customizer/classes/Sections/Author.php:533
+#: customizer/classes/Sections/Blog.php:928
+#: customizer/classes/Sections/Search.php:547
+#: customizer/classes/Sections/Single.php:371
+msgid "Updated Date"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:532
+#: customizer/classes/Sections/Author.php:549
+#: customizer/classes/Sections/Blog.php:955
+#: customizer/classes/Sections/Search.php:574
+#: customizer/classes/Sections/Single.php:387
+msgid "Show Avatar"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:539
+#: customizer/classes/Sections/Author.php:555
+#: customizer/classes/Sections/Blog.php:965
+#: customizer/classes/Sections/Search.php:584
+#: customizer/classes/Sections/Single.php:396
+msgid "Avatar Size"
+msgstr ""
+
+#: customizer/classes/Sections/Archive.php:571
+#: customizer/classes/Sections/Author.php:588
+#: customizer/classes/Sections/Blog.php:1000
+#: customizer/classes/Sections/Search.php:618
+#: customizer/classes/Sections/Single.php:430
+msgid "Show Updated Date Label"
+msgstr ""
+
+#: customizer/classes/Sections/Author.php:18
+msgid "Author Page"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:19
+msgid "Blog Page"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:569
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:98
+msgid "Page Title"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:584
+#: customizer/classes/Sections/Single.php:451
+#: customizer/classes/Sections/Woo_Shop.php:278
+#: customizer/classes/Sections/Woo_Single.php:97
+msgid "Breadcrumb"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:593
+msgid "Blog Title"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:603
+msgid "Blog Description"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:604
+msgid "The blog page content is used as a Blog Description."
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:635
+#: customizer/classes/Sections/Woo_Shop.php:309
+msgid "Vertical Spacing"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:698
+msgid "Blog Page Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:699
+#: customizer/classes/Sections/Blog.php:1038
+#: customizer/classes/Settings/Layouts_Section_Setting.php:957
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit vel risus dictumst vulputate, potenti justo senectus"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:700
+msgid "Choose the Blog page layout for your site."
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:708
+msgid "POST ELEMENT"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:719
+#: customizer/classes/Sections/Blog.php:729
+#: customizer/classes/Sections/Search.php:342
+#: customizer/classes/Sections/Search.php:352
+msgid "Excerpt"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:722
+#: customizer/classes/Sections/Search.php:345
+msgid "Post Content"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:728
+#: customizer/classes/Sections/Search.php:351
+msgid "Content"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:734
+#: customizer/classes/Sections/Search.php:357
+msgid "Length"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:746
+#: customizer/classes/Sections/Search.php:368
+msgid "Read More Button"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:752
+#: customizer/classes/Sections/Search.php:374
+msgid "Simple"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:757
+#: customizer/classes/Sections/Search.php:379
+msgid "Text"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:764
+#: customizer/classes/Sections/Search.php:386
+msgid "Show Arrow"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:786
+#: customizer/classes/Sections/Search.php:405
+#: customizer/classes/Sections/Single.php:247
+msgid "Featured Image"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:858
+#: customizer/classes/Sections/Search.php:477
+msgid "Dash"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:869
+#: customizer/classes/Sections/Search.php:488
+#: customizer/classes/Sections/Single.php:312
+msgid "Heading tag"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:888
+#: customizer/classes/Sections/Search.php:507
+#: customizer/classes/Sections/Single.php:331
+msgid "Font Size"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:944
+#: customizer/classes/Sections/Search.php:563
+msgid "AUTHOR SETTINGS"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:948
+#: customizer/classes/Sections/Search.php:567
+msgid "Author Label"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:982
+#: customizer/classes/Sections/Search.php:600
+msgid "READING SETTINGS"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:986
+#: customizer/classes/Sections/Search.php:604
+msgid "Words Per Minute"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:996
+#: customizer/classes/Sections/Search.php:614
+msgid "UPDATED DATE SETTINGS"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1022
+msgid "Posts Navigation"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1030
+msgid "Numbered"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1031
+msgid "Infinite Scroll"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1037
+#: customizer/classes/Settings/Layouts_Section_Setting.php:175
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1046
+msgid "Choose sidebar layout for Blog page."
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1051
+#: inc/custom-functions.php:570
+msgid "Default Sidebar"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1079
+#: customizer/classes/Sections/Single.php:189
+#: customizer/classes/Settings/Layouts_Section_Setting.php:188
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:155
+msgid "Right Sidebar"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1105
+#: customizer/classes/Sections/Single.php:194
+#: customizer/classes/Settings/Layouts_Section_Setting.php:217
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:156
+msgid "Left Sidebar"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1131
+#: customizer/classes/Settings/Layouts_Section_Setting.php:244
+msgid "No Sidebar"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1136
+msgid "Blog Container"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1145
+#: customizer/classes/Sections/Single.php:503
+#: customizer/classes/Settings/Layouts_Section_Setting.php:61
+msgid "Boxed"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1146
+#: customizer/classes/Sections/Single.php:504
+#: customizer/classes/Settings/Layouts_Section_Setting.php:62
+msgid "Content Boxed"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1147
+#: customizer/classes/Sections/Single.php:505
+#: customizer/classes/Settings/Layouts_Section_Setting.php:63
+msgid "Unboxed"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1150
+msgid "Choose Blog page container layout."
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1153
+#: customizer/classes/Sections/Single.php:511
+msgid "Stretch Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Blog.php:1154
+#: customizer/classes/Sections/Single.php:513
+msgid "This setting stretches the container width."
+msgstr ""
+
+#: customizer/classes/Sections/Footer_Section.php:15
+#: customizer/classes/Sections/Footer_Section.php:127
+#: inc/custom-functions.php:47
+msgid "Footer"
+msgstr ""
+
+#: customizer/classes/Sections/Footer_Section.php:128
+msgid "Footer Options"
+msgstr ""
+
+#: customizer/classes/Sections/General_Options.php:34
+msgid "General Options"
+msgstr ""
+
+#: customizer/classes/Sections/Header_Section.php:18
+#: customizer/classes/Sections/Header_Section.php:58
+msgid "Header"
+msgstr ""
+
+#: customizer/classes/Sections/Header_Section.php:59
+msgid "Header options"
+msgstr ""
+
+#: customizer/classes/Sections/Layouts_Section.php:18
+msgid "Layouts"
+msgstr ""
+
+#: customizer/classes/Sections/Pages.php:179
+#: customizer/classes/Sections/Woo_Shop.php:285
+msgid "Enable Page Title"
+msgstr ""
+
+#: customizer/classes/Sections/Pages_Group_Title.php:33
+msgid "Posts/Pages"
+msgstr ""
+
+#: customizer/classes/Sections/Search.php:18
+msgid "Search Page"
+msgstr ""
+
+#: customizer/classes/Sections/SEO_Section.php:18
+msgid "SEO"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:20
+msgid "Single Post"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:199
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:157
+msgid "Fullwidth"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:203
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:158
+msgid "Fullwidth Centered"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:458
+#: customizer/classes/Sections/Single.php:682
+msgid "LINK HIGHLIGHTS"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:462
+msgid "Enable Highlights"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:468
+msgid "Select Style"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:475
+msgid "Style 1"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:476
+msgid "Style 2"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:482
+msgid "Sidebar Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:491
+msgid "Choose sidebar layout for post."
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:495
+msgid "Container Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:508
+msgid "Choose post container layout."
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:519
+msgid "Post Tags"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:526
+#: inc/template-functions.php:213
+msgid "Post Navigation"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:533
+msgid "AUTHOR BOX"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:537
+msgid "Show Author Box"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:540
+msgid "This setting shows author box on your posts."
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:544
+#: customizer/classes/Settings/Layouts_Section_Setting.php:55
+msgid "Layout"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:550
+msgid "Layout One"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:551
+msgid "Layout Two"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:555
+msgid "RELATED POSTS"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:559
+msgid "Show Related Posts"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:562
+msgid "This setting shows related posts of your posts."
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:567
+msgid "Section Title"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:574
+msgid "Show Posts based on"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:580
+msgid "Category"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:581
+msgid "Tags"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:585
+#: customizer/classes/Settings/Layouts_Section_Setting.php:923
+msgid "Number of Posts"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:594
+msgid "Posts Per Row"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:603
+msgid "Show After Comments"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:607
+msgid "Enable to show related posts after the comment section."
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:612
+msgid "COMMENTS"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:616
+msgid "Show Comments"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:625
+msgid "Comment Form Position"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:631
+msgid "Above"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:632
+msgid "Below"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:638
+msgid "Comment Section"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:645
+msgid "Below Post Content"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:651
+msgid "Content Area Vertical Spacing"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:653
+msgid "You can set the spacing value under General > Layouts > Container. Click %1$shere%2$s to configure it."
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:741
+msgid "CONTENT AREA"
+msgstr ""
+
+#: customizer/classes/Sections/Single.php:764
+#: customizer/classes/Settings/Layouts_Section_Setting.php:850
+#: customizer/classes/Settings/Layouts_Section_Setting.php:1000
+msgid "Box Shadow"
+msgstr ""
+
+#: customizer/classes/Sections/Typography.php:19
+#: customizer/classes/Settings/Layouts_Section_Setting.php:412
+#: inc/dashboard/pages/general/index.js:22
+msgid "Typography"
+msgstr ""
+
+#: customizer/classes/Sections/WooCommerce_Title.php:36
+msgid "WooCommerce"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:17
+msgid "General Settings"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:366
+msgid "Sales Badge Options"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:375
+msgid "Sale Badge"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:428
+msgid "Sales Badge Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:458
+msgid "Content Area Background"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:475
+msgid "Content Area Shadow"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:492
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:245
+msgid "Content Area Padding"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:512
+msgid "WooCommerce Button Settings"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_General.php:648
+msgid "SALE!"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:18
+msgid "Shop Page"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:270
+msgid "Shop Title"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:328
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:224
+msgid "Content Area Background Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:362
+msgid "Title Typography"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:374
+msgid "Shop Structure"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:376
+msgid " It allows you to customize through WooCommerce Shop Page Structure and its Card Options"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:379
+msgid "No of Columns"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:389
+msgid "No of Rows"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:399
+msgid "Cards Options"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:407
+msgid "Show Category"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:414
+#: customizer/classes/Sections/Woo_Single.php:157
+msgid "Star Rating"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:421
+msgid "Card Design"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:429
+msgid "Normal"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:436
+msgid "Content Alignment"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:450
+#: customizer/classes/Settings/Layouts_Section_Setting.php:357
+msgid "Button Roundness"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:473
+msgid "Title Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:491
+msgid "Category Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:510
+msgid "Price Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:525
+msgid "Card Caption Background Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:543
+msgid "Card Caption Box Shadow"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:554
+msgid "Card Border Radius"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:563
+msgid " It allows you to customize all the WooCommerce pages button all in once"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:624
+msgid "Button Typography"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:633
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:66
+msgid "Page Elements"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:637
+msgid "Shop Sort"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Shop.php:644
+msgid "Shop Results Count"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:17
+msgid "Single Product"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:104
+msgid "Gallery Options"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:109
+msgid "Product Width"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:119
+msgid "Thumbnails Spacing"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:141
+msgid "Enable Lightbox"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:148
+msgid "Enable Zoom"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:164
+msgid "Product Meta"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:171
+msgid "Upsell Products Options"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:176
+msgid "Move Upsell Products"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:177
+msgid "This setting will move upsell products to default tab section"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:183
+msgid "Upsell Products Label"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:184
+msgid "This label will on tab section for upsell product"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:193
+#: customizer/classes/Sections/Woo_Single.php:352
+msgid "Upsell Products"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:203
+msgid "Upsell Products per Row"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:215
+msgid "Related Products Options"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:221
+msgid "Related Products Title"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:238
+msgid "Related Products per Row"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:257
+msgid "Product Title Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Single.php:272
+msgid "Product Price Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Store.php:17
+#: customizer/classes/Sections/Woo_Store.php:45
+#: customizer/classes/Sections/Woo_Store.php:56
+msgid "Store Notice"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Store.php:80
+msgid "Notice Font Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Store.php:95
+msgid "Notice Background Color"
+msgstr ""
+
+#: customizer/classes/Sections/Woo_Store.php:112
+msgid "Notice Typography"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:12
+msgid "Global Color Palette"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:24
+msgid "Base Font Color"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:41
+msgid "Heading Color"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:80
+msgid "Text Selection Color"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:95
+msgid "Highlighted"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:119
+msgid "Accent Color One"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:136
+msgid "Accent Color Two"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:153
+msgid "Accent Color Three"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:170
+msgid "Section Background Color"
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:172
+msgid "This color is used in some sections of the site as a background."
+msgstr ""
+
+#: customizer/classes/Settings/Colors_Section_Setting.php:188
+msgid "Site Background"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:26
+msgid "Container"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:32
+msgid "Container Width"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:33
+msgid "This setting sets the container width of the site."
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:66
+msgid "Choose the default site layout."
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:70
+msgid "Centered Max-width"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:71
+msgid "This setting sets the container width for a Fullwidth Centered layout."
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:92
+msgid "Centered Vertical Spacing"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:93
+msgid "This setting sets the spacing at the top and bottom of the container."
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:115
+msgid "Stretched Padding"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:117
+msgid "This setting sets the spacing at the left and right of the container when the Stretch layout is enabled."
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:126
+#: inc/custom-functions.php:569
+msgid "Sidebar"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:138
+msgid "Sidebar Width"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:150
+msgid "Widget Spacing"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:168
+msgid "This setting adds the spacing between the widgets in the sidebar."
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:182
+msgid "This setting sets the default sidebar layout of the site."
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:258
+msgid "Widgets Title Font Color"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:277
+msgid "Widget Title Font Size"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:300
+msgid "Widget Link Color"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:328
+msgid "Content Area Spacing"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:446
+msgid "Text Hover Color"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:486
+msgid "Background Hover Color"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:526
+msgid "Border Hover Color"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:546
+msgid "Scroll To Top"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:558
+msgid "Show Scroll To Top"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:568
+msgid "Icon Selector"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:603
+msgid "Button Shape"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:610
+msgid "Circle"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:642
+msgid "Bottom Offset"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:666
+msgid "Side Offset"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:777
+msgid "Shape Background Color"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:889
+msgid "404 Page"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:895
+msgid "Upload 404 Image"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:905
+msgid "Show Latest Posts"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:914
+msgid "Show Search Form"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:935
+msgid "Number of Posts per Row"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:947
+msgid "Show Blog Page Button"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:956
+msgid "Label "
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:961
+#: inc/template-tags.php:215
+msgid "Go To Blog"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:966
+msgid "Header Settings"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:972
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:980
+msgid "Choose Sticky Header"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:989
+#: customizer/dist/customizer.js:1187
+#: customizer/dist/customizer.js:1195
+#: customizer/dist/modules.js:1187
+#: customizer/dist/modules.js:1195
+#: customizer/dist/postmeta.js:1187
+#: customizer/dist/postmeta.js:1195
+#: customizer/src/controls/control-components/layout-builder/composer-layout/ComposerLayout.jsx:12
+#: customizer/src/controls/control-components/layout-builder/footer/Row.jsx:14
+msgid "Main Row"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:1020
+msgid "Enable On"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:1039
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:193
+msgid "Enable Transparent Header"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:1048
+msgid "Transparent Header Locations"
+msgstr ""
+
+#: customizer/classes/Settings/Layouts_Section_Setting.php:1062
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:194
+msgid "Disable on Mobile"
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:19
+msgid "Base Font"
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:46
+msgid "Fallback Font Family"
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:47
+msgid "This font is used if the chosen font isn't available."
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:51
+msgid "Load Google Fonts Locally"
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:52
+msgid "This will load Google fonts from your server to speed up your site and make it GDPR compliant."
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:63
+msgid "Preload Local Fonts"
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:64
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:74
+#: customizer/classes/Settings/Typography_Setting.php:79
+msgid "Flush Local Fonts Cache"
+msgstr ""
+
+#: customizer/classes/Settings/Typography_Setting.php:75
+msgid "Click the button to reset the local fonts cache."
+msgstr ""
+
+#: inc/classes/class-dashboard.php:71
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/classes/class-dashboard.php:88
+msgid "Browse Rishi Starter Templates"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:92
+msgid "Install Rishi Starter Templates"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:95
+msgid "Activate Rishi Starter Templates"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:103
+msgid "Activating"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:104
+msgid "Deactivating"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:105
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:106
+msgid "Deactivate"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:107
+msgid "Settings"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:108
+msgid "Browse Starter Templates"
+msgstr ""
+
+#: inc/classes/class-dashboard.php:170
+msgid "Security Error, Please reload the page."
+msgstr ""
+
+#: inc/classes/class-dashboard.php:173
+msgid "Security Error, Need higher Permissions to install plugin."
+msgstr ""
+
+#: inc/classes/class-dashboard.php:234
+msgid "Error, plugin could not be installed, please install manually."
+msgstr ""
+
+#: inc/custom-functions.php:45
+msgid "Primary"
+msgstr ""
+
+#: inc/custom-functions.php:46
+msgid "Secondary"
+msgstr ""
+
+#: inc/custom-functions.php:125
+msgid "Vivid cyan blue to vivid purple"
+msgstr ""
+
+#: inc/custom-functions.php:131
+msgid "Light green cyan to vivid green cyan"
+msgstr ""
+
+#: inc/custom-functions.php:137
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr ""
+
+#: inc/custom-functions.php:143
+msgid "Luminous vivid orange to vivid red"
+msgstr ""
+
+#: inc/custom-functions.php:149
+msgid "Cool to warm spectrum"
+msgstr ""
+
+#: inc/custom-functions.php:155
+msgid "Blush light purple"
+msgstr ""
+
+#: inc/custom-functions.php:161
+msgid "Blush bordeaux"
+msgstr ""
+
+#: inc/custom-functions.php:167
+msgid "Luminous dusk"
+msgstr ""
+
+#: inc/custom-functions.php:173
+msgid "Pale ocean"
+msgstr ""
+
+#: inc/custom-functions.php:179
+msgid "Electric grass"
+msgstr ""
+
+#: inc/custom-functions.php:185
+msgid "Midnight"
+msgstr ""
+
+#: inc/custom-functions.php:191
+msgid "Juicy Peach"
+msgstr ""
+
+#: inc/custom-functions.php:197
+msgid "Young Passion"
+msgstr ""
+
+#: inc/custom-functions.php:203
+msgid "True Sunset"
+msgstr ""
+
+#: inc/custom-functions.php:209
+msgid "Morpheus Den"
+msgstr ""
+
+#: inc/custom-functions.php:215
+msgid "Plum Plate"
+msgstr ""
+
+#: inc/custom-functions.php:221
+msgid "Aqua Splash"
+msgstr ""
+
+#: inc/custom-functions.php:227
+msgid "Love Kiss"
+msgstr ""
+
+#: inc/custom-functions.php:233
+msgid "New Retrowave"
+msgstr ""
+
+#: inc/custom-functions.php:239
+msgid "Plum Bath"
+msgstr ""
+
+#: inc/custom-functions.php:245
+msgid "High Flight"
+msgstr ""
+
+#: inc/custom-functions.php:251
+msgid "Teen Party"
+msgstr ""
+
+#: inc/custom-functions.php:257
+msgid "Fabled Sunset"
+msgstr ""
+
+#: inc/custom-functions.php:263
+msgid "Arielle Smile"
+msgstr ""
+
+#: inc/custom-functions.php:269
+msgid "Itmeo Branding"
+msgstr ""
+
+#: inc/custom-functions.php:275
+msgid "Deep Blue"
+msgstr ""
+
+#: inc/custom-functions.php:281
+msgid "Strong Bliss"
+msgstr ""
+
+#: inc/custom-functions.php:287
+msgid "Sweet Period"
+msgstr ""
+
+#: inc/custom-functions.php:293
+msgid "Purple Division"
+msgstr ""
+
+#: inc/custom-functions.php:299
+msgid "Cold Evening"
+msgstr ""
+
+#: inc/custom-functions.php:305
+msgid "Mountain Rock"
+msgstr ""
+
+#: inc/custom-functions.php:311
+msgid "Desert Hump"
+msgstr ""
+
+#: inc/custom-functions.php:317
+msgid "Eternal Constance"
+msgstr ""
+
+#: inc/custom-functions.php:323
+msgid "Happy Memories"
+msgstr ""
+
+#: inc/custom-functions.php:329
+msgid "Grown Early"
+msgstr ""
+
+#: inc/custom-functions.php:335
+msgid "Morning Salad"
+msgstr ""
+
+#: inc/custom-functions.php:341
+msgid "Night Call"
+msgstr ""
+
+#: inc/custom-functions.php:347
+msgid "Mind Crawl"
+msgstr ""
+
+#: inc/custom-functions.php:353
+msgid "Angel Care"
+msgstr ""
+
+#: inc/custom-functions.php:359
+msgid "Juicy Cake"
+msgstr ""
+
+#: inc/custom-functions.php:365
+msgid "Rich Metal"
+msgstr ""
+
+#: inc/custom-functions.php:371
+msgid "Mole Hall"
+msgstr ""
+
+#: inc/custom-functions.php:377
+msgid "Cloudy Knoxville"
+msgstr ""
+
+#: inc/custom-functions.php:383
+msgid "Very light gray to cyan bluish gray"
+msgstr ""
+
+#: inc/custom-functions.php:389
+msgid "Soft Grass"
+msgstr ""
+
+#: inc/custom-functions.php:395
+msgid "Saint Petersburg"
+msgstr ""
+
+#: inc/custom-functions.php:401
+msgid "Everlasting Sky"
+msgstr ""
+
+#: inc/custom-functions.php:407
+msgid "Kind Steel"
+msgstr ""
+
+#: inc/custom-functions.php:413
+msgid "Over Sun"
+msgstr ""
+
+#: inc/custom-functions.php:419
+msgid "Premium White"
+msgstr ""
+
+#: inc/custom-functions.php:425
+msgid "Clean Mirror"
+msgstr ""
+
+#: inc/custom-functions.php:431
+msgid "Wild Apple"
+msgstr ""
+
+#: inc/custom-functions.php:437
+msgid "Snow Again"
+msgstr ""
+
+#: inc/custom-functions.php:443
+msgid "Confident Cloud"
+msgstr ""
+
+#: inc/custom-functions.php:449
+msgid "Glass Water"
+msgstr ""
+
+#: inc/custom-functions.php:455
+msgid "Perfect White"
+msgstr ""
+
+#: inc/custom-functions.php:468
+msgid "Palette Color 1"
+msgstr ""
+
+#: inc/custom-functions.php:474
+msgid "Palette Color 2"
+msgstr ""
+
+#: inc/custom-functions.php:480
+msgid "Palette Color 3"
+msgstr ""
+
+#: inc/custom-functions.php:486
+msgid "Palette Color 4"
+msgstr ""
+
+#: inc/custom-functions.php:492
+msgid "Palette Color 5"
+msgstr ""
+
+#: inc/custom-functions.php:498
+msgid "Palette Color 6"
+msgstr ""
+
+#: inc/custom-functions.php:504
+msgid "Palette Color 7"
+msgstr ""
+
+#: inc/custom-functions.php:510
+msgid "Palette Color 8"
+msgstr ""
+
+#: inc/custom-functions.php:573
+msgid "Footer One"
+msgstr ""
+
+#: inc/custom-functions.php:574
+msgid "Add footer one widgets here."
+msgstr ""
+
+#: inc/custom-functions.php:577
+msgid "Footer Two"
+msgstr ""
+
+#: inc/custom-functions.php:578
+msgid "Add footer two widgets here."
+msgstr ""
+
+#: inc/custom-functions.php:581
+msgid "Footer Three"
+msgstr ""
+
+#: inc/custom-functions.php:582
+msgid "Add footer three widgets here."
+msgstr ""
+
+#: inc/custom-functions.php:585
+msgid "Footer Four"
+msgstr ""
+
+#: inc/custom-functions.php:586
+msgid "Add footer four widgets here."
+msgstr ""
+
+#: inc/custom-functions.php:589
+msgid "Footer Five"
+msgstr ""
+
+#: inc/custom-functions.php:590
+msgid "Add footer five widgets here."
+msgstr ""
+
+#: inc/custom-functions.php:593
+msgid "Footer Six"
+msgstr ""
+
+#: inc/custom-functions.php:594
+msgid "Add footer six widgets here."
+msgstr ""
+
+#: inc/elementor-compatibility.php:66
+#: inc/elementor-compatibility.php:123
+msgid "Theme Color 1"
+msgstr ""
+
+#: inc/elementor-compatibility.php:71
+#: inc/elementor-compatibility.php:128
+msgid "Theme Color 2"
+msgstr ""
+
+#: inc/elementor-compatibility.php:76
+#: inc/elementor-compatibility.php:133
+msgid "Theme Color 3"
+msgstr ""
+
+#: inc/elementor-compatibility.php:81
+#: inc/elementor-compatibility.php:138
+msgid "Theme Color 4"
+msgstr ""
+
+#: inc/elementor-compatibility.php:86
+#: inc/elementor-compatibility.php:143
+msgid "Theme Color 5"
+msgstr ""
+
+#: inc/elementor-compatibility.php:91
+#: inc/elementor-compatibility.php:148
+msgid "Theme Color 6"
+msgstr ""
+
+#: inc/elementor-compatibility.php:96
+#: inc/elementor-compatibility.php:153
+msgid "Theme Color 7"
+msgstr ""
+
+#: inc/elementor-compatibility.php:101
+#: inc/elementor-compatibility.php:158
+msgid "Theme Color 8"
+msgstr ""
+
+#: inc/elementor-compatibility.php:106
+#: inc/elementor-compatibility.php:163
+msgid "Accent Color 1"
+msgstr ""
+
+#: inc/elementor-compatibility.php:111
+#: inc/elementor-compatibility.php:168
+msgid "Accent Color 2"
+msgstr ""
+
+#: inc/elementor-compatibility.php:116
+#: inc/elementor-compatibility.php:173
+msgid "Accent Color 3"
+msgstr ""
+
+#: inc/elementor-compatibility.php:527
+msgid "Theme Global Colors"
+msgstr ""
+
+#: inc/elementor-compatibility.php:562
+msgid "Theme Accent"
+msgstr ""
+
+#: inc/elementor-compatibility.php:567
+msgid "Theme Accent - alt"
+msgstr ""
+
+#: inc/elementor-compatibility.php:572
+msgid "Strongest text"
+msgstr ""
+
+#: inc/elementor-compatibility.php:577
+msgid "Strong Text"
+msgstr ""
+
+#: inc/elementor-compatibility.php:582
+msgid "Medium text"
+msgstr ""
+
+#: inc/elementor-compatibility.php:587
+msgid "Subtle Text"
+msgstr ""
+
+#: inc/elementor-compatibility.php:592
+msgid "Subtle Background"
+msgstr ""
+
+#: inc/elementor-compatibility.php:597
+msgid "Additional Background"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/extras.php:22
+msgid "Write a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/extras.php:129
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/extras.php:136
+msgid "says:"
+msgstr ""
+
+#: inc/extras.php:141
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/extras.php:215
+msgid "Home"
+msgstr ""
+
+#: inc/extras.php:290
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: inc/extras.php:295
+#: inc/extras.php:297
+#: inc/extras.php:302
+msgid "m"
+msgstr ""
+
+#: inc/extras.php:295
+#: inc/extras.php:302
+msgid "F"
+msgstr ""
+
+#: inc/extras.php:297
+msgid "d"
+msgstr ""
+
+#: inc/extras.php:389
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:416
+msgid "404 Error - Page Not Found"
+msgstr ""
+
+#: inc/extras.php:420
+msgid " (Page %s)"
+msgstr ""
+
+#: inc/extras.php:616
+msgid "Showing %1$s of %2$s Results"
+msgstr ""
+
+#: inc/extras.php:618
+msgctxt "found posts"
+msgid "%s Result"
+msgid_plural "%s Results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-functions.php:69
+msgid "Skip to content"
+msgstr ""
+
+#: inc/template-functions.php:218
+#: inc/template-functions.php:248
+#: inc/template-functions.php:265
+msgid "Previous"
+msgstr ""
+
+#: inc/template-functions.php:223
+#: inc/template-functions.php:249
+#: inc/template-functions.php:266
+#: inc/woocommerce.php:169
+msgid "Next"
+msgstr ""
+
+#: inc/template-functions.php:250
+#: inc/template-functions.php:267
+msgid "Page"
+msgstr ""
+
+#: inc/template-functions.php:308
+msgid "View All Articles"
+msgstr ""
+
+#: inc/template-functions.php:488
+msgid "Browsing Category:"
+msgstr ""
+
+#: inc/template-functions.php:506
+msgid "Browsing Tag:"
+msgstr ""
+
+#: inc/template-functions.php:524
+msgid "Browsing Year:"
+msgstr ""
+
+#: inc/template-functions.php:528
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-functions.php:539
+msgid "Browsing Month:"
+msgstr ""
+
+#: inc/template-functions.php:543
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-functions.php:554
+msgid "Browsing Day:"
+msgstr ""
+
+#: inc/template-functions.php:558
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-functions.php:570
+msgid "Browsing "
+msgstr ""
+
+#: inc/template-functions.php:600
+msgid "%1$s %2$s"
+msgstr ""
+
+#: inc/template-functions.php:649
+msgid "Search Result for:"
+msgstr ""
+
+#: inc/template-functions.php:787
+msgid "Back to top"
+msgstr ""
+
+#: inc/template-functions.php:842
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/template-functions.php:846
+msgid "404 Error!"
+msgstr ""
+
+#: inc/template-functions.php:847
+msgid "OOPS! That page can&#39;t be found."
+msgstr ""
+
+#: inc/template-functions.php:848
+msgid "The page you are looking for may have been moved, deleted, or possibly never existed."
+msgstr ""
+
+#: inc/template-functions.php:911
+msgid "Recommended Articles"
+msgstr ""
+
+#: inc/template-tags.php:133
+msgid "Tagged In"
+msgstr ""
+
+#: inc/template-tags.php:148
+msgid " min read"
+msgstr ""
+
+#: inc/woocommerce.php:88
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/woocommerce.php:90
+msgid "Sidebar displaying only in woocommerce pages."
+msgstr ""
+
+#: inc/woocommerce.php:168
+msgid "Prev"
+msgstr ""
+
+#: inc/woocommerce.php:265
+msgid "Upsell"
+msgstr ""
+
+#: inc/woocommerce.php:468
+msgid "Sale!"
+msgstr ""
+
+#: searchform.php:8
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-archive.php:67
+#: template-parts/content-archive.php:137
+#: template-parts/content-search.php:62
+#: template-parts/content-search.php:132
+#: template-parts/content-single.php:71
+#: template-parts/content.php:62
+#: template-parts/content.php:133
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-archive.php:80
+#: template-parts/content-archive.php:150
+#: template-parts/content-page.php:59
+#: template-parts/content-search.php:75
+#: template-parts/content-search.php:145
+#: template-parts/content-single.php:83
+#: template-parts/content.php:75
+#: template-parts/content.php:146
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:73
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: customizer/dist/customizer.js:426
+#: customizer/dist/modules.js:426
+#: customizer/dist/postmeta.js:426
+#: customizer/src/@components/FileUpload.jsx:135
+msgid "Select logo"
+msgstr ""
+
+#: customizer/dist/customizer.js:1212
+#: customizer/dist/modules.js:1212
+#: customizer/dist/postmeta.js:1212
+#: customizer/src/controls/control-components/layout-builder/footer/ComposerSidebar/index.js:25
+#: customizer/src/controls/control-components/layout-builder/header/index.js:129
+msgid "Customizing: %s"
+msgstr ""
+
+#: customizer/dist/customizer.js:1212
+#: customizer/dist/modules.js:1212
+#: customizer/dist/postmeta.js:1212
+#: customizer/src/controls/control-components/layout-builder/common/PanelController.jsx:22
+#: customizer/src/controls/control-components/layout-builder/composer-sidebar/PanelsManager.jsx:10
+#: customizer/src/controls/control-components/layout-builder/header/index.js:133
+msgid "Global Header"
+msgstr ""
+
+#: customizer/dist/customizer.js:1229
+#: customizer/dist/modules.js:1229
+#: customizer/dist/postmeta.js:1229
+#: customizer/src/controls/control-components/SelectControl.jsx:11
+msgid "Select Option"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:17
+msgid "Disable Featured Image"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:18
+msgid "Disable Post Tags"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:19
+msgid "Disable Author Box"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:20
+msgid "Disable Posts Navigation"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:21
+msgid "Disable Comments"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:22
+msgid "Disable Related Posts"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:23
+msgid "Disable Header"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:24
+msgid "Disable Footer"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:95
+#: customizer/src/postmeta/index.js:108
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:101
+#: customizer/src/postmeta/index.js:171
+#: customizer/src/postmeta/index.js:201
+msgid "Inherit"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:103
+msgid "Disabled"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:154
+msgid "Inherit from Customizer"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:167
+msgid "Content Area Style Source"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:180
+msgid "Content Area Style"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:192
+msgid "Disable Stretch Layout"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:266
+msgid "Content Area Border Radius"
+msgstr ""
+
+#: customizer/dist/postmeta.js:1328
+#: customizer/src/postmeta/index.js:66
+msgid "Post Elements"
+msgstr ""
+
+#: customizer/src/controls/control-components/layout-builder/footer/ComposerSidebar/index.js:29
+#: customizer/src/controls/control-components/layout-builder/footer/ComposerSidebar/PanelsManager.js:24
+msgid "Global Footer"
+msgstr ""
+
+#: customizer/src/controls/control-components/layout-builder/footer/ComposerSidebar/index.js:51
+msgid "Footers"
+msgstr ""
+
+#: customizer/src/controls/control-components/layout-builder/footer/ComposerSidebar/index.js:52
+msgid "Elements"
+msgstr ""
+
+#: customizer/src/controls/control-components/layout-builder/header/ViewSwitch.js:28
+msgid "Desktop Header"
+msgstr ""
+
+#: customizer/src/controls/control-components/layout-builder/header/ViewSwitch.js:29
+msgid "Mobile Header"
+msgstr ""
+
+#: customizer/src/controls/control-components/layout-builder/header/ViewSwitch.js:52
+msgid "Show Builder"
+msgstr ""
+
+#: customizer/src/controls/control-components/layout-builder/header/ViewSwitch.js:53
+msgid "Hide Builder"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:8
+msgid "Explore Rishi Pro Addons"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:9
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:15
+msgid "Performance Booster"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:16
+msgid "Optimize your website performance to load faster."
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:17
+#: inc/dashboard/pages/general/AddonsInfo.js:26
+#: inc/dashboard/pages/general/AddonsInfo.js:37
+#: inc/dashboard/pages/general/AddonsInfo.js:46
+#: inc/dashboard/pages/general/AddonsInfo.js:57
+#: inc/dashboard/pages/sidebarinfo/UpgrageToPro.js:10
+msgid "Learn More"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:24
+msgid "Header/Footer Scripts"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:25
+msgid "Add custom scripts directly to your site without any extra plugins."
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:35
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:44
+msgid "Events"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:45
+msgid "Add Events feature to display events on your site."
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:55
+msgid "Customizer Reset"
+msgstr ""
+
+#: inc/dashboard/pages/general/AddonsInfo.js:56
+msgid "Quickly reset your customizer settings to default."
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:10
+msgid "Site Identity"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:12
+#: inc/dashboard/pages/general/index.js:18
+#: inc/dashboard/pages/general/index.js:36
+#: inc/dashboard/pages/general/index.js:42
+#: inc/dashboard/pages/general/index.js:48
+#: inc/dashboard/pages/general/index.js:60
+msgid "Customize"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:16
+msgid "Color Settings"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:24
+msgid "Go to Options "
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:28
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:30
+#: inc/dashboard/pages/general/index.js:54
+msgid "Go to Options"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:34
+msgid "Header Builder"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:40
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:46
+msgid "Page Settings"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:52
+msgid "Sidebar Settings"
+msgstr ""
+
+#: inc/dashboard/pages/general/index.js:58
+msgid "Footer Builder"
+msgstr ""
+
+#: inc/dashboard/pages/header/DashHeader.js:21
+#: inc/dashboard/pages/sidebarinfo/index.js:20
+msgid "Support"
+msgstr ""
+
+#: inc/dashboard/pages/header/DashHeader.js:22
+msgid "Docs"
+msgstr ""
+
+#: inc/dashboard/pages/header/DashHeader.js:30
+msgid "Rishi Theme is core web vitals optimized WordPress theme. It lightning fast, lightweight and highly customizable."
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/index.js:9
+#: inc/dashboard/pages/sidebarinfo/index.js:12
+msgid "Documentation"
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/index.js:10
+msgid "Need help with using the WordPress as quickly as possible? Visit our well-organized Knowledge Base!"
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/index.js:21
+msgid "If the Knowledge Base didn't answer your queries, submit us a support ticket here. Our response time usually is less than a business day, except on the weekends."
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/index.js:23
+msgid "Submit a Ticket"
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/index.js:31
+msgid "Video Tutorials"
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/index.js:32
+msgid "Check our step by step video tutorials."
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/index.js:34
+msgid "Watch Videos"
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/UpgrageToPro.js:8
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/dashboard/pages/sidebarinfo/UpgrageToPro.js:9
+msgid "With the Pro version, you get access to more templates, advanced add-ons, additional layouts for headers, blogs and single posts along with many other advanced features."
+msgstr ""
+
+#: inc/dashboard/pages/startersettings/index.js:44
+msgid "Rishi theme includes variety of starter templates suited for different niches of websites. New designs are added frequently to the collection. %sVisit Here%s to see all the templates."
+msgstr ""

@@ -1,0 +1,180 @@
+@import url("./dynamic-page.css");
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    height: auto;
+}
+.banner img {
+    border-radius: 4px;
+}
+
+.banner-text {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 15px 0 0 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 355px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .banner-text {
+        /* font-size: 1.2rem; */
+        /* padding: 10px 20px; */
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 0;
+    }
+    .banner img {
+        min-height: 115px;
+        object-fit: cover;
+    }
+    .banner-text {
+        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.5);
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.tabs-wrapper {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.tabs-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    position: relative;
+}
+
+.tabs-scroll::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+}
+
+.tabs-arrow {
+    display: none;
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transition: opacity 0.3s;
+    opacity: 1;
+    padding: 0;
+}
+
+.tabs-arrow.left {
+    left: 0;
+}
+
+.tabs-arrow.right {
+    right: 0;
+}
+
+.tabs-arrow.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/* Tabs Section */
+.tabs-section .nav-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: 100%;
+}
+
+@media (max-width: 1148px) {
+    .tabs-section .nav-tabs {
+        margin: 0 26px;
+    }
+}
+
+.tabs-section .nav-tabs .nav-link {
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    text-wrap: nowrap;
+}
+
+.tabs-section .nav-tabs .nav-link.active {
+    color: #004c97;
+    border-bottom: 3px solid #004c97;
+    /*font-weight: 600;*/
+    background: none;
+}
+
+.tabs-section .nav-tabs .nav-link.active:hover , .tabs-section .nav-tabs .nav-link.active:focus {
+    color: #004c97;
+    border-bottom: 3px solid #004c97;
+    background: none;
+}
+/* PDF Cards Section */
+.pdf-card {
+    display: flex;
+    align-items: self-start;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pdf-card small{
+    color: #6F6F6F;
+    font-size: 14px;
+}
+
+.pdf-card .key-words {
+    color: #757575;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.pdf-card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.pdf-card img {
+    width: 26px;
+}
+
+.pdf-card h6 {
+    margin: 0;
+    font-size: 16px;
+    color: #004c97;
+    font-weight: bold;
+}
+
+/* Pagination */
+.pagination-section {
+    text-align: center;
+    margin-top: 20px;
+}

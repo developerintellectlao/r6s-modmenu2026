@@ -1,0 +1,98 @@
+.sbi-faux-block-modal {
+    width: 580px;
+    height: 290px;
+    position: relative;
+
+    .sbi-modal-header {
+        padding: 20px 0 10px 20px;
+        position: relative;
+        background: #F3F4F5;
+    }
+
+    .sbi-modal-title-wrap {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+    
+        .sbi-modal-icon svg {
+            height: 66px;
+            width: 66px;
+        }
+
+        .sbi-modal-title {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+
+            .sbi-requires {
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 19px;
+                color: #434960;
+            }
+        }
+
+        .sbi-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            h2 {
+                font-size: 18px;
+                line-height: 25px;
+                font-weight: 600;
+                margin: 0;
+                color: #141B38;
+            }
+
+            .sbi-plugin-tag {
+                font-size: 10px;
+                font-weight: 700;
+                background-color: #59AB46;;
+                color: white;
+                padding: 0 2px;
+                border-radius: 2px;
+                margin-top: -5px;
+            }
+        }
+    }
+
+    .sbi-modal-content {
+        width: 80%; 
+        margin-left: auto; 
+        padding: 20px 20px 20px 0px;
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #434960;
+            margin: 0;
+            padding: 0 20px 20px 0;
+        }
+
+        .sbi-modal-cta-btn {
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+			background-color: #FE544F; 
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 22px;
+        }
+    }
+
+    .sbi-modal-close {
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }
+
+    .components-modal__content,
+    .components-modal__content.hide-header {
+        padding: 0;
+    }
+
+}

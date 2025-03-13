@@ -1,0 +1,139 @@
+/* MIXINS */
+/*===============================
+Lms compatibility: learn dash
+==============================*/
+.ld-login-modal-register #ld-user-register p.submit {
+  color: unset;
+  background: unset;
+  padding: unset;
+  border-radius: unset;
+  border: unset; }
+
+.llms-button-action,
+.llms-button-action.auto, .llms-button-danger.auto, .llms-button-primary.auto, .llms-button-secondary.auto,
+.learndash-wrapper .btn-join, .learndash-wrapper #btn-join,
+.ld-course-list-items .ld_course_grid .thumbnail.course a.btn-primary,
+.learndash-wrapper .ld-login-modal .ld-login-modal-register #wp-submit,
+.learndash-wrapper .ld-login-modal input[type='submit'],
+.entry-content .learndash-wrapper .ld-button,
+.learndash-wrapper .ld-button.ld-button-reverse,
+.learndash-wrapper .learndash_mark_complete_button,
+.learndash-wrapper #learndash_mark_complete_button {
+  display: inline-block;
+  color: var(--btnTextColor);
+  text-decoration: none !important;
+  width: auto;
+  background: var(--btnBgColor);
+  padding: var(--buttonPadding);
+  border: 1px solid var(--btnBorderColor) !important;
+  border-radius: var(--bottonRoundness);
+  transition: all ease 0.2s;
+  cursor: pointer;
+  outline: none;
+  font-family: var(--btnFontFamily);
+  font-size: var(--btnFontSize);
+  font-weight: var(--btnFontWeight);
+  font-style: var(--btnFontStyle);
+  line-height: var(--btnLineHeight);
+  letter-spacing: var(--btnLetterSpacing);
+  text-transform: var(--btnTextTransform);
+  text-decoration: var(--btnTextDecoration); }
+
+.learndash-wrapper .ld-expand-button {
+  color: var(--btnTextColor);
+  background: var(--btnBgColor); }
+
+.llms-button-action:hover,
+.llms-button-action.auto:hover, .llms-button-danger.auto:hover, .llms-button-primary.auto:hover, .llms-button-secondary.auto:hover,
+.learndash-wrapper .btn-join, .learndash-wrapper #btn-join:hover,
+.ld-course-list-items .ld_course_grid .thumbnail.course a.btn-primary:hover,
+.learndash-wrapper .ld-login-modal input[type='submit']:hover,
+.entry-content .learndash-wrapper .ld-button:hover,
+.learndash-wrapper .ld-button.ld-button-reverse:hover,
+.learndash-wrapper .ld-login-modal .ld-login-modal-register a.ld-button:hover,
+.learndash-wrapper .learndash_mark_complete_button:hover,
+.learndash-wrapper #learndash_mark_complete_button:hover,
+.learndash-wrapper .ld-expand-button:hover {
+  color: var(--btnTextHoverColor);
+  background: var(--btnBgHoverColor);
+  border-color: var(--btnBorderHoverColor);
+  box-shadow: unset !important; }
+
+.learndash-wrapper .learndash_mark_complete_button:hover + ::after,
+.learndash-wrapper #learndash_mark_complete_button:hover + ::after {
+  color: var(--btnTextHoverColor); }
+
+.learndash-wrapper .ld-login-modal input[type='text'],
+.learndash-wrapper .ld-login-modal input[type='password'],
+.learndash-wrapper .ld-login-modal input[type='email'],
+.learndash-wrapper .ld-login-modal .ld-login-field,
+.learndash-wrapper .ld-login-modal .ld-password-field {
+  border: 1px solid var(--genborderColor); }
+
+.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active,
+.learndash-wrapper .ld-progress .ld-progress-heading .ld-progress-stats .ld-progress-percentage,
+.learndash-wrapper .ld-expand-button.ld-button-alternate,
+.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading,
+.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title,
+.learndash-wrapper .ld-table-list a.ld-table-list-item-preview:hover,
+.learndash-wrapper .ld-status-unlocked,
+.learndash-wrapper .ld-item-list .ld-item-list-item a.ld-item-name:hover {
+  color: var(--genLinkColor); }
+
+.single .entry-content .llms-access-plan-title {
+  color: var(--primaryColor); }
+
+.llms-lesson-preview .llms-icon-free,
+.llms-access-plan-title,
+.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after,
+.ld-course-list-items .ld_course_grid .thumbnail.course .ld_course_grid_price,
+.ld-course-list-items .ld_course_grid .thumbnail.course .ld_course_grid_price.ribbon-enrolled {
+  background: var(--btnBgColor); }
+
+.ld-course-list-items .ld_course_grid .thumbnail.course .ld_course_grid_price:before,
+.ld-course-list-items .ld_course_grid .thumbnail.course .ld_course_grid_price.ribbon-enrolled:before {
+  border-top: 4px solid var(--btnBgColor);
+  border-right: 4px solid var(--btnBgColor); }
+
+.learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress,
+.learndash-wrapper .ld-expand-button.ld-button-alternate .ld-icon,
+#learndash-tooltips .ld-tooltip {
+  background: var(--paletteColor3);
+  color: var(--paletteColor5); }
+
+#learndash-tooltips .ld-tooltip:after {
+  background: var(--paletteColor3); }
+
+.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading .ld-status-incomplete,
+.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title .ld-status-incomplete {
+  border-color: var(--genLinkColor); }
+
+.learndash-wrapper .ld-content-actions .ld-content-action .ld-course-step-back {
+  margin-top: 15px; }
+
+.learndash-wrapper .ld-table-list .ld-table-list-header {
+  background-color: var(--paletteColor3);
+  color: var(--paletteColor5); }
+
+/*===============================
+Lms compatibility: tutor lms
+==============================*/
+:root {
+  --tutor-primary-color: var(--paletteColor3);
+  --tutor-primary-text-color: var(--paletteColor5);
+  --tutor-primary-hover-color: var(--paletteColor4);
+  --tutor-design-white: var(--paletteColor5); }
+
+.tutor-btn:not(.tutor-is-outline).tutor-btn-primary {
+  border-color: var(--tutor-primary-color); }
+
+.tutor-instructor-apply-button .tutor-bg-primary {
+  color: var(--tutor-primary-text-color); }
+
+.tutor-disabled-wrapper .tutor-disabled-content-wrapper .tutor-btn {
+  text-decoration: none;
+  margin-top: 30px; }
+
+.tutor-btn.tutor-btn-ghost {
+  padding: var(--buttonPadding);
+  border: 1px solid var(--btnBorderColor); }

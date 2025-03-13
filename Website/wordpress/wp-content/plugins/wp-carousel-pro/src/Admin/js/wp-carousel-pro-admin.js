@@ -1,0 +1,25 @@
+jQuery(document).ready(function ($) {
+    /**
+     * Admin Preloader.
+     */
+    $("#sp_wpcp_shortcode_options .sp_wpcp-wrapper").css("visibility", "hidden");
+    $("#sp_wpcp_shortcode_options .sp_wpcp-wrapper").css("visibility", "visible");
+    $("#sp_wpcp_shortcode_options .sp_wpcp-wrapper").css("background", "#f1f1f1");
+    $("#sp_wpcp_shortcode_options .sp_wpcp-wrapper .sp_wpcp-nav-metabox li").css("opacity", 1);
+    $("#sp_wpcp-section-sp_wpcp_upload_options_0").show();
+    $("#sp_wpcp-section-sp_wpcp_display_shortcodes_0, #sp_wpcp-section-sp_wpcp_display_builders_0").removeClass('hidden').show();
+    $("#sp_wpcp-section-sp_wpcp_display_shortcode_0").show();
+
+    $('.wpcp_watermark').find('.sp_wpcp-desc-text').hide();
+    if ($('.wpcp_watermark .sp_wpcp--switcher').hasClass('sp_wpcp--active')) {
+        $('.wpcp_watermark').find('.sp_wpcp-desc-text').show();
+    }
+    $('.wpcp_watermark .sp_wpcp--switcher').on('change', function (event) {
+        event.preventDefault();
+        if ($('.wpcp_watermark .sp_wpcp--switcher').hasClass('sp_wpcp--active')) {
+            $('.wpcp_watermark').find('.sp_wpcp-desc-text').show();
+        } else {
+            $('.wpcp_watermark').find('.sp_wpcp-desc-text').hide();
+        }
+    });
+});

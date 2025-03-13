@@ -1,0 +1,20 @@
+{
+  "name": "wp-carousel-pro-gutenberg-shortcode-block",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^8.3.0",
+    "@wordpress/create-block": "^2.7.0",
+    "@wordpress/escape-html": "^2.2.3",
+    "components": "^0.1.0",
+    "element": "^0.1.4",
+    "i18n": "^0.14.2"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^22.2.0"
+  }
+}

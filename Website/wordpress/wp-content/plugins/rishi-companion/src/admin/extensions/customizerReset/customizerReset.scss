@@ -1,0 +1,72 @@
+.rishi-customizer-reset {
+
+    @media (min-width: 600px) {
+        max-width: min(calc(100% - 32px), 450px);
+    }
+
+    .rishi-reset-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &>*+* {
+            margin-top: 20px;
+        }
+
+        p {
+            color: rgba(41, 41, 41, 0.9);
+            font-size: 1.2em;
+            font-weight: 400;
+            line-height: 1.78em;
+            text-align: center;
+        }
+
+        .rishi-reset-btn {
+            padding: 10px 16px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid var(--cw__secondary-color);
+            transition: color 240ms ease-in, background-color 240ms ease-in;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &.reset-cancel {
+                color: var(--cw__secondary-color);
+
+                &:hover {
+                    background-color: var(--cw__secondary-color);
+                    color: #ffffff;
+
+                }
+            }
+
+            &.reset-confirm {
+                background-color: var(--cw__secondary-color);
+                color: #ffffff;
+
+                &:hover {
+                    background-color: #0f52b7;
+                }
+            }
+        }
+    }
+
+    .reset-confirm-btns {
+        display: flex;
+        gap: 15px;
+    }
+
+    .components-modal__header-heading-container {
+        justify-content: center;
+    }
+
+    .components-modal__header-heading {
+        color: #292929;
+        font-size: 1.6em;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+}
