@@ -58,3 +58,26 @@ export const statusMapping = (status) => {
             return "Normal";
     }
 }
+
+export const getColorForMapIconRiverFloodForecastData = (value) => {
+    switch (value) {
+        case '0':
+        case '1' :
+        case '2':
+            return "#99ccff";//blue
+        case '3':
+        case '4' :
+        case '5':
+            return "#d9772e";//orienge
+         case '6':
+        case '7' :
+        case '8':
+            return "#ff0000";//red
+        case'9':
+            return "#c0c0c0";
+        case '10':
+            return "#c0c0c0";
+        default:
+            return "#b6e6b2";
+    }
+};

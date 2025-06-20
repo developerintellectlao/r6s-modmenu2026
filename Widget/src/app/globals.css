@@ -58,7 +58,7 @@ a {
   animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
   width: .5rem;
   height: .5rem;
-  color: rgb(245 158 11);
+  /* color: rgb(245 158 11); */
 }
 
 *,:after,:before {

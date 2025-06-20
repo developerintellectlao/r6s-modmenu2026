@@ -20,6 +20,7 @@ import { statusMapping } from '@/common/utility';
 import FlashFloodGuidance from '../flashFloodGuidance';
 import DroughtForecast from '../droughtForecast';
 import RainfallObservation from '../rainfallObservation';
+import RiverFloodForecast from '../riverFloodForecast';
 import { COUNTRY_LIST, INITIAL_DATA } from '@/common/constants';
 
 
@@ -28,11 +29,20 @@ export default function Home() {
   const [value, setValue] = React.useState('1');
   const [finalData, setFinalData] = React.useState(INITIAL_DATA);
   const [allData, setAllData] = React.useState(INITIAL_DATA);
-  const [countrys , setCountry] = React.useState(COUNTRY_LIST);
-  
+  const [countrys, setCountry] = React.useState(COUNTRY_LIST);
+  const [floodSeason, setFloodSeason] = React.useState();
+
   React.useEffect(() => {
-       getStatus();
-       getFlowThresholdData();
+    const today = new Date();
+    const year = today.getFullYear();
+
+    const start = new Date(year, 6, 1);   // July 1 (month is 0-based, so 6 = July)
+    const end = new Date(year, 9, 31);   // October 31
+
+    setFloodSeason(today >= start && today <= end);
+
+    getStatus();
+    getFlowThresholdData();
   }, []);
 
   const getStatus = async () => {
@@ -69,16 +79,16 @@ export default function Home() {
   const getFlowThresholdData = async () => {
     try {
       const res = await axios.get(FLOW_THRESHOLD);
-  
+
       setAllData((prevAllData) => {
         const updatedData = prevAllData.map((item) => {
           const filteredRow = res?.data.find((row) => row?.station_name === item.station);
           if (filteredRow) {
-            return { ...item, FlowThreshold: (filteredRow?.water_level_zone === "ABOVE_AVERAGE" || filteredRow?.water_level_zone === "BELOW_AVERAGE")  ? "Normal" : filteredRow?.water_level_zone};
+            return { ...item, FlowThreshold: (filteredRow?.water_level_zone === "ABOVE_AVERAGE" || filteredRow?.water_level_zone === "BELOW_AVERAGE") ? "Normal" : filteredRow?.water_level_zone };
           }
           return item;
         });
-  
+
         // Ensure finalData is also updated
         setFinalData(updatedData);
         return updatedData; // Return the new allData value
@@ -87,12 +97,12 @@ export default function Home() {
       console.error(error);
     }
   };
-  
+
   const handleFilter = (country) => {
-    if(country === null){
+    if (country === null) {
       setFinalData(allData)
     } else {
-      const data = allData.filter((row)=>row?.country === country);
+      const data = allData.filter((row) => row?.country === country);
       setFinalData(data)
     }
   }
@@ -108,24 +118,27 @@ export default function Home() {
 
   return (
     <>
-      <Box sx={{P:0, m:0}} >
+      <Box sx={{ P: 0, m: 0 }} >
         <TabContext value={value} >
           <Box sx={{ borderBottom: 1, borderColor: 'divider', display: "flex", justifyContent: "center" }} >
             <TabList onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="lab API tabs example">
               <Tab label="TODAY'S STATUS" value="1" />
-              <Tab label="Weekly River Forecast" value="2" />
-              <Tab label="LTA Chart" value="3" />
+              {!floodSeason && <Tab label="Weekly River Forecast" value="2" />}
+              {!floodSeason && <Tab label="LTA Chart" value="3" />}
+              {floodSeason && <Tab label="River Flood Forecast" value="7" />}
               <Tab label="Flash Flood Guidance" value="4" />
               <Tab label="Drought Forecast" value="5" />
               <Tab label="Rainfall Observation" value="6" />
             </TabList>
           </Box>
-          <TabPanel value="1" sx={{ p: 0 }}><TodayStatus updateData = {updateData} allData = {allData} data={finalData} country = {countrys} handleFilter = {handleFilter}/></TabPanel>
-           <TabPanel value="2" sx={{ p: 0 }}><WeeklyRiverForecast updateData = {updateData} allData = {allData} data={finalData} country = {countrys} handleFilter = {handleFilter}/></TabPanel>
-          <TabPanel value="3" sx={{ p: 0 }}><LtaChart allData = {allData} data={finalData} country = {countrys} handleFilter = {handleFilter}/></TabPanel>
-          <TabPanel value="4" sx={{ p: 0 }}><FlashFloodGuidance allData = {allData} data={finalData} country = {countrys} handleFilter = {handleFilter} /></TabPanel>
-          <TabPanel value="5" sx={{ p: 0 }}><DroughtForecast allData = {allData} data={finalData} country = {countrys} handleFilter = {handleFilter} /></TabPanel> 
-         <TabPanel value="6" sx={{ p: 0 }}><RainfallObservation allData = {allData} data={finalData} country = {countrys} handleFilter = {handleFilter} /></TabPanel>
+          <TabPanel value="1" sx={{ p: 0 }}><TodayStatus updateData={updateData} allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+          <TabPanel value="2" sx={{ p: 0 }}><WeeklyRiverForecast updateData={updateData} allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+          <TabPanel value="3" sx={{ p: 0 }}><LtaChart allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+          <TabPanel value="4" sx={{ p: 0 }}><FlashFloodGuidance allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+          <TabPanel value="5" sx={{ p: 0 }}><DroughtForecast allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+          <TabPanel value="6" sx={{ p: 0 }}><RainfallObservation allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+          <TabPanel value="7" sx={{ p: 0 }}><RiverFloodForecast allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+
         </TabContext>
       </Box>
     </>

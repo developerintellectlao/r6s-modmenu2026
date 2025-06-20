@@ -44,50 +44,45 @@ const ChartComponent = ({ data, selectedRow }) => {
       generateChartOptions(series, uniqueMonths, start, end);
     }
   }, [data]);
+  
+//working
 
-  // const parseData = (data) => {
-  //   console.log("data", data)
-  //   try {
-  //     const rows = data.trim().split('\n');
-  //     const columns = rows[0].split(',');
-  //     const parsedRows = rows.slice(1).map(row => row.split(','));
-  //     console.log("rows, ", rows, columns, parsedRows)
-  //     // Function to parse the date (handles both '/' and '-' delimiters)
-  //     const parseDate = (dateString) => {
-  //       const delimiter = dateString.includes('/') ? '/' : '-';
-  //       const [day, month, year] = dateString.split(delimiter);
-  //       return Date.UTC(year, month - 1, day);
-  //     };
-  
-  //     // Set Start and End Dates
-  //     const startDate = parsedRows[0][0];
-  //     const start = parseDate(startDate);
-  //     const endDate = parsedRows[parsedRows.length - 1][0];
-  //     const end = parseDate(endDate);
-  //     console.log("startDate, ", startDate, start, endDate,end )
-  //     // Extract Dates
+// const parseData = (data) => {
+//     try {
+//       const rows = data.trim().split('\n');
+//       const columns = rows[0].split(',');
+//       const parsedRows = rows.slice(1).map(row => row.split(','));
 
-  
-  //     // Extract Series Data
-  //     const series = columns.slice(1).map((name, colIndex) => ({
-  //       name,
-  //       data: parsedRows.map((row, rowIndex) => [dates[rowIndex], parseFloat(row[colIndex + 1]) || null])
-  //     }));
-  
-  //     // Generate Unique Month-Year Pairs
-  //     const uniqueMonths = [...new Set(dates.map(date => {
-  //       const tempDate = new Date(date);
-  //       return Date.UTC(tempDate.getUTCFullYear(), tempDate.getUTCMonth(), 1);
-  //     }))].sort((a, b) => a - b);
-  
-  //     return { series, uniqueMonths, start, end };
-  //   } catch (error) {
-  //     console.error("Error parsing data: ", error);
-  //     return { series: [], uniqueMonths: [], start: null, end: null };
-  //   }
-  // };
-  
+//       // Set Start and End Dates
+//       const [startDay, startMonth, startYear] = parsedRows[0][0].split('-');
+//       const start = Date.UTC(startYear, startMonth - 1, startDay);
+//       const [endDay, endMonth, endYear] = parsedRows[parsedRows.length - 1][0].split('-');
+//       const end = Date.UTC(endYear, endMonth - 1, endDay);
 
+//       // Extract Dates
+//       const dates = parsedRows.map(row => {
+//         const [day, month, year] = row[0].split('-');
+//         return Date.UTC(year, month - 1, day);
+//       });
+
+//       // Extract Series Data
+//       const series = columns.slice(1).map((name, colIndex) => ({
+//         name,
+//         data: parsedRows.map((row, rowIndex) => [dates[rowIndex], parseFloat(row[colIndex + 1]) || null])
+//       }));
+
+//       // Generate Unique Month-Year Pairs
+//       const uniqueMonths = [...new Set(dates.map(date => {
+//         const tempDate = new Date(date);
+//         return Date.UTC(tempDate.getUTCFullYear(), tempDate.getUTCMonth(), 1);
+//       }))].sort((a, b) => a - b);
+
+//       return { series, uniqueMonths, start, end };
+//     } catch (error) {
+//       console.error("Error parsing data: ", error);
+//       return { series: [], uniqueMonths: [], start: null, end: null };
+//     }
+//   };
 
   const parseData = (data) => {
     try {
@@ -96,14 +91,20 @@ const ChartComponent = ({ data, selectedRow }) => {
       const parsedRows = rows.slice(1).map(row => row.split(','));
 
       // Set Start and End Dates
-      const [startDay, startMonth, startYear] = parsedRows[0][0].split('-');
+      const [startDay, startMonth, startYear] = parsedRows[0][0].includes('-') 
+    ? parsedRows[0][0].split('-') 
+    : parsedRows[0][0].split('/');
       const start = Date.UTC(startYear, startMonth - 1, startDay);
-      const [endDay, endMonth, endYear] = parsedRows[parsedRows.length - 1][0].split('-');
+      const [endDay, endMonth, endYear] = parsedRows[parsedRows.length - 1][0].includes('-') 
+    ? parsedRows[parsedRows.length - 1][0].split('-') 
+    : parsedRows[parsedRows.length - 1][0].split('/');
       const end = Date.UTC(endYear, endMonth - 1, endDay);
 
       // Extract Dates
       const dates = parsedRows.map(row => {
-        const [day, month, year] = row[0].split('-');
+        const [day, month, year] = row[0].includes('-') 
+    ? row[0].split('-') 
+    : row[0].split('/');
         return Date.UTC(year, month - 1, day);
       });
 
