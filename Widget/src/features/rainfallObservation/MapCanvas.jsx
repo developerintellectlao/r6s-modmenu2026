@@ -21,7 +21,7 @@ function MapCanvas({ data }) {
             });
 
             // Add navigation controls
-            mapRef.current.addControl(new mapboxgl.NavigationControl({showCompass: false }), 'top-right');
+            mapRef.current.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-right');
 
             // Add river and border layers
             mapRef.current.on('load', async () => {
@@ -86,7 +86,7 @@ function MapCanvas({ data }) {
                 mapRef.current.addSource('points', {
                     type: 'geojson',
                     data: data,
-                    
+
                 });
 
 
@@ -112,7 +112,7 @@ function MapCanvas({ data }) {
                     minzoom: 0
                 });
 
-                
+
 
                 // mapRef.current.addLayer({
                 //     id: 'points-layer',
@@ -143,7 +143,12 @@ function MapCanvas({ data }) {
 
                     new mapboxgl.Popup()
                         .setLngLat(coordinates)
-                        .setHTML(`<strong>${properties.StaName}</strong><br>mm: ${properties.mm}`)
+                        .setHTML(`
+    <div style="color: #2e2e2f;">
+      <strong>${properties.StaName}</strong><br>
+      mm: ${properties.mm}
+    </div>
+  `)
                         .addTo(mapRef.current);
                 });
 
