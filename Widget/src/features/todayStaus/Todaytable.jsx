@@ -17,12 +17,12 @@ import ThailandFlag from "@/assets/images/icons/ThailandFlag.svg";
 import CambodiaFlag from "@/assets/images/icons/CambodiaFlag.svg";
 import LaoFlag from "@/assets/images/icons/LaoFlag.svg";
 import VietFlag from "@/assets/images/icons/VietFlag.svg";
-import { getColor, toCapitalizedFirstLetter } from "@/common/utility";
+import { getColor, getColorForMapIconRiverFloodForecastData, getColorForTodayStatusFloodForecastData, getValueForTodayStatusRiverFloodForecastData, toCapitalizedFirstLetter } from "@/common/utility";
 import { STATUS } from "@/common/constants";
 import { Icon } from "@iconify/react";
 
-const MonitoringTable = ({ data, handelClick, selectedRow }) => {
-
+const MonitoringTable = ({ data, handelClick, selectedRow, floodSeason }) => {
+  
   const chooseImage = (country) => {
     switch (country) {
       case "Cambodia":
@@ -99,38 +99,80 @@ const MonitoringTable = ({ data, handelClick, selectedRow }) => {
                 )}
 
               </TableCell>
-              <TableCell
-                sx={{
-                  py: "2px",
-                  width: "30%",
-                  whiteSpace: "nowrap",
-                  overflow: "hidden",
-                  textOverflow: "ellipsis"
-                }}
-              >
-                <Stack direction={"row"} display={"flex"} alignItems={"center"} >
-                  {row.Today && (
-                    <Grid2
-                      // sx={{ marginRight:  }}
-                      style={{
-                        marginRight: row.Today === STATUS.ABOVE_LTAS ? "12px" : "",
-                      }}
-                    >
-                      {row.Today === STATUS.BELOW_LTAS && (
-                        <svg className="animate-ping  -ml-0.5 mr-1.5 h-2 w-2  text-amber-500" fill="currentColor" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3"></circle></svg>)}
+
+              {floodSeason ?
+                <TableCell
+                  sx={{
+                    py: "2px",
+                    width: "30%",
+                    whiteSpace: "nowrap",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis"
+                  }}
+                >
+                  <Stack direction={"row"} display={"flex"} alignItems={"center"} >
+                    {row.Today && (
+                      <Grid2
+                        // sx={{ marginRight:  }}
+                        style={{
+                          // marginRight: (row.Today >= '3' && row.Today  <='8') ? "12px" : "",
+                        }}
+                      >
+                        {(row.Today >= '3' && row.Today <='5') ? (
+                          <svg className="animate-ping  -ml-0.5 mr-1.5 h-2 w-2  text-amber-500" fill="currentColor" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3"></circle></svg>)
+                      
+                      : (row.Today >= '6' && row.Today  <='8') ? (
+                          <svg className="animate-ping  -ml-0.5 mr-1.5 h-2 w-2  text-red-400" fill="currentColor" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3"></circle></svg>)
+                      : null}
                     </Grid2>)}
-                  <Typography 
-                    style={{
-                      color: getColor(row.Today)
-                    }}
-                    sx={{ fontSize: ".875rem" }}
-                  >
-                    {row.Today ? row.Today : "-"}
-                  </Typography>
-                </Stack>
+
+                    <Typography
+                      style={{
+                        color: getColorForTodayStatusFloodForecastData(row.Today)
+                      }}
+                      sx={{ fontSize: ".875rem" }}
+                    >
+                      {row.Today ? getValueForTodayStatusRiverFloodForecastData(row.Today) : "-"}
+                    </Typography>
+                  </Stack>
 
 
-              </TableCell>
+                </TableCell>
+                :
+                <TableCell
+                  sx={{
+                    py: "2px",
+                    width: "30%",
+                    whiteSpace: "nowrap",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis"
+                  }}
+                >
+                  <Stack direction={"row"} display={"flex"} alignItems={"center"} >
+                    {row.Today && (
+                      <Grid2
+                        // sx={{ marginRight:  }}
+                        style={{
+                          marginRight: row.Today === STATUS.ABOVE_LTAS ? "12px" : "",
+                        }}
+                      >
+                        {row.Today === STATUS.BELOW_LTAS && (
+                          <svg className="animate-ping  -ml-0.5 mr-1.5 h-2 w-2  text-amber-500" fill="currentColor" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3"></circle></svg>)}
+                      </Grid2>)}
+                    <Typography
+                      style={{
+                        color: getColor(row.Today)
+                      }}
+                      sx={{ fontSize: ".875rem" }}
+                    >
+                      {row.Today ? row.Today : "-"}
+                    </Typography>
+                  </Stack>
+
+
+                </TableCell>}
+
+
               <TableCell sx={{ py: "2px", width: "30%", fontSize: ".875rem" }}>{row.FlowThreshold ? toCapitalizedFirstLetter(row.FlowThreshold) : "-"}</TableCell>
             </TableRow>
           ))}

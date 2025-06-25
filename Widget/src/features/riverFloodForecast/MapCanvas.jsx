@@ -8,6 +8,21 @@ function MapCanvas({ stations, selectedRow, handelClick, riverArea }) {
     const markersRef = useRef([]);
     mapboxgl.accessToken = process.env.MAPBOX_TOKEN;
 
+
+    const getColorForSation = (riverFloodForecastData) => {
+        let value;
+        if(riverFloodForecastData.includes('6') || riverFloodForecastData.includes('7') || riverFloodForecastData.includes('8')) {
+       value = "6";
+      }  else if(riverFloodForecastData.includes('3') || riverFloodForecastData.includes('4') || riverFloodForecastData.includes('5')) {
+         value = "3";
+      } else {
+         value = "1";
+      }
+
+         return getColorForMapIconRiverFloodForecastData(value)
+    }
+
+
     // Initialize the map
     useEffect(() => {
         if (!mapRef.current) {
@@ -91,7 +106,7 @@ function MapCanvas({ stations, selectedRow, handelClick, riverArea }) {
             markerElement.appendChild(label);
 
             // SVG for the marker
-            const svgColor = getColorForMapIconRiverFloodForecastData(row?.riverFloodForecastData?.[0]);
+            const svgColor = getColorForSation(row?.riverFloodForecastData);
             const svg = `
                 <svg class="_animate-ping" height="${selectedRow?.station === row.station ? 26 : 16}" viewBox="0 0 36 36" stroke="blue" stroke-width="1" style="cursor: pointer; fill: ${svgColor}; stroke: blue;">
                     <path id="Shape" d="M18,0C25.732,0 32,5.641 32,12.6C32,23.963 18,36 18,36C18,36 4,24.064 4,12.6C4,5.641 10.268,0 18,0Z" stroke-linecap="round" stroke-linejoin="round"></path>

@@ -111,9 +111,9 @@ function MapCanvas({ droughtGeoJson }) {
 
                 // Set the popup content
                 popup.setLngLat(e.lngLat)
-                    .setHTML(`
+                    .setHTML(`<div style="color: #2e2e2f;">
                         CDI: <strong>${colorName}</strong><br />
-                        Province: <strong>${provName}</strong>
+                        Province: <strong>${provName}</strong></div>
                     `)
                     .addTo(mapRef.current);
             });

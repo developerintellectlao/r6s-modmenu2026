@@ -84,7 +84,7 @@ export default function ShowModel({ open, toggleModel, size, keyChk }) {
                                 { label: <Icon icon="gravity-ui:arrow-right" width="18" height="18" color="#4d5765"  />, description: "Stable water level: Stable water level is defined as a daily change of less than 10cm from Chiang Saen to Savannakhet; less than 5cm at Pakse and Stung Treng; and no more than 3cm cm from Kratie downstream.", color: "blue" },
                                 { label: <Icon icon="gravity-ui:arrow-down" width="18" height="18" color="#4d5765" />, description: "Falling water level", color: "darkblue" },
                                 { label: <Icon icon="gridicons:cross" width="18" height="18" color="#4d5765"/>, description: "No data available", color: "orange" },
-                                { label: "Alarm", description: "Alarm situation is when flood level is forecast within the next 3 days", color: "#d9772e" },
+                                { label: "Alarm", description: "Alarm stage is when the water level ranges between alarm and flood levels", color: "#d9772e" },
                                 { label: "Flood", description: "Flood stage is when the flood level is exceeded; the flood level is determined by the member countries.", color: "#ff0000" },
                             ].map((row, index) => (
                                 <TableRow key={index}>

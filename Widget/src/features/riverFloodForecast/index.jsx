@@ -27,14 +27,15 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
     if(!tableData.length < 0) return
     let countAlarm = 0
     let countFlood = 0
+    console.log("tableData", tableData)
 
-    tableData.forEach((row)=>{
-     if(row?.riverFloodForecastData[0] === '3' || row?.riverFloodForecastData[0] === '4'|| row?.riverFloodForecastData[0] === '5'){
-        countAlarm++
-     } 
-      if(row?.riverFloodForecastData[0] === '6' || row?.riverFloodForecastData[0] === '7'|| row?.riverFloodForecastData[0] === '8'){
+    tableData.forEach((row) => {
+      if(row?.riverFloodForecastData.includes('6') || row?.riverFloodForecastData.includes('7') || row?.riverFloodForecastData.includes('8')) {
         countFlood++
-     }
+      }  else if(row?.riverFloodForecastData.includes('3') || row?.riverFloodForecastData.includes('4') || row?.riverFloodForecastData.includes('5')) {
+        countAlarm++  
+      }
+
     })
     setAlarmStationCount(countAlarm)
     setFloodStationCount(countFlood)
@@ -142,7 +143,8 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
     };
 
   function getDateRangeString() {
-    const today = new Date();
+    let today = new Date();
+    today.setDate(today.getDate() + 1);
     const endDate = new Date();
     endDate.setDate(today.getDate() + 4); // 6 days to include today + next 5 days
 
@@ -176,13 +178,13 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
           >
             {`${getDateRangeString()} `} 
 
-            {alarmStationCount > 0 && (
+           {alarmStationCount > 0 && (
             <span style={{ color: "#f59e0b" }}>
-              {`: Alarm level at ${alarmStationCount} station. `}
+              {`: Alarm level at ${alarmStationCount} station${alarmStationCount > 1 ? 's' : ''} `}
             </span>)}
              {floodStationCount > 0 && (
             <span style={{ color: "#ff0000" }}>
-              {`: Flood level at ${floodStationCount} station.`}
+              {`: Flood level at ${floodStationCount} station${floodStationCount > 1 ? 's' : ''}`}
             </span>)}
           </Typography>
         </Stack>
@@ -215,72 +217,97 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
             <Grid2
               display={"flex"}
               flexDirection={"column"}
-              width='100%'
+              // width='100%'
               sx={{ p: 1, background: "#f9fafb" }}
             >
-              <Stack direction={"row"}>
-                <Stack onClick={handleClick} width="35%" direction={"row"} display={"flex"} alignItems={"center"}>
-                  <Typography
-                    variant="subtitle1"
-                    fontWeight="bold"
-                    fontSize={"14px"}
-                    sx={{ fontWeight: "600", color: "#000000", cursor: "pointer" }}
-                  >
-                    {"Forecasting Station"}
-                  </Typography>
+              <Stack direction={"row"} display={"flex"} justifyContent={"space-between"} alignItems={"center"}>
 
-                  <Icon icon="icon-park-outline:down" width="16" height="16" color='#1c1c1d'/>
-                </Stack>
-                <Stack width="13%" display={"flex"} alignItems={"start "}>
-                  <Typography
-                    variant="subtitle1"
-                    fontSize={"14px"}
-                    sx={{ fontWeight: "600", color: "#000000" }}
-                  >
-                    {addSuffix(new Date().getDate())}
-                  </Typography>
-                </Stack>
-                <Stack width="13%" display={"flex"} alignItems={"start "}>
-                  <Typography
-                    variant="subtitle1"
-                    fontSize={"14px"}
-                    sx={{ fontWeight: "600", color: "#000000" }}
-                  >
-                    {addSuffix(new Date().getDate() +1)}
-                  </Typography>
-                </Stack>
-                <Stack width="13%" display={"flex"} alignItems={"start "}>
-                  <Typography
-                    variant="subtitle1"
-                    fontSize={"14px"}
-                    sx={{ fontWeight: "600", color: "#000000" }}
-                  >
-                    {addSuffix(new Date().getDate()+2)}
-                  </Typography>
-                </Stack>
-                <Stack width="14%" direction={"row"} display={"flex"} alignItems={"center"}>
-                  <Typography
-                    variant="subtitle1"
-                    fontWeight="bold"
-                    fontSize={"14px"}
-                    sx={{ pr: "2px", fontWeight: "600", color: "#000000" }}
-                  >
-                    {addSuffix(new Date().getDate() + 3)}
-                  </Typography>
+                  <Stack 
+                    onClick={handleClick}  
+                    direction={"row"} 
+                    display={"flex"} 
+                    alignItems={"center"}
+                      width={floodStationCount ? { lg: "26%", md: "32%", sm: "40%" } : undefined}
 
-                </Stack>
-                 <Stack width="14%" direction={"row"} display={"flex"} alignItems={"center"}>
-                  <Typography
-                    variant="subtitle1"
-                    fontWeight="bold"
-                    fontSize={"14px"}
-                    sx={{ pr: "2px", fontWeight: "600", color: "#000000" }}
                   >
-                    {addSuffix(new Date().getDate() + 4)}
-                  </Typography>
+                    <Typography
+                      variant="subtitle1"
+                      fontWeight="bold"
+                      fontSize={"14px"}
+                      sx={{ fontWeight: "600", color: "#000000", cursor: "pointer" }}
+                    >
+                      {"Forecasting Station"}
+                    </Typography>
 
+                    <Icon icon="icon-park-outline:down" width="16" height="16" color='#1c1c1d' />
+                  </Stack>
+
+                <Stack 
+                  direction={"row"} 
+                  display={"flex"} 
+                  padding={"0px"}
+                  // justifyContent={"space-around"} 
+                  alignItems={"center"} 
+                  justifyContent="center" 
+                  sx={{ width: "74%" }}
+                >
+                  <Stack 
+                    sx={{ width: "20%", pl:{lg:"8px",md:"18px"}}}  
+                    display={"flex"} 
+                    // alignItems={"start "}
+>
+                    <Typography
+                      variant="subtitle1"
+                      fontSize={"14px"}
+                      sx={{ fontWeight: "600", color: "#000000" }}
+                    >
+                      {addSuffix(new Date().getDate() + 1)}
+                    </Typography>
+                  </Stack>
+                  <Stack sx={{ width: "20%",pl:{lg:"8px",md:"18px"}}} display={"flex"} >
+                    <Typography
+                      variant="subtitle1"
+                      fontSize={"14px"}
+                      sx={{ fontWeight: "600", color: "#000000" }}
+                    >
+                      {addSuffix(new Date().getDate() + 2)}
+                    </Typography>
+                  </Stack>
+                  <Stack sx={{ width: "20%", pl:{lg:"8px",md:"18px"}}} display={"flex"} >
+                    <Typography
+                      variant="subtitle1"
+                      fontSize={"14px"}
+                      sx={{ fontWeight: "600", color: "#000000" }}
+                    >
+                      {addSuffix(new Date().getDate() + 3)}
+                    </Typography>
+                  </Stack>
+                  <Stack sx={{ width: "20%", pl:{lg:"8px",md:"18px"}}} direction={"row"} display={"flex"} >
+                    <Typography
+                      variant="subtitle1"
+                      fontWeight="bold"
+                      fontSize={"14px"}
+                      sx={{ pr: "2px", fontWeight: "600", color: "#000000" }}
+                    >
+                      {addSuffix(new Date().getDate() + 4)}
+                    </Typography>
+
+                  </Stack>
+                  <Stack sx={{ width: "20%", pl:{lg:"8px",md:"18px"}}} direction={"row"} display={"flex"} >
+                    <Typography
+                      variant="subtitle1"
+                      fontWeight="bold"
+                      fontSize={"14px"}
+                      sx={{ pr: "2px", fontWeight: "600", color: "#000000" }}
+                    >
+                      {addSuffix(new Date().getDate() + 5)}
+                    </Typography>
+
+                  </Stack>
                 </Stack>
+                
               </Stack>
+
               <Stack direction={"row"} display={"flex"} alignItems={"end"} >
                 <Typography
                   variant="body1"

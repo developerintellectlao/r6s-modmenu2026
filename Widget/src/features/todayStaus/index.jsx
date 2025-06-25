@@ -9,7 +9,7 @@ import Link from 'next/link';
 import ShowModel from "@/features/todayStaus/ShowModel";
 import { STATUS } from '@/common/constants';
 
-export default function TodayStatus({ allData, data, country, handleFilter, updateData }) {
+export default function TodayStatus({ allData, data, country, handleFilter, updateData, floodSeason }) {
   const [anchorEl, setAnchorEl] = useState(null);
   const [filter, setFilter] = useState(null);
   const [openModel, setOpenModel] = useState({ howToRead: false, legend: false, disclaimer: false });
@@ -21,6 +21,8 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
     AboveMax: 0
   });
   const [selectedRow, setSelectedRow] = useState();
+  const [alarmStationCount, setAlarmStationCount] = useState(0)
+  const [floodStationCount, setFloodStationCount] = useState(0)
   // const [todayStausMapArea, setTodayStausMapArea] = useState();
 
   useEffect(() => {
@@ -50,6 +52,24 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
     })
     setStatusCount(obj);
   }, [allData]);
+
+  useEffect(() => {
+      if(!data.length < 0) return
+      let countAlarm = 0
+      let countFlood = 0
+  
+      data.forEach((row)=>{
+       if(row?.Today === '3' || row?.Today === '4'|| row?.Today === '5'){
+          countAlarm++
+       } 
+        if(row?.Today === '6' || row?.Today === '7'|| row?.Today === '8'){
+          countFlood++
+       }
+      })
+      setAlarmStationCount(countAlarm)
+      setFloodStationCount(countFlood)
+  
+    }, [data])
 
   // useEffect(() => {
   //   getTodayStatusMapArea();
@@ -104,6 +124,40 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
       <Grid2 sx={{ width: '100%' }} >
 
         {/* Top bar */}
+        {floodSeason ? 
+            <Stack
+          direction="row"
+          spacing={1}
+          sx={{
+            background: "#f5f5f4",
+            p: { xs: 2, sm: 3 },
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          {/* First Row as Paragraph */}
+          <Typography
+            sx={{
+              // textAlign: "center",
+              fontWeight: 700,
+              fontSize: { xs: "12px", sm: "14px" },
+              color: "#4b5563",
+            }}
+            variant="body1"
+          >
+          {formatDate(new Date())}&nbsp;
+
+            {alarmStationCount > 0 && (
+            <span style={{ color: "#f59e0b" }}>
+              {`: Alarm level at ${alarmStationCount} station${alarmStationCount > 1 ? 's' : ''} `}
+            </span>)}
+             {floodStationCount > 0 && (
+            <span style={{ color: "#ff0000" }}>
+              {`: Flood level at ${floodStationCount} station${floodStationCount > 1 ? 's' : ''}`}
+            </span>)}
+          </Typography>
+        </Stack>
+      :
         <Stack
           direction="row"
           sx={{
@@ -150,7 +204,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
             </span>
           </Typography>
 
-        </Stack>
+        </Stack>}
 
         {/* Map Table*/}
         <Grid2 sx={{ width: '100%', display: "flex", flexDirection: { xs: "column", sm: "column", md: "row" } }}>
@@ -168,6 +222,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
               stations={data}
               selectedRow={selectedRow}
               handelClick={handelClick}
+              floodSeason = {floodSeason}
             // riverArea = {todayStausMapArea}
             />
           </Grid2>
@@ -188,7 +243,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
               <Stack direction={"row"}>
                 <Stack
                   onClick={handleClick}
-                  width="43%"
+                  width={floodSeason ? "39%"  :"41%"}
                   direction={"row"}
                   display={"flex"}
                   alignItems={"center"}
@@ -278,6 +333,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
               data={data}
               handelClick={handelClick}
               selectedRow={selectedRow}
+              floodSeason = {floodSeason}
             />
 
           </Grid2>
@@ -289,7 +345,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
           background:"#ffffff"
         }}>
           <Grid2>
-            <Link href={"https://ffw.mrcmekong.org/reportflood.php"} target="_blank">
+            <Link href={floodSeason ? "https://ffw.mrcmekong.org/bulletin_wet.php" : "https://ffw.mrcmekong.org/reportflood.php"} target="_blank">
               <Button
                 variant='outlined'
                 startIcon={<Icon icon="tabler:external-link" width="14" height="14" color="#228be6" />}
@@ -303,7 +359,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
                   fontFamily: "var(--font-primary)"
                 }}
               >
-                {"Weekly flood & drought situation report"}
+                {floodSeason ? "Flood & Flash Flood Page" : "Weekly flood & drought situation report"}
               </Button>
             </Link>
           </Grid2>
@@ -389,6 +445,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
           toggleModel={() => setOpenModel({ howToRead: false, legend: false, disclaimer: false })}
           size={"md"}
           keyChk={"howToRead"}
+          floodSeason = {floodSeason}
         />
       )}
 
@@ -398,6 +455,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
           toggleModel={() => setOpenModel({ howToRead: false, legend: false, disclaimer: false })}
           size={"xs"}
           keyChk={"disclaimer"}
+          floodSeason = {floodSeason}
         />
       )}
 
@@ -407,6 +465,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
           toggleModel={() => setOpenModel({ howToRead: false, legend: false, disclaimer: false })}
           size={"md"}
           keyChk={"legend"}
+          floodSeason = {floodSeason}
         />
       )}
 

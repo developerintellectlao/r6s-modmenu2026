@@ -15,7 +15,7 @@ import TodayStatus from '../todayStaus';
 import WeeklyRiverForecast from '../weeklyRiverForecast/index';
 import axios from 'axios';
 import LtaChart from '../ltaChart';
-import { FLOW_THRESHOLD, STATUS_STATION } from '@/service/apiManagement';
+import { FLOW_THRESHOLD, RIVER_FLOOD_FORECAST, STATUS_STATION } from '@/service/apiManagement';
 import { statusMapping } from '@/common/utility';
 import FlashFloodGuidance from '../flashFloodGuidance';
 import DroughtForecast from '../droughtForecast';
@@ -32,18 +32,44 @@ export default function Home() {
   const [countrys, setCountry] = React.useState(COUNTRY_LIST);
   const [floodSeason, setFloodSeason] = React.useState();
 
+
   React.useEffect(() => {
     const today = new Date();
     const year = today.getFullYear();
 
-    const start = new Date(year, 6, 1);   // July 1 (month is 0-based, so 6 = July)
+    const start = new Date(year, 5, 1);   // June 1 (month is 0-based, so 5 = june)
     const end = new Date(year, 9, 31);   // October 31
-
     setFloodSeason(today >= start && today <= end);
 
-    getStatus();
-    getFlowThresholdData();
+    
   }, []);
+
+  React.useEffect(() => {
+    if(floodSeason){
+      getRiverFloodForecastDataFloodSeason()
+       getFlowThresholdData();
+    } else{
+      getStatus();
+       getFlowThresholdData();
+    }
+  }, [floodSeason]);
+
+  const getRiverFloodForecastDataFloodSeason = async () => {
+        try {
+          const res = await axios.get(RIVER_FLOOD_FORECAST);
+          let temp = [...finalData]
+          let rows = res?.data.trim().split("\n");
+          let row = rows.slice(2)
+          temp = temp.map((item, index) => ({
+            ...item,
+            Today: row[index].trim().split(',')[0]
+          }));
+          setFinalData(temp);
+           setAllData(temp);
+        } catch (error) {
+          console.error(error);
+        }
+      };
 
   const getStatus = async () => {
     try {
@@ -76,11 +102,11 @@ export default function Home() {
     }
   };
 
-  const getFlowThresholdData = async () => {
+  const  getFlowThresholdData = async () => {
     try {
       const res = await axios.get(FLOW_THRESHOLD);
 
-      setAllData((prevAllData) => {
+      setFinalData((prevAllData) => {
         const updatedData = prevAllData.map((item) => {
           const filteredRow = res?.data.find((row) => row?.station_name === item.station);
           if (filteredRow) {
@@ -109,11 +135,17 @@ export default function Home() {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+    setFinalData(allData);
   };
 
   const updateData = () => {
-    getStatus();
-    getFlowThresholdData();
+    if(floodSeason){
+      getRiverFloodForecastDataFloodSeason()
+      getFlowThresholdData();
+    } else{
+      getStatus();
+       getFlowThresholdData();
+    }
   }
 
   return (
@@ -131,7 +163,7 @@ export default function Home() {
               <Tab label="Rainfall Observation" value="6" />
             </TabList>
           </Box>
-          <TabPanel value="1" sx={{ p: 0 }}><TodayStatus updateData={updateData} allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+          <TabPanel value="1" sx={{ p: 0 }}><TodayStatus updateData={updateData} allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} floodSeason = {floodSeason} /></TabPanel>
           <TabPanel value="2" sx={{ p: 0 }}><WeeklyRiverForecast updateData={updateData} allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
           <TabPanel value="3" sx={{ p: 0 }}><LtaChart allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
           <TabPanel value="4" sx={{ p: 0 }}><FlashFloodGuidance allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
