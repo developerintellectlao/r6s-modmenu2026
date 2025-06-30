@@ -23,7 +23,6 @@ import RainfallObservation from '../rainfallObservation';
 import RiverFloodForecast from '../riverFloodForecast';
 import { COUNTRY_LIST, INITIAL_DATA } from '@/common/constants';
 
-
 export default function Home() {
 
   const [value, setValue] = React.useState('1');
@@ -32,25 +31,21 @@ export default function Home() {
   const [countrys, setCountry] = React.useState(COUNTRY_LIST);
   const [floodSeason, setFloodSeason] = React.useState();
 
-
   React.useEffect(() => {
     const today = new Date();
     const year = today.getFullYear();
-
     const start = new Date(year, 5, 1);   // June 1 (month is 0-based, so 5 = june)
     const end = new Date(year, 9, 31);   // October 31
-    setFloodSeason(today >= start && today <= end);
-
-    
+    setFloodSeason(today >= start && today <= end);    
   }, []);
 
   React.useEffect(() => {
     if(floodSeason){
       getRiverFloodForecastDataFloodSeason()
-       getFlowThresholdData();
+      getFlowThresholdData();
     } else{
       getStatus();
-       getFlowThresholdData();
+      getFlowThresholdData();
     }
   }, [floodSeason]);
 
@@ -144,7 +139,7 @@ export default function Home() {
       getFlowThresholdData();
     } else{
       getStatus();
-       getFlowThresholdData();
+      getFlowThresholdData();
     }
   }
 

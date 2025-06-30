@@ -24,7 +24,6 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
   const [alarmStationCount, setAlarmStationCount] = useState(0)
   const [floodStationCount, setFloodStationCount] = useState(0)
   // const [todayStausMapArea, setTodayStausMapArea] = useState();
-
   useEffect(() => {
     updateData()
   }, [])

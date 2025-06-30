@@ -151,6 +151,12 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
     return `${formatDate(today)} - ${formatDate(endDate)}`;
   }
 
+  function addDays(date, days) {
+  const result = new Date(date);
+  result.setDate(result.getDate() + days);
+  return result;
+}
+
   return (
     <>
       <Grid2 sx={{ width: '100%' }} >
@@ -261,7 +267,7 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
                       fontSize={"14px"}
                       sx={{ fontWeight: "600", color: "#000000" }}
                     >
-                      {addSuffix(new Date().getDate() + 1)}
+                      {addSuffix(addDays(new Date(), 1).getDate())}
                     </Typography>
                   </Stack>
                   <Stack sx={{ width: "20%",pl:{lg:"8px",md:"18px"}}} display={"flex"} >
@@ -270,7 +276,7 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
                       fontSize={"14px"}
                       sx={{ fontWeight: "600", color: "#000000" }}
                     >
-                      {addSuffix(new Date().getDate() + 2)}
+                      {addSuffix(addDays(new Date(), 2).getDate())}
                     </Typography>
                   </Stack>
                   <Stack sx={{ width: "20%", pl:{lg:"8px",md:"18px"}}} display={"flex"} >
@@ -279,7 +285,7 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
                       fontSize={"14px"}
                       sx={{ fontWeight: "600", color: "#000000" }}
                     >
-                      {addSuffix(new Date().getDate() + 3)}
+                      {addSuffix(addDays(new Date(), 3).getDate())}
                     </Typography>
                   </Stack>
                   <Stack sx={{ width: "20%", pl:{lg:"8px",md:"18px"}}} direction={"row"} display={"flex"} >
@@ -289,7 +295,7 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
                       fontSize={"14px"}
                       sx={{ pr: "2px", fontWeight: "600", color: "#000000" }}
                     >
-                      {addSuffix(new Date().getDate() + 4)}
+                      {addSuffix(addDays(new Date(), 4).getDate())}
                     </Typography>
 
                   </Stack>
@@ -300,7 +306,7 @@ export default function RiverFloodForecast({ allData, data, country, handleFilte
                       fontSize={"14px"}
                       sx={{ pr: "2px", fontWeight: "600", color: "#000000" }}
                     >
-                      {addSuffix(new Date().getDate() + 5)}
+                     {addSuffix(addDays(new Date(), 5).getDate())}
                     </Typography>
 
                   </Stack>
