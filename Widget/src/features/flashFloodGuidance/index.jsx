@@ -313,7 +313,7 @@ export default function FlashFloodGuidance({ data, country, handleFilter }) {
           background:"#ffffff"
         }}>
           <Grid2>
-            <Link href={"https://ffw.mrcmekong.org/ffg.php"} target="_blank">
+            <Link href={"http://ffp.mrcmekong.org:8000/bulletin"} target="_blank">
               <Button
                 variant='outlined'
                 startIcon={<Icon icon="tabler:external-link" width="14" height="14" color="#228be6" />}
