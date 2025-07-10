@@ -19,17 +19,16 @@ export default function FlashFloodGuidance({ data, country }) {
   const [selectedRow, setSelectedRow] = useState();
   const [filter, setFilter] = useState()
   const [hoursFilterKey, setHoursFilterKey] = useState()
-  const [hoursFilter, setHoursFilter] = useState({key:"", hours:""})// which hours click ,  "low", "1"
+  const [hoursFilter, setHoursFilter] = useState({ key: "", hours: "" })// which hours click ,  "low", "1"
   const [flashFloodText, setFlashFloodText] = useState()
   const [flashFloodJson, setFlashFloodJson] = useState([])
   const [allFlashFloodJson, setAllFlashFloodJson] = useState([])
-  const [showOptions, setshowOptions] = useState({country:false, hours:false})
+  const [showOptions, setshowOptions] = useState({ country: false, hours: false })
 
-
-  useEffect(()=>{
-    getFlashFloodtext() 
+  useEffect(() => {
+    getFlashFloodtext()
     getFlashFloodJson()
-  },[])
+  }, [])
 
   const getFlashFloodtext = async () => {
     const res = await axios.get(FLASH_FLOOD_TEXT);
@@ -46,20 +45,14 @@ export default function FlashFloodGuidance({ data, country }) {
   const open = Boolean(anchorEl);
 
   //click on arrow
-  const handleClick = (event, key,value) => { 
-    if(key === "country"){
-      setshowOptions({country:true, hours:false})
+  const handleClick = (event, key, value) => {
+    if (key === "country") {
+      setshowOptions({ country: true, hours: false })
     } else {
-      setHoursFilter({...hoursFilter,hours:value})
-      setshowOptions({country:false, hours:true})
+      setHoursFilter({ ...hoursFilter, hours: value })
+      setshowOptions({ country: false, hours: true })
     }
     setAnchorEl(event.currentTarget);
-  };
-
-  const filterByCountry = (country) => {
-    setFilter(country)
-    handleFilter(country ,)
-    handleClose()
   };
 
   //close open menu
@@ -67,50 +60,50 @@ export default function FlashFloodGuidance({ data, country }) {
     setAnchorEl(null);
   };
 
-  const handleFilter = (countryCode, key) => {
-    if (countryCode === null) {
-      setFlashFloodJson(allFlashFloodJson);
-    } else {
-      let hours = `hr${hoursFilter?.hours}Risk`
-      countryCode = getCountryCode(countryCode);
-      let filteredCode = allFlashFloodJson.filter((item) => {
-        if (hoursFilter?.key) {
-          return item.country === countryCode && item[hours] === hoursFilter.key;
-        } else {
-          return item.country === countryCode;
-        }
-      });
-      setFlashFloodJson(filteredCode);
-    }
-  }
-
-  const handleFilterForHours = (status) => {
-    let hours = `hr${hoursFilter?.hours}Risk`;
-    let countryCode = getCountryCode(filter);
-
-    if (status === null ) {
-      setFlashFloodJson(allFlashFloodJson);
-    } else {
-      let filteredCode = allFlashFloodJson.filter((item) => { 
-        if(countryCode){
-          return item[hours] === status && item.country === countryCode
-        } else {
-          return item[hours] === status
-        }
-        
-      })
-      setFlashFloodJson(filteredCode);
-  }
-}
-
-  const filterByHours = (key) => {
-    setHoursFilter({...hoursFilter,key:key})
-    handleClose()
-    handleFilterForHours(key)
-  };
-
   const handelClick = (row) => {
     setSelectedRow(row)
+  }
+
+  // it call when cross click on filter
+  const handleClickMenu = (country, hours) => {
+    if (country || hours) {
+      let filteredCode;
+      let hoursKey = `hr${hoursFilter?.hours}Risk`;
+      let statusKey = hours ? hours : hoursFilter.key;
+      let countryKey = country ? getCountryCode(country) : getCountryCode(filter);
+
+      if (country && hours) {
+        filteredCode = allFlashFloodJson.filter((item) => {
+          return item[hoursKey] === statusKey && item.country === countryKey
+        })
+        setFlashFloodJson(filteredCode);
+        setHoursFilter({ ...hoursFilter, key: hours })
+        setFilter(country)
+        handleClose()
+      } else if (country) {
+        filteredCode = allFlashFloodJson.filter((item) => {
+          return item.country === countryKey
+        })
+        setFilter(country)
+        setFlashFloodJson(filteredCode);
+        handleClose()
+        setHoursFilter({ key: "", hours: "" })
+      } else if (hours) {
+        filteredCode = allFlashFloodJson.filter((item) => {
+          return item[hoursKey] === statusKey
+        })
+        setHoursFilter({ ...hoursFilter, key: hours })
+        setFlashFloodJson(filteredCode);
+        handleClose()
+        setFilter(null)
+      }
+
+    } else {
+      setFlashFloodJson(allFlashFloodJson);
+      setHoursFilter({ key: "", hours: "" })
+      handleClose()
+      setFilter(null)
+    }
   }
 
   return (
@@ -134,20 +127,20 @@ export default function FlashFloodGuidance({ data, country }) {
         </Stack>
 
         {/* Map Table*/}
-        <Grid2 
-          sx={{ 
-            width: '100%', 
-            display: "flex", 
-            flexDirection: { xs: "column", sm: "column" , md:"row"}
+        <Grid2
+          sx={{
+            width: '100%',
+            display: "flex",
+            flexDirection: { xs: "column", sm: "column", md: "row" }
           }}
         >
 
           {/* Map */}
           <Grid2
             sx={{
-              width: { xs: "100%", sm: "100%" , md:"50%"},
+              width: { xs: "100%", sm: "100%", md: "50%" },
               minHeight: "633px",
-              pb:{ xs: "8px", sm: "8px" }
+              pb: { xs: "8px", sm: "8px" }
             }}
           >
             <MapCanvas
@@ -161,7 +154,7 @@ export default function FlashFloodGuidance({ data, country }) {
           {/* Table */}
           <Grid2
             sx={{
-              width: { xs: "100%", sm: "100%" , md:"50%"},
+              width: { xs: "100%", sm: "100%", md: "50%" },
               minHeight: "633px"
             }}
           >
@@ -169,30 +162,30 @@ export default function FlashFloodGuidance({ data, country }) {
               display={"flex"}
               flexDirection={"column"}
               width='100%'
-              sx={{ pb: 3,pr: 3,pl:3, background: "#f9fafb" }}
+              sx={{ pb: 3, pr: 3, pl: 3, background: "#f9fafb" }}
             >
-             <Stack direction={"row"}>
-                <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
+              <Stack direction={"row"}>
+                <Stack width="35%" direction={"row"} display={"flex"} alignItems={"center"}>
                   <Typography
                     variant="subtitle1"
                     fontWeight="bold"
                     fontSize={"14px"}
-                    sx={{ fontWeight: "600" , color:"#000000"}}
+                    sx={{ fontWeight: "600", color: "#000000" }}
                   >
                     {"Country / District"}
                   </Typography>
 
-                  <Icon onClick={(e)=>handleClick(e, "country")} icon="icon-park-outline:down" width="16" height="16" color="#000000"/>
+                  <Icon onClick={(e) => handleClick(e, "country")} icon="icon-park-outline:down" width="16" height="16" color="#000000" />
                 </Stack>
-                <Stack width="25%"  direction={"row"} display={"flex"} alignItems={"center"}>
+                <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
                   <Typography
                     variant="subtitle1"
                     fontSize={"14px"}
-                    sx={{ fontWeight: "600", color:"#000000" }}
+                    sx={{ fontWeight: "600", color: "#000000" }}
                   >
                     {"1hr"}
                   </Typography>
-                  <Icon onClick={(e)=>handleClick(e,"hours", 1)} icon="icon-park-outline:down" width="16" height="16" color="#000000"/>
+                  <Icon onClick={(e) => handleClick(e, "hours", 1)} icon="icon-park-outline:down" width="16" height="16" color="#000000" />
 
                 </Stack>
                 <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
@@ -200,11 +193,11 @@ export default function FlashFloodGuidance({ data, country }) {
                     variant="subtitle1"
                     fontWeight="bold"
                     fontSize={"14px"}
-                    sx={{ pr: "2px", fontWeight: "600", color:"#000000" }}
+                    sx={{ pr: "2px", fontWeight: "600", color: "#000000" }}
                   >
                     {"3hr"}
                   </Typography>
-                  <Icon onClick={(e)=>handleClick(e,"hours",3)} icon="icon-park-outline:down" width="16" height="16" color="#000000" />
+                  <Icon onClick={(e) => handleClick(e, "hours", 3)} icon="icon-park-outline:down" width="16" height="16" color="#000000" />
 
                 </Stack>
                 <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
@@ -212,17 +205,17 @@ export default function FlashFloodGuidance({ data, country }) {
                     variant="subtitle1"
                     fontWeight="bold"
                     fontSize={"14px"}
-                    sx={{ pr: "2px", fontWeight: "600", color:"#000000" }}
+                    sx={{ pr: "2px", fontWeight: "600", color: "#000000" }}
                   >
                     {"6hr"}
                   </Typography>
-                  <Icon onClick={(e)=>handleClick(e,"hours",6)} icon="icon-park-outline:down" width="16" height="16" color="#000000"/>
+                  <Icon onClick={(e) => handleClick(e, "hours", 6)} icon="icon-park-outline:down" width="16" height="16" color="#000000" />
 
                 </Stack>
               </Stack>
 
               <Stack direction={"row"}>
-                <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
+                <Stack width="35%" direction={"row"} display={"flex"} alignItems={"center"}>
                   <Typography
                     variant="body1"
                     fontSize={"14px"}
@@ -241,7 +234,7 @@ export default function FlashFloodGuidance({ data, country }) {
                   >
                     {`${filter ? filter : " "}`}
                   </Typography>
-                  {filter && <Icon onClick={() => filterByCountry(null)} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
+                  {filter && <Icon onClick={() => handleClickMenu(null, hoursFilter.key)} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
                 </Stack>
                 <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
                   <Typography
@@ -263,7 +256,7 @@ export default function FlashFloodGuidance({ data, country }) {
                   >
                     {`${(hoursFilter?.hours === 1 && hoursFilter?.key) ? hoursFilter?.key : " "}`}
                   </Typography>
-                  {(hoursFilter?.hours === 1 && hoursFilter?.key) && <Icon onClick={() => filterByHours(null)} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
+                  {(hoursFilter?.hours === 1 && hoursFilter?.key) && <Icon onClick={() => handleClickMenu(filter, null)} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
 
                 </Stack>
                 <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
@@ -286,7 +279,7 @@ export default function FlashFloodGuidance({ data, country }) {
                   >
                     {`${(hoursFilter?.hours === 3 && hoursFilter?.key) ? hoursFilter?.key : " "}`}
                   </Typography>
-                  {(hoursFilter?.hours === 3 && hoursFilter?.key) && <Icon onClick={() => filterByHours(null)} icon="basil:cross-outline" width="24" height="24" color="#000000"/>}
+                  {(hoursFilter?.hours === 3 && hoursFilter?.key) && <Icon onClick={() => handleClickMenu(filter, null)} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
 
                 </Stack>
                 <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
@@ -309,31 +302,31 @@ export default function FlashFloodGuidance({ data, country }) {
                   >
                     {`${(hoursFilter?.hours === 6 && hoursFilter?.key) ? hoursFilter?.key : " "}`}
                   </Typography>
-                  {(hoursFilter?.hours === 6 && hoursFilter?.key) && <Icon onClick={() => filterByHours(null)} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
+                  {(hoursFilter?.hours === 6 && hoursFilter?.key) && <Icon onClick={() => handleClickMenu(filter, null)} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
 
                 </Stack>
               </Stack>
 
             </Grid2>
             {flashFloodJson?.length === 0 ? (
-                <Stack>
-                  <Typography
-                    variant="body1"
-                    // fontWeight="bold"
-                    fontSize={"14px"}
-                    sx={{ color: "#1e5fbb", fontWeight:"500", pl:3, mt:10 }}
-                  >
-                    {"The flash flood risk is indicated only in case of abnormal weather condition."}
-                  </Typography>
-                </Stack>
-              ) : 
-              <Stack sx={{maxHeight:"562px"}}>
+              <Stack>
+                <Typography
+                  variant="body1"
+                  // fontWeight="bold"
+                  fontSize={"14px"}
+                  sx={{ color: "#1e5fbb", fontWeight: "500", pl: 3, mt: 10 }}
+                >
+                  {"The flash flood risk is indicated only in case of abnormal weather condition."}
+                </Typography>
+              </Stack>
+            ) :
+              <Stack sx={{ maxHeight: "539px" }}>
                 <Table
                   data={flashFloodJson}
                   handelClick={handelClick}
                   selectedRow={selectedRow}
                 />
-              </Stack>         
+              </Stack>
             }
           </Grid2>
         </Grid2>
@@ -342,7 +335,7 @@ export default function FlashFloodGuidance({ data, country }) {
         {/* Buttons */}
         <Stack direction={"row"} display={"flex"} justifyContent={"space-between"} sx={{
           flexDirection: { xs: "column", sm: "column", md: "row" },
-          background:"#ffffff"
+          background: "#ffffff"
         }}>
           <Grid2>
             <Link href={"http://ffp.mrcmekong.org:8000/bulletin"} target="_blank">
@@ -431,14 +424,14 @@ export default function FlashFloodGuidance({ data, country }) {
           'aria-labelledby': 'basic-button',
         }}
       >
-        {showOptions?.country ? 
-        country.map((row, index) => (
-          <MenuItem key={index} onClick={() => filterByCountry(row)}>{row}</MenuItem>
-        )) : 
-        hours.map((row, index) => (
-          <MenuItem key={index} onClick={() => filterByHours(row)} >{row}</MenuItem>
-        ))
-      }
+        {showOptions?.country ?
+          country.map((row, index) => (
+            <MenuItem key={index} onClick={() => handleClickMenu(row, hoursFilter.key)}>{row}</MenuItem>
+          )) :
+          hours.map((row, index) => (
+            <MenuItem key={index} onClick={() => handleClickMenu(filter,row)} >{row}</MenuItem>
+          ))
+        }
       </Menu>
 
 

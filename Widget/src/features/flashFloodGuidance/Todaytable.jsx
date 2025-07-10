@@ -64,8 +64,8 @@ const MonitoringTable = ({ data }) => {
 
 
               </TableCell>
-              <TableCell sx={{ py: "4px", width: "23%", fontSize:".875rem", color: getColorForFFD(row.hr3Risk) }}>{row.hr3Risk ? row.hr3Risk : "-"}</TableCell>
-              <TableCell sx={{ py: "4px", width: "29%", fontSize:".875rem", color: getColorForFFD(row.hr6Risk)}}>{row.hr6Risk ? row.hr6Risk : "-"}</TableCell>
+              <TableCell sx={{ py: "4px", width: "22%", fontSize:".875rem", color: getColorForFFD(row.hr3Risk) }}>{row.hr3Risk ? row.hr3Risk : "-"}</TableCell>
+              <TableCell sx={{ py: "4px", width: "25%", fontSize:".875rem", color: getColorForFFD(row.hr6Risk)}}>{row.hr6Risk ? row.hr6Risk : "-"}</TableCell>
 
             </TableRow>
           ))}
