@@ -125,3 +125,29 @@ export const getColorForTodayStatusFloodForecastData = (value) => {
             return "#b6e6b2";
     }
 };
+
+
+export const getColorForFFD = (status) => {
+    switch (status) {
+        case 'Moderate':
+            return "#e57e22";
+        case 'Low':
+            return "black";
+        case 'High':
+            return "#ec0015";
+        default:
+            return "black";
+    }
+};
+
+export const getCountryCode = (country) => {
+
+    switch (country) {
+        case "Cambodia":
+            return "KH";
+        case "Lao":
+            return "LA";
+        case "Viet Nam":
+            return "VN";
+    }
+}

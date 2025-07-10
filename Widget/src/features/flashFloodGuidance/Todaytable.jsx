@@ -16,24 +16,23 @@ import ThailandFlag from "@/assets/images/icons/ThailandFlag.svg";
 import CambodiaFlag from "@/assets/images/icons/CambodiaFlag.svg";
 import LaoFlag from "@/assets/images/icons/LaoFlag.svg";
 import VietFlag from "@/assets/images/icons/VietFlag.svg";
-import { getColor } from "@/common/utility";
+import { getColorForFFD } from "@/common/utility";
 
 const MonitoringTable = ({ data }) => {
 
   const chooseImage = (country) => {
     switch (country) {
-      case "Cambodia":
+      case "KH":
         return CambodiaFlag;
-      case "Lao":
+      case "LA":
         return LaoFlag;
+      case "VN":
+        return VietFlag;
       case "Thailand":
         return ThailandFlag;
-      case "Viet Nam":
-        return VietFlag;
-
     }
   }
-
+ 
   return (
     <TableContainer component={Paper}>
       <Table>
@@ -47,36 +46,27 @@ const MonitoringTable = ({ data }) => {
                   priority={true}
 
                 />
-                <Typography sx={{ ml: "3px" }}>
-                  {row.station ? row.station : "-"}
+                <Typography sx={{ ml: "3px", fontSize:".875rem"}}>
+                  {row.district ? row.district : "-"}
                 </Typography>
               </TableCell>
-              <TableCell
-                sx={{ py: "2px", width: "30%" }}
-
-              >
+              <TableCell sx={{ py: "2px", width: "23%" }}>
                 <Stack direction={"row"} display={"flex"} alignItems={"center"} >
-                  {row.Today && (
-                    <Grid2
-                      sx={{ marginRight: "5px" }}
-                      style={{
-                        opacity: row.Today === "Above LTAs" ? 0 : 1,
-                      }}
-                    >
-                      <svg className="animate-ping  -ml-0.5 mr-1.5 h-2 w-2  text-amber-500" fill="currentColor" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3"></circle></svg>
-                    </Grid2>)}
                   <Typography
                     style={{
-                      color: getColor(row.Today)
+                      color: getColorForFFD(row.hr1Risk)
                     }}
+                    sx={{fontSize:".875rem"}}
                   >
-                    {row.Today ? row.Today : "-"}
+                    {row.hr1Risk ? row.hr1Risk : "-"}
                   </Typography>
                 </Stack>
 
 
               </TableCell>
-              <TableCell sx={{ py: "4px", width: "30%" }}>{row.FlowThreshold ? row.FlowThreshold : "-"}</TableCell>
+              <TableCell sx={{ py: "4px", width: "23%", fontSize:".875rem", color: getColorForFFD(row.hr3Risk) }}>{row.hr3Risk ? row.hr3Risk : "-"}</TableCell>
+              <TableCell sx={{ py: "4px", width: "29%", fontSize:".875rem", color: getColorForFFD(row.hr6Risk)}}>{row.hr6Risk ? row.hr6Risk : "-"}</TableCell>
+
             </TableRow>
           ))}
         </TableBody>
