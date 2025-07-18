@@ -396,7 +396,7 @@ export default function FlashFloodGuidance({ data, country, floodSeason }) {
                 </Typography>
               </Stack>
             ) :
-              <Stack sx={{ maxHeight: "539px" }}>
+              <Stack sx={{ maxHeight: "562px" }}>
                 <Table
                   data={flashFloodJson}
                   handelClick={handelClick}
