@@ -7,13 +7,13 @@ import MapCanvas from '@/features/flashFloodGuidance/MapCanvas';
 import Link from 'next/link';
 import ShowModel from "@/features/flashFloodGuidance/ShowModel";
 import axios from 'axios';
-import { FLASH_FLOOD_JSON, FLASH_FLOOD_TEXT } from '@/service/apiManagement';
+import { FLASH_FLOOD_JSON, FLASH_FLOOD_TEXT, GET_DROUGHT_FORECAST_DATA, FLASH_FLOOD_GUIDANCE_6HR, FLASH_FLOOD_GUIDANCE_3HR, FLASH_FLOOD_GUIDANCE_1HR } from '@/service/apiManagement';
 import Table from "@/features/flashFloodGuidance/Todaytable";
 import { getCountryCode } from '@/common/utility';
 
 const hours = ["Low", "Moderate", "High"];
 
-export default function FlashFloodGuidance({ data, country }) {
+export default function FlashFloodGuidance({ data, country, floodSeason }) {
   const [anchorEl, setAnchorEl] = useState(null);
   const [openModel, setOpenModel] = useState({ howToRead: false, legend: false, disclaimer: false });
   const [selectedRow, setSelectedRow] = useState();
@@ -24,11 +24,54 @@ export default function FlashFloodGuidance({ data, country }) {
   const [flashFloodJson, setFlashFloodJson] = useState([])
   const [allFlashFloodJson, setAllFlashFloodJson] = useState([])
   const [showOptions, setshowOptions] = useState({ country: false, hours: false })
+  const [selectedHoursOnMap, setSelectedHoursOnMap] = useState("1");
+  const [mapGeoJsonData, setMapGeoJsonData] = useState([])
+  const [mapGeoJsonAllData, setMapGeoJsonAllData] = useState([])
 
   useEffect(() => {
     getFlashFloodtext()
     getFlashFloodJson()
   }, [])
+
+  useEffect(() => {
+    getMapData()
+  }, [selectedHoursOnMap])
+
+  const getMapData = async () => {
+    try {
+      // setMapGeoJsonData([]);
+      // setMapGeoJsonAllData([]);
+
+      let res;
+      if (selectedHoursOnMap === "1") {
+        res = await axios.get(FLASH_FLOOD_GUIDANCE_1HR);
+      } else if (selectedHoursOnMap === "3") {
+        res = await axios.get(FLASH_FLOOD_GUIDANCE_3HR);
+      } else if (selectedHoursOnMap === "6") {
+        res = await axios.get(FLASH_FLOOD_GUIDANCE_6HR);
+      }
+      setMapGeoJsonAllData(res.data);
+
+      if(filter){
+        let result = res.data.features.filter((item) => {
+        return item.properties.Country === changeCountryAccordingToJson(filter)
+      })
+
+      let obj = {
+        type: res.data.type,
+        features: result
+      }
+
+      setMapGeoJsonData(obj);
+      } else {
+        setMapGeoJsonData(res.data);
+      }
+        
+      
+    } catch (error) {
+      console.error(error);
+    }
+  }
 
   const getFlashFloodtext = async () => {
     const res = await axios.get(FLASH_FLOOD_TEXT);
@@ -39,7 +82,6 @@ export default function FlashFloodGuidance({ data, country }) {
     const res = await axios.get(FLASH_FLOOD_JSON);
     setFlashFloodJson(res.data);
     setAllFlashFloodJson(res.data)
-
   }
 
   const open = Boolean(anchorEl);
@@ -106,6 +148,39 @@ export default function FlashFloodGuidance({ data, country }) {
     }
   }
 
+  //filter for map
+  const handleFilterForMap = (countryName) => {
+
+    if (countryName === null) {
+      setMapGeoJsonData(mapGeoJsonAllData);
+    } else {
+      // setMapGeoJsonData([]);
+
+      let result = mapGeoJsonAllData.features.filter((item) => {
+        return item.properties.Country === changeCountryAccordingToJson(countryName)
+      })
+
+      let obj = {
+        type: mapGeoJsonAllData.type,
+        features: result
+      }
+      setMapGeoJsonData(obj);
+    }
+  }
+
+  const changeCountryAccordingToJson = (country) => {
+    switch (country) {
+      case 'Lao':
+        return "Laos";
+      case 'Cambodia':
+        return "Cambodia";
+      case 'Viet Nam':
+        return "Vietnam";
+      default:
+        return null;
+    }
+  }
+
   return (
     <>
       <Grid2 sx={{ width: '100%' }} >
@@ -143,12 +218,13 @@ export default function FlashFloodGuidance({ data, country }) {
               pb: { xs: "8px", sm: "8px" }
             }}
           >
-            <MapCanvas
-              height="700px"
-              stations={data}
-              selectedRow={selectedRow}
-              handelClick={handelClick}
-            />
+            {/* {mapGeoJsonData?.features?.length > 0 && ( */}
+              <MapCanvas
+                flashFloodMapData={mapGeoJsonData}
+                selectedHoursOnMap={selectedHoursOnMap}
+                setSelectedHoursOnMap={setSelectedHoursOnMap}
+              />
+              {/* )} */}
           </Grid2>
 
           {/* Table */}
@@ -234,7 +310,7 @@ export default function FlashFloodGuidance({ data, country }) {
                   >
                     {`${filter ? filter : " "}`}
                   </Typography>
-                  {filter && <Icon onClick={() => handleClickMenu(null, hoursFilter.key)} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
+                  {filter && <Icon onClick={() => { handleClickMenu(null, hoursFilter.key); handleFilterForMap(null) }} icon="basil:cross-outline" width="24" height="24" color="#000000" />}
                 </Stack>
                 <Stack width="25%" direction={"row"} display={"flex"} alignItems={"center"}>
                   <Typography
@@ -308,7 +384,7 @@ export default function FlashFloodGuidance({ data, country }) {
               </Stack>
 
             </Grid2>
-            {flashFloodJson?.length === 0 ? (
+            {flashFloodJson?.length === 0  ? (
               <Stack>
                 <Typography
                   variant="body1"
@@ -316,7 +392,7 @@ export default function FlashFloodGuidance({ data, country }) {
                   fontSize={"14px"}
                   sx={{ color: "#1e5fbb", fontWeight: "500", pl: 3, mt: 10 }}
                 >
-                  {"The flash flood risk is indicated only in case of abnormal weather condition."}
+                 {!floodSeason ? "The flash flood risk is indicated only in case of abnormal weather condition." : null}
                 </Typography>
               </Stack>
             ) :
@@ -325,6 +401,7 @@ export default function FlashFloodGuidance({ data, country }) {
                   data={flashFloodJson}
                   handelClick={handelClick}
                   selectedRow={selectedRow}
+
                 />
               </Stack>
             }
@@ -426,10 +503,10 @@ export default function FlashFloodGuidance({ data, country }) {
       >
         {showOptions?.country ?
           country.map((row, index) => (
-            <MenuItem key={index} onClick={() => handleClickMenu(row, hoursFilter.key)}>{row}</MenuItem>
+            <MenuItem key={index} onClick={() => { handleClickMenu(row, hoursFilter.key); handleFilterForMap(row) }}>{row}</MenuItem>
           )) :
           hours.map((row, index) => (
-            <MenuItem key={index} onClick={() => handleClickMenu(filter,row)} >{row}</MenuItem>
+            <MenuItem key={index} onClick={() => handleClickMenu(filter, row)} >{row}</MenuItem>
           ))
         }
       </Menu>

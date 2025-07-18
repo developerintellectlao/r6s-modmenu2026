@@ -3,6 +3,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 function MapCanvas({ droughtGeoJson }) {
+    console.log("droughtGeoJson", droughtGeoJson)
     const mapRef = useRef()
     // const mapContainerRef = useRef()
     const markersRef = useRef([]);
@@ -64,66 +65,63 @@ function MapCanvas({ droughtGeoJson }) {
                     },
                 });
 
-                 // Add fill layer for yellow areas
-            mapRef.current.addSource('geojson-source', {
-                type: 'geojson',
-                data: droughtGeoJson, 
-            });
+                // Add fill layer for yellow areas
+                mapRef.current.addSource('geojson-source', {
+                    type: 'geojson',
+                    data: droughtGeoJson,
+                });
 
-             // Add fill layer with conditional colors based on gridcode
-             mapRef.current.addLayer({
-                id: 'colored-layer',
-                type: 'fill',
-                source: 'geojson-source',
-                paint: {
-                    // Conditional styling for gridcode
-                    'fill-color': [
-                        'match',
-                        ['get', 'gridcode'], // Check the 'gridcode' property
-                        1, '#FCE254',        // Yellow for gridcode 1
-                        2, '#FCCBCA',          // pink for gridcode 2
-                        3, '#FD2D2D',          // red for gridcode 3
-                        4,'#8F5032',       // brown for gridcode 4
-                        '#cccccc'            // Default color if no match
-                    ],
-                    'fill-opacity': 1,
-                },
-            });
+                // Add fill layer with conditional colors based on gridcode
+                mapRef.current.addLayer({
+                    id: 'colored-layer',
+                    type: 'fill',
+                    source: 'geojson-source',
+                    paint: {
+                        // Conditional styling for gridcode
+                        'fill-color': [
+                            'match',
+                            ['get', 'gridcode'], // Check the 'gridcode' property
+                            1, '#FCE254',        // Yellow for gridcode 1
+                            2, '#FCCBCA',          // pink for gridcode 2
+                            3, '#FD2D2D',          // red for gridcode 3
+                            4, '#8F5032',       // brown for gridcode 4
+                            '#cccccc'            // Default color if no match
+                        ],
+                        'fill-opacity': 1,
+                    },
+                });
 
-            // Add a popup
-            const popup = new mapboxgl.Popup({
-                closeButton: false,
-                closeOnClick: false,
-            });
+                // Add a popup
+                const popup = new mapboxgl.Popup({
+                    closeButton: false,
+                    closeOnClick: false,
+                });
 
-            mapRef.current.on('mousemove', 'colored-layer', (e) => {
-                // Get the hovered feature
-                const feature = e.features[0];
-                const gridcode = feature.properties.gridcode;
-                const provName = feature.properties.PROVNAME;
+                mapRef.current.on('mousemove', 'colored-layer', (e) => {
+                    // Get the hovered feature
+                    const feature = e.features[0];
+                    const gridcode = feature.properties.gridcode;
+                    const provName = feature.properties.PROVNAME;
 
-                // Determine the color name based on gridcode
-                let colorName = 'Unknown';
-                if (gridcode === 1) colorName = 'Moderate Drought';
-                else if (gridcode === 2) colorName = 'Severe Drought';
-                else if(gridcode === 3)colorName = 'Extreme Drought';
-                else if(gridcode === 4)colorName = 'Exceptional Drought';
+                    // Determine the color name based on gridcode
+                    let colorName = 'Unknown';
+                    if (gridcode === 1) colorName = 'Moderate Drought';
+                    else if (gridcode === 2) colorName = 'Severe Drought';
+                    else if (gridcode === 3) colorName = 'Extreme Drought';
+                    else if (gridcode === 4) colorName = 'Exceptional Drought';
 
-                // Set the popup content
-                popup.setLngLat(e.lngLat)
-                    .setHTML(`<div style="color: #2e2e2f;">
+                    // Set the popup content
+                    popup.setLngLat(e.lngLat)
+                        .setHTML(`<div style="color: #2e2e2f;">
                         CDI: <strong>${colorName}</strong><br />
                         Province: <strong>${provName}</strong></div>
                     `)
-                    .addTo(mapRef.current);
-            });
+                        .addTo(mapRef.current);
+                });
 
-            mapRef.current.on('mouseleave', 'colored-layer', () => {
-                popup.remove();
-            });
-       
-
-
+                mapRef.current.on('mouseleave', 'colored-layer', () => {
+                    popup.remove();
+                });
 
 
             });

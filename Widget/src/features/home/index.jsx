@@ -161,7 +161,7 @@ export default function Home() {
           <TabPanel value="1" sx={{ p: 0 }}><TodayStatus updateData={updateData} allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} floodSeason = {floodSeason} /></TabPanel>
           <TabPanel value="2" sx={{ p: 0 }}><WeeklyRiverForecast updateData={updateData} allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
           <TabPanel value="3" sx={{ p: 0 }}><LtaChart allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
-          <TabPanel value="4" sx={{ p: 0 }}><FlashFloodGuidance allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
+          <TabPanel value="4" sx={{ p: 0 }}><FlashFloodGuidance allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} floodSeason = {floodSeason}/></TabPanel>
           <TabPanel value="5" sx={{ p: 0 }}><DroughtForecast allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
           <TabPanel value="6" sx={{ p: 0 }}><RainfallObservation allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>
           <TabPanel value="7" sx={{ p: 0 }}><RiverFloodForecast allData={allData} data={finalData} country={countrys} handleFilter={handleFilter} /></TabPanel>

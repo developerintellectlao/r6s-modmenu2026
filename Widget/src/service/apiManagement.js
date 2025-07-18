@@ -10,3 +10,6 @@ export const GET_DROUGHT_FORECAST_DATA = "https://api.river.monitoring.mrcmekong
 export const FLASH_FLOOD_TEXT = "https://api.river.monitoring.mrcmekong.org/v1/ffg/ffg_summary.txt"
 export const FLASH_FLOOD_JSON = "https://api.river.monitoring.mrcmekong.org/v1/ffg/ffg.json"
 export const RIVER_FLOOD_FORECAST = "https://api.river.monitoring.mrcmekong.org/v1/floodforecasting.csv"
+export const FLASH_FLOOD_GUIDANCE_6HR = "https://api.river.monitoring.mrcmekong.org/v1/ffg/ffg6hr.json"
+export const FLASH_FLOOD_GUIDANCE_1HR = "https://api.river.monitoring.mrcmekong.org/v1/ffg/ffg1hr.json"
+export const FLASH_FLOOD_GUIDANCE_3HR = "https://api.river.monitoring.mrcmekong.org/v1/ffg/ffg3hr.json"
