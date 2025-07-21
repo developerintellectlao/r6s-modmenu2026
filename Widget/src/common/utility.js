@@ -130,9 +130,9 @@ export const getColorForTodayStatusFloodForecastData = (value) => {
 export const getColorForFFD = (status) => {
     switch (status) {
         case 'Moderate':
-            return "#e57e22";
+            return "#ffff00";
         case 'Low':
-            return "black";
+            return "#90ee90";
         case 'High':
             return "#ec0015";
         default:
@@ -149,5 +149,7 @@ export const getCountryCode = (country) => {
             return "LA";
         case "Viet Nam":
             return "VN";
+        case "Thailand":
+            return "TH";
     }
 }

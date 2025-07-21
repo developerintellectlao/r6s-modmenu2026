@@ -28,7 +28,7 @@ const MonitoringTable = ({ data }) => {
         return LaoFlag;
       case "VN":
         return VietFlag;
-      case "Thailand":
+      case "TH":
         return ThailandFlag;
     }
   }

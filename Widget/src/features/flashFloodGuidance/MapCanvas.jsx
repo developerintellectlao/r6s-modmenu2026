@@ -64,7 +64,7 @@ function MapCanvas({ flashFloodMapData, selectedHoursOnMap, setSelectedHoursOnMa
                             'match',
                             ['to-string', ['get', 'Level_of_F']],
                             'Low-Risk', '#90ee90',
-                            'Moderate-Risk', '#e57e22',
+                            'Moderate-Risk', '#ffff01',
                             'High-Risk', '#ec0015',
                             'grey'
                         ],

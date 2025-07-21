@@ -176,6 +176,8 @@ export default function FlashFloodGuidance({ data, country, floodSeason }) {
         return "Cambodia";
       case 'Viet Nam':
         return "Vietnam";
+      case 'Thailand':
+        return "Thailand";
       default:
         return null;
     }
@@ -401,7 +403,6 @@ export default function FlashFloodGuidance({ data, country, floodSeason }) {
                   data={flashFloodJson}
                   handelClick={handelClick}
                   selectedRow={selectedRow}
-
                 />
               </Stack>
             }
