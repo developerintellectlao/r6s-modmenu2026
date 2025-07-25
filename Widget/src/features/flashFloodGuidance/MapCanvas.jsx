@@ -89,7 +89,7 @@ function MapCanvas({ flashFloodMapData, selectedHoursOnMap, setSelectedHoursOnMa
                     popup.setLngLat(e.lngLat)
                         .setHTML(`
                             <div style="color: #2e2e2f;">
-                                CDI: <strong>${colorName}</strong><br />
+                                Risk level: <strong>${colorName}</strong><br />
                                 District: <strong>${DNAME}</strong><br />
                                 Province: <strong>${PNAME}</strong>
                             </div>
