@@ -31,7 +31,7 @@ export const INITIAL_DATA = [
     { country: "Cambodia", station: "Phnom Penh Port ",B_name:"", code:"PPP",Today: "",FlowThreshold:"",  Weekly: "", Trend: "",latitude: "11.57641", longitude:"104.92651" },
     { country: "Cambodia", station: "Koh Khel",B_name:"(Bassac)", code:"KOH",Today: "",FlowThreshold:"",  Weekly: "", Trend: "",latitude: "11.24203528", longitude:"105.0361553" },
     { country: "Cambodia", station: "Neak Luong",B_name:"", code:"NEA",Today: "",FlowThreshold:"",  Weekly: "", Trend: "",latitude: "11.26303677", longitude:"105.2801239" },
-    { country: "Cambodia", station: "Prek Kdam",B_name:"(Tonel Sap)", code:"PRE",Today: "",FlowThreshold:"",  Weekly: "", Trend: "",latitude: "11.81116962", longitude:"104.806778" },
+    { country: "Cambodia", station: "Prek Kdam",B_name:"(Tonle Sap)", code:"PRE",Today: "",FlowThreshold:"",  Weekly: "", Trend: "",latitude: "11.81116962", longitude:"104.806778" },
     { country: "Viet Nam", station: "Tan Chau",B_name:"", code:"TCH",Today: "",FlowThreshold:"",  Weekly: "", Trend: "" ,latitude: "10.80062008", longitude:"105.2480164", tooltip:true},
     { country: "Viet Nam", station: "Chau Doc",B_name:"", code:"CDO",Today: "",FlowThreshold:"",  Weekly: "", Trend: "",latitude: "10.7052803", longitude:"105.1335068", tooltip:true }
   ]
