@@ -242,7 +242,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
               <Stack direction={"row"}>
                 <Stack
                   onClick={handleClick}
-                  width={floodSeason ? "39%"  :"41%"}
+                  width={floodSeason ? "70%"  :"70%"}//width={floodSeason ? "39%"  :"41%"}
                   direction={"row"}
                   display={"flex"}
                   alignItems={"center"}
@@ -270,7 +270,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
                     {"Water Level"}
                   </Typography>
                 </Stack>
-                <Stack width="24%" direction={"row"} display={"flex"} alignItems={"center"}>
+                {/* <Stack width="24%" direction={"row"} display={"flex"} alignItems={"center"}>
                   <Typography
                     variant="subtitle1"
                     fontWeight="bold"
@@ -303,7 +303,7 @@ export default function TodayStatus({ allData, data, country, handleFilter, upda
                   >
                     <Icon icon="eva:question-mark-circle-outline" width="16" height="16" color="#000000" />
                   </Tooltip>
-                </Stack>
+                </Stack> */}
               </Stack>
               <Stack direction={"row"} display={"flex"} alignItems={"center"} >
                 <Typography
