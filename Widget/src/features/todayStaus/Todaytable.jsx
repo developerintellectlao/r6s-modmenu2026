@@ -173,7 +173,7 @@ const MonitoringTable = ({ data, handelClick, selectedRow, floodSeason }) => {
                 </TableCell>}
 
 
-              {/* <TableCell sx={{ py: "2px", width: "30%", fontSize: ".875rem" }}>{row.FlowThreshold ? toCapitalizedFirstLetter(row.FlowThreshold) : "-"}</TableCell> */}
+              <TableCell sx={{ py: "2px", width: "30%", fontSize: ".875rem" }}>{row.FlowThreshold ? toCapitalizedFirstLetter(row.FlowThreshold) : "-"}</TableCell>
             </TableRow>
           ))}
         </TableBody>
